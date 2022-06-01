@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -11,37 +11,73 @@ import {
   DropdownItem,
   DropdownMenu,
 } from "reactstrap";
-
 import { NavHashLink } from 'react-router-hash-link';
-
-import { GiHamburgerMenu } from "react-icons/gi";
-
 import * as Styled from './Header.style'
 import { Link } from "react-router-dom";
+import { languageIcons, logo } from "../../../../utils/constants/constants";
+import { calculateResolutionSize, resolutionSizesNames } from "../../../../utils/constants/resolution";
+import { useScreenSize } from "../../../../utils/hooks/screenSize";
+import i18n from '../../../../i18n';
 
-function Header({ position }: {position?: boolean}) {
+function Header({ position }: { position?: boolean }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [navbar, setnavbar] = useState(false);
-
+  // const [navbar, setnavbar] = useState(false);
+  const windowDimension = useScreenSize();
+  const size = calculateResolutionSize(windowDimension.winWidth);
   const toggle = () => setIsOpen(!isOpen);
 
-  const toggleActive = () => {
-    if (window.scrollY >= 80) {
-      setnavbar(true)
-    } else {
-      setnavbar(false)
-    }
+  const browserLanguage = () => { 
+    const language = window.navigator.language;
+    return language.split('-')[0]
   }
 
-  window.addEventListener('scroll', toggleActive);
+  const [language, setLanguage] = useState(browserLanguage)
+
+  const changeLanguage = (lng: string | undefined) => {
+    i18n.changeLanguage(lng);
+  }
+
+  const current = (selected: string) => { 
+    let x;
+    languageIcons.map(item => { 
+      if (item.code === selected)
+        x = item.icon;
+    })
+
+    return x;
+  }
+
+  const icon = (language: string) => {
+   let x;
+    languageIcons.map(item => { 
+      if (item.code === language)
+        x = item.icon;
+    })
+    changeLanguage(language);
+
+    return x;
+  }
+
+    useEffect(() => {
+    if (size === resolutionSizesNames.large) {
+      setIsOpen(false);
+    }
+    return () => {
+      toggle();
+    };
+  }, [toggle]);
 
   return (
-    <Styled.NavBar background={isOpen ? 'black' : 'transparent'} position={position ? 'inherit' : 'fixed'}>
-      <Navbar expand="lg" className= {navbar ? 'activeNav' : ''}>
-        <NavbarBrand href="/"><img src="/assets/images/Logo.png" alt="Duck Studios" /></NavbarBrand>
-        <NavbarToggler onClick={toggle}>
+    <Styled.NavBar>
+      <Navbar expand="lg" className={`${isOpen ? 'background-navbar-mobile' : ''}`}>
+        <NavbarBrand href="/"><img src={ logo } alt="Duck Studios" /></NavbarBrand>
+        <NavbarToggler onClick={ toggle }>
           <span>
-            <GiHamburgerMenu/>
+            <div id="navMenu" onClick={ toggle } className={ isOpen ? "active" : ""}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </span>
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
@@ -81,13 +117,23 @@ function Header({ position }: {position?: boolean}) {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+           <UncontrolledDropdown inNavbar nav>
+              <DropdownToggle caret nav>
+                <img src={ current(language) } alt='selected language' className="languageIcon"/>
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem onClick={() => setLanguage('es')} className="languageIcon">
+                  <img src={ icon('es')} alt='es'/>
+                </DropdownItem>
+                <DropdownItem onClick={() => setLanguage('en')} className="languageIcon">
+                  <img src={ icon('en')} alt='en'/>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem className='contact-dropdown'>
-              <NavHashLink to="/#contact" onClick={() => {setIsOpen(false) }}  smooth className='contact'>CONTACT US</NavHashLink>
+              <NavHashLink to="/#contact" onClick={() => {setIsOpen(false) }}  smooth className='contact'><span>CONTACT US</span></NavHashLink>
             </NavItem>
           </Nav>
-          <Styled.Copyright>
-            <p>© 2022 Duck Studios. All rights reserved.</p>
-          </Styled.Copyright>
         </Collapse>
       </Navbar>
     </Styled.NavBar>
