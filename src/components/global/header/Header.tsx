@@ -14,49 +14,49 @@ import {
 import { NavHashLink } from 'react-router-hash-link';
 import * as Styled from './Header.style'
 import { Link } from "react-router-dom";
-import { languageIcons, logo } from "../../../../utils/constants/constants";
-import { calculateResolutionSize, resolutionSizesNames } from "../../../../utils/constants/resolution";
-import { useScreenSize } from "../../../../utils/hooks/screenSize";
-import i18n from '../../../../i18n';
+import { logo } from "../../../utils/constants/constants";
+import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/constants/resolution";
+import { useScreenSize } from "../../../utils/hooks/screenSize";
+// import i18n from '../../../../i18n';
 
 function Header({ position }: { position?: boolean }) {
   const [isOpen, setIsOpen] = useState(false);
   // const [navbar, setnavbar] = useState(false);
   const windowDimension = useScreenSize();
   const size = calculateResolutionSize(windowDimension.winWidth);
-  const toggle = () => setIsOpen(!isOpen);
+  const toggle = () => { setIsOpen(!isOpen) };
 
-  const browserLanguage = () => { 
-    const language = window.navigator.language;
-    return language.split('-')[0]
-  }
+  // const browserLanguage = () => { 
+  //   const language = window.navigator.language;
+  //   return language.split('-')[0]
+  // }
 
-  const [language, setLanguage] = useState(browserLanguage)
+  // const [language, setLanguage] = useState(browserLanguage)
 
-  const changeLanguage = (lng: string | undefined) => {
-    i18n.changeLanguage(lng);
-  }
+  // const changeLanguage = (lng: string | undefined) => {
+  //   i18n.changeLanguage(lng);
+  // }
 
-  const current = (selected: string) => { 
-    let x;
-    languageIcons.map(item => { 
-      if (item.code === selected)
-        x = item.icon;
-    })
+  // const current = (selected: string) => { 
+  //   let x;
+  //   languageIcons.map(item => { 
+  //     if (item.code === selected)
+  //       x = item.icon;
+  //   })
 
-    return x;
-  }
+  //   return x;
+  // }
 
-  const icon = (language: string) => {
-   let x;
-    languageIcons.map(item => { 
-      if (item.code === language)
-        x = item.icon;
-    })
-    changeLanguage(language);
+  // const icon = (language: string) => {
+  //  let x;
+  //   languageIcons.map(item => { 
+  //     if (item.code === language)
+  //       x = item.icon;
+  //   })
+  //   changeLanguage(language);
 
-    return x;
-  }
+  //   return x;
+  // }
 
     useEffect(() => {
     if (size === resolutionSizesNames.large) {
@@ -89,7 +89,7 @@ function Header({ position }: { position?: boolean }) {
               <DropdownToggle caret nav>
                 SERVICES
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>
                   Software
                 </DropdownItem>
@@ -105,7 +105,7 @@ function Header({ position }: { position?: boolean }) {
               <DropdownToggle caret nav>
                 PORTFOLIO
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>
                   Software
                 </DropdownItem>
@@ -117,11 +117,11 @@ function Header({ position }: { position?: boolean }) {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-           <UncontrolledDropdown inNavbar nav>
-              <DropdownToggle caret nav>
+           {/* <UncontrolledDropdown inNavbar nav className="languageSelector">
+              <DropdownToggle caret nav className="language">
                 <img src={ current(language) } alt='selected language' className="languageIcon"/>
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem onClick={() => setLanguage('es')} className="languageIcon">
                   <img src={ icon('es')} alt='es'/>
                 </DropdownItem>
@@ -129,7 +129,7 @@ function Header({ position }: { position?: boolean }) {
                   <img src={ icon('en')} alt='en'/>
                 </DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
             <NavItem className='contact-dropdown'>
               <NavHashLink to="/#contact" onClick={() => {setIsOpen(false) }}  smooth className='contact'><span>CONTACT US</span></NavHashLink>
             </NavItem>

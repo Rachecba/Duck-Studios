@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const NavBar = styled.div`
 
-  padding: 1rem 0;
+  padding: 1rem 2rem;
 
   ${(props) => props.theme.breakpoints.down('lg')} {
     padding: 0;
