@@ -68,8 +68,9 @@ function Header({ position }: { position?: boolean }) {
   }, [toggle]);
 
   return (
-    <Styled.NavBar>
-      <Navbar expand="lg" className={`${isOpen ? 'background-navbar-mobile' : ''}`}>
+    <Styled.NavBar isOpen={ isOpen }>
+      <div className={isOpen ? 'body-background' : ''}></div>
+      <Navbar expand="lg" className={isOpen ? 'background-navbar-mobile' : ''}>
         <NavbarBrand href="/"><img src={ logo } alt="Duck Studios" /></NavbarBrand>
         <NavbarToggler onClick={ toggle }>
           <span>

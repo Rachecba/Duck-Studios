@@ -12,3 +12,7 @@ export const languageIcons = [
 ]
 
 export const bannerMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fbanner-mockup2.png?alt=media&token=279cde98-f37f-42ac-b736-04477bd9d726"
+
+export const servicesBackground = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fservices-background.png?alt=media&token=d6354987-b435-4d38-a641-26403b72ea44'
+
+export const softwareIcon = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fsoftware.png?alt=media&token=c010b74f-c092-4211-8191-da11bbf933f0'
