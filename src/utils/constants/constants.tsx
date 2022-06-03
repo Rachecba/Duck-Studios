@@ -10,3 +10,5 @@ export const languageIcons = [
         icon: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fspain.png?alt=media&token=6884f401-01f3-4d39-a5b3-fd617e543d5e'
     }
 ]
+
+export const bannerMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fbanner-mockup2.png?alt=media&token=279cde98-f37f-42ac-b736-04477bd9d726"
