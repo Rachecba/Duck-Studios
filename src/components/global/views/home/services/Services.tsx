@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button/Button"
 import React from "react"
-import { servicesBackground, softwareIcon } from "../../../../../utils/constants/constants"
+import { designIcon, marketingIcon, softwareIcon } from "../../../../../utils/constants/constants"
 import * as Styled from './Services.style'
 
 function Services() {
@@ -14,37 +14,31 @@ function Services() {
                 <h1>We have <span>what you need</span></h1>
             </Styled.Title>
             <Styled.Services>
-                 <Styled.Background>
-                    {/* <img alt="services-background" src={ servicesBackground }/> */}
-                </Styled.Background>
+                 <Styled.Background/>
                 <Styled.CardsContainer>
-                    <Styled.Card>
+                    <Styled.Card className="top-card">
                         <div className="icon">
                             <img alt="software" src={ softwareIcon }/>
                         </div>
                         <h1>Software</h1>
-                        <p>Cuenta con el respaldo de Ingenieros de Software quienes te crean tu página web,
-                        aplicación móvil o sistema. Entregamos productos de calidad que resalten el profesionalismo
-                            y esencia de tu empresa.</p>
-                        <Button>See more</Button>
+                        <p>Count with the support of Software Engineers who create your website, mobile application or software. We deliver quality products that highlight the professionalism and essence of your company.</p>
+                        <Button className="button">See more</Button>
                     </Styled.Card>
-                    <Styled.Card>
+                    <Styled.Card className="middle-card">
                         <div className="icon">
-                            <img alt="software" />
+                            <img alt="marketing" src={ marketingIcon } className="marketing-icon"/>
                         </div>
-                        <h1>Software</h1>
-                        <p>Cuenta con el respaldo de Ingenieros de Software quienes te crean tu página web,
-                        aplicación móvil o sistema. Entregamos productos de calidad que resalten el profesionalismo
-                        y esencia de tu empresa.</p>
+                        <h1>MARKETING</h1>
+                        <p>We make your company recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service.</p>
+                        <Button className="button">See more</Button>
                     </Styled.Card>
-                    <Styled.Card>
+                    <Styled.Card className="end-card">
                         <div className="icon">
-                            <img alt="software" />
+                            <img alt="design" src={ designIcon } className="design-icon"/>
                         </div>
-                        <h1>Software</h1>
-                        <p>Cuenta con el respaldo de Ingenieros de Software quienes te crean tu página web,
-                        aplicación móvil o sistema. Entregamos productos de calidad que resalten el profesionalismo
-                        y esencia de tu empresa.</p>
+                        <h1>GRAPHIC DESIGN</h1>
+                        <p>We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create art that will leave your audience impressed!</p>
+                        <Button className="button">See more</Button>
                     </Styled.Card>
                 </Styled.CardsContainer>
             </Styled.Services>

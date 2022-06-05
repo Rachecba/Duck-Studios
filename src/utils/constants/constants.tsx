@@ -16,3 +16,9 @@ export const bannerMockup = "https://firebasestorage.googleapis.com/v0/b/duck-st
 export const servicesBackground = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fservices-background.png?alt=media&token=d6354987-b435-4d38-a641-26403b72ea44'
 
 export const softwareIcon = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fsoftware.png?alt=media&token=c010b74f-c092-4211-8191-da11bbf933f0'
+
+export const marketingIcon = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fmarketing.png?alt=media&token=f409e579-7929-44ef-aee5-37d80062db6d"
+
+export const designIcon = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fdesign.png?alt=media&token=8083a445-850c-4096-aaa1-57f65ebef09a"
+
+export const aboutUsMockup = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FaboutUs-mockup.png?alt=media&token=8f0fc0dc-bf0b-4e50-985b-a31917000ae4'

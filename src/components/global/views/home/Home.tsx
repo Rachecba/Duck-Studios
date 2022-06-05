@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import AboutUs from "./aboutUs/AboutUs"
 import Banner from "./banner/Banner"
 import * as Styled from './Home.style'
 import Services from "./services/Services"
@@ -12,7 +13,8 @@ function Home() {
     return (
         <Styled.ContainerWrap>
         <Banner />
-        <Services/>
+        <Services />
+        <AboutUs />
       </Styled.ContainerWrap>
     )
 }
