@@ -1,7 +1,9 @@
 import React, { useEffect } from "react"
 import AboutUs from "./aboutUs/AboutUs"
 import Banner from "./banner/Banner"
+import CAT from "./cat/CAT"
 import * as Styled from './Home.style'
+import Portfolio from "./portfolio/Portfolio"
 import Services from "./services/Services"
 
 function Home() {
@@ -15,6 +17,8 @@ function Home() {
         <Banner />
         <Services />
         <AboutUs />
+        <Portfolio />
+        <CAT />
       </Styled.ContainerWrap>
     )
 }
