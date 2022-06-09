@@ -12,3 +12,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.awssld__content > img,
+    .awssld__content > video {
+      width: auto !important;
+      height: 120% !important;
+      position: unset !important;
+      top: unset !important;
+      left: unset !important;
+      -o-object-fit: cover !important;
+    object-fit: cover !important;
+  }
+
+  .awssld__bar {
+    background-color: #ffb610 !important;
+}
+
+  @media only screen and (max-width: 500px) {
+    .awssld__content > img,
+    .awssld__content > video {
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+    height: 105% !important;
+  }
+  }

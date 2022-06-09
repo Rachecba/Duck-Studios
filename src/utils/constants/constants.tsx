@@ -36,3 +36,12 @@ export const instagramIcon = 'https://firebasestorage.googleapis.com/v0/b/duck-s
 export const fbIcon = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Ffacebook.png?alt=media&token=0d0e3040-6802-4c2d-a541-4b0fdb9e509d'
 
 export const inIcon = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Flinkedin.png?alt=media&token=dbb6ffea-dc9b-4ccb-85f5-8d66d033d718'
+
+export const testimonials = [
+    {
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FGroup%2092%402x.png?alt=media&token=c24ad1b6-3b68-4656-9c0f-229d93e04dfd' 
+    },
+    {
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FGroup%2092%402x.png?alt=media&token=c24ad1b6-3b68-4656-9c0f-229d93e04dfd' 
+    },
+]

@@ -5,6 +5,7 @@ import CAT from "./cat/CAT"
 import * as Styled from './Home.style'
 import Portfolio from "./portfolio/Portfolio"
 import Services from "./services/Services"
+import Testimonials from "./testimonials/Testimonials"
 
 function Home() {
 
@@ -19,6 +20,7 @@ function Home() {
         <AboutUs />
         <Portfolio />
         <CAT />
+        <Testimonials />
       </Styled.ContainerWrap>
     )
 }
