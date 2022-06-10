@@ -28,10 +28,7 @@ function Testimonials() {
                 >
                     {testimonials.map((item) => {
                         return (
-                            <>
                             <div data-src={ item.image } />
-                                <p>holi</p>
-                                </>
                         )
                     }) }
                 </AutoplaySlider>

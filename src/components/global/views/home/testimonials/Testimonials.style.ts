@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  margin-top: 15rem;
+  margin-top: 10rem;
   font-family: Montserrat;
   margin-bottom: 10rem;
 `
@@ -104,5 +104,21 @@ export const CarouselContainer = styled.div`
 
   .awssld__bullets button {
       rgb(80, 166, 224, 0.5) !important
+  }
+
+  .testimonial-container {
+      background-color: #262626;
+      border-radius: 25px;
+      padding: 5rem 3rem;
+
+      .text {
+          width: 50%;
+          display: flex;
+          justify-content: center;
+      }
+
+      p {
+          color: white;
+      }
   }
 `

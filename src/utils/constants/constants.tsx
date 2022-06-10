@@ -39,9 +39,21 @@ export const inIcon = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-
 
 export const testimonials = [
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FGroup%2092%402x.png?alt=media&token=c24ad1b6-3b68-4656-9c0f-229d93e04dfd' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FNC%20Pharmacy%20-%20Testimonial.png?alt=media&token=303c9d2b-0b11-45cf-95f6-0bbd74a04f12' 
     },
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FGroup%2092%402x.png?alt=media&token=c24ad1b6-3b68-4656-9c0f-229d93e04dfd' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FiOTEK%20-%20Testimonial.png?alt=media&token=93aa6a40-6d53-4b2b-a84c-b70d683badf6' 
+    },
+    {
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGorithmic%20-%20Testimonial.png?alt=media&token=6248512c-bc96-4285-80c4-e3a3c8f40763' 
+    },
+    {
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FUMIFEM%20-%20Testimonial.png?alt=media&token=81952f30-0653-49a8-988b-00c2e0210840' 
+    },
+    {
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FToursys%20-%20Testimonial.png?alt=media&token=26684a4b-481e-4b90-95b2-c096ea855d2a' 
+    },
+    {
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLucrecia%20-%20Testimonial.png?alt=media&token=dd3742ee-9bc4-4cc2-9591-1c3b475b0bce' 
     },
 ]

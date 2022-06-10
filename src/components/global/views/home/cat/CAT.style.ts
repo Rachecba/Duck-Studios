@@ -4,7 +4,7 @@ export const Container = styled.div`
   font-family: Montserrat;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 15rem;
+  margin-top: 12rem;
 `
 
 export const Deco = styled.div`
