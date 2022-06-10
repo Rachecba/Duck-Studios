@@ -57,3 +57,38 @@ export const testimonials = [
         image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLucrecia%20-%20Testimonial.png?alt=media&token=dd3742ee-9bc4-4cc2-9591-1c3b475b0bce' 
     },
 ]
+
+    export const faq = [
+    {
+        question: 'What do I need for my website?',
+        answer: 'Let everything to us! You just need to give us a background about your company and we will start from there. If we feel we need a little more info, we will ask you exactly what we need.'
+    },
+    {
+        question: 'Is Social Media really necessary?',
+        answer: "Yes!!"
+    },
+    {
+        question: 'How can I start my own brand?',
+        answer: 'We can help you build your brand from scratch. We will ask you a couple questions to understand your vision and what you want, and then we will bring to life your ideas'
+    },
+    {
+        question: 'What kind of sotware do you build?',
+        answer: 'We work with everything that requires to code. From websites to apps to personalized software'
+    },
+    {
+        question: 'When can we start with my project?',
+        answer: 'As soon as you want! Just contact us and we will schedule a meeting to talk about your project and help you out with the details'
+    },
+    {
+        question: 'How can I contact you?',
+        answer: 'You can contact us by email at info@duckstudios.net or via WhatsApp +506 8754 7781. You can also find us on social media @duck_studios_'
+    },
+    {
+        question: 'Where are you located?',
+        answer: "We are located in Costa Rica, but we work virtually so we can be in touch at any time, it doesn't matter if you are in the other side of the world"
+    },
+    {
+        question: 'Are you bilingual?',
+        answer: "Yes, we speak english and spanish"
+    }
+]
