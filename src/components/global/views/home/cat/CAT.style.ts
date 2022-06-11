@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  font-family: Montserrat;
+  font-family: '' Montserrat '', sans-serif;
   display: flex;
   flex-wrap: wrap;
   margin-top: 12rem;

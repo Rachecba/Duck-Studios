@@ -17,7 +17,7 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
 
   ${(props) => props.theme.breakpoints.down('lg')} {
     padding-left: 1rem;
@@ -55,7 +55,7 @@ export const Features = styled.div`
 
 export const SliderContainer = styled.div`
   color: white;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-size: 50px;
   font-weight: bold;
   margin-top: 1.5rem;
@@ -120,7 +120,7 @@ export const Buttons = styled.div`
     border-radius: 10px;
     padding: 0.4rem 2.5rem;
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     text-transform: capitalize;
     margin-right: 1.5rem;
     font-size: 16px;
@@ -138,7 +138,7 @@ export const Buttons = styled.div`
     border-radius: 10px;
     padding: 0.4rem 2.5rem;
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     text-transform: capitalize;
     font-size: 16px;
     color: white;

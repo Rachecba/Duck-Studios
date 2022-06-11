@@ -24,7 +24,7 @@ export const NavBar = styled.div<{
 
   background: #0b0b0b;
 
-  font-family: montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
   position: inherit;
   top: 0;

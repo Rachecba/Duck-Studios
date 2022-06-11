@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   padding-left: 3rem;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   display: flex;
   flex-wrap: wrap;
 

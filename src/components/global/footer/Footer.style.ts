@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   color: white;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
 
   h1 {
     font-size: 23px;

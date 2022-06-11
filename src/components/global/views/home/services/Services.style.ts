@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin-top: 8rem;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
 `
 
 export const SectionTitle = styled.div`

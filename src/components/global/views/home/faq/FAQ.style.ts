@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   color: white;
   background: transparent
     linear-gradient(123deg, #2a2a2a 0%, #121212 49%, #060606 100%) 0% 0%
