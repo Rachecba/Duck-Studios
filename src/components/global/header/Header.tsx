@@ -14,9 +14,10 @@ import {
 import { NavHashLink } from 'react-router-hash-link';
 import * as Styled from './Header.style'
 import { Link } from "react-router-dom";
-import { logo } from "../../../utils/constants/constants";
+import { logotipo } from "../../../utils/constants/constants";
 import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/constants/resolution";
 import { useScreenSize } from "../../../utils/hooks/screenSize";
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 // import i18n from '../../../../i18n';
 
 function Header({ position }: { position?: boolean }) {
@@ -58,20 +59,18 @@ function Header({ position }: { position?: boolean }) {
   //   return x;
   // }
 
-    useEffect(() => {
-    if (size === resolutionSizesNames.large) {
-      setIsOpen(false);
-    }
-    return () => {
-      toggle();
-    };
-  }, [toggle]);
+  // useEffect(() => {
+  //   isOpen && size !== resolutionSizesNames.large ? disableBodyScroll(document) : enableBodyScroll(document);
+  //   return () => {
+  //     toggle();
+  //   };
+  // }, [toggle]);
 
   return (
     <Styled.NavBar isOpen={ isOpen }>
       <div className={isOpen ? 'body-background' : ''}></div>
       <Navbar expand="lg" className={isOpen ? 'background-navbar-mobile' : ''}>
-        <NavbarBrand href="/"><img src={ logo } alt="Duck Studios" /></NavbarBrand>
+        <NavbarBrand href="/"><img src={ logotipo } alt="Duck Studios" /></NavbarBrand>
         <NavbarToggler onClick={ toggle }>
           <span>
             <div id="navMenu" onClick={ toggle } className={ isOpen ? "active" : ""}>

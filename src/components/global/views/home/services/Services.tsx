@@ -11,7 +11,7 @@ function Services() {
                 <h1>Our Services</h1>
             </Styled.SectionTitle>
             <Styled.Title>
-                <h1>We have <span>what you need</span></h1>
+                <h1><span>We have</span> what you need</h1>
             </Styled.Title>
             <Styled.Services>
                  <Styled.Background/>

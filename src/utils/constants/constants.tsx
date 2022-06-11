@@ -1,5 +1,7 @@
 export const logo = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLogo%20Duck%20Studios%20Final_1.png?alt=media&token=233287e5-7fae-49ac-a981-c72b9c9456b8"
 
+export const logotipo = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLogo%20Duck%20Studios%20Final_5.png?alt=media&token=e7f269de-192f-4c95-a8a6-889cd06f75cd"
+
 export const languageIcons = [
     {
         code: 'en',

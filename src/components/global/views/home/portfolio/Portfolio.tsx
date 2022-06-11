@@ -1,5 +1,5 @@
 import { Button } from "@mui/material"
-import React, { useEffect } from "react"
+import React from "react"
 import { designBackground, marketingBackground, softwareBackground } from "../../../../../utils/constants/constants"
 import * as Styled from './Portfolio.style'
 
@@ -12,7 +12,7 @@ function Portfolio() {
                     <h1>Portfolio</h1>
                 </Styled.SectionTitle>
                 <Styled.Title>
-                    <h1><span>Our clients success,</span> is our success</h1>
+                    <h1>Our clients success,<span> is our success</span></h1>
                     </Styled.Title>
             </Styled.TitleContainer>
             <Styled.PortfolioContainer>

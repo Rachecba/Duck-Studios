@@ -1,5 +1,5 @@
-import React, { useEffect } from "react"
-import { CATbackground, fbIcon, inIcon, instagramIcon } from "../../../../../utils/constants/constants"
+import React from "react"
+import { CATbackground, fbIcon, instagramIcon } from "../../../../../utils/constants/constants"
 import * as Styled from './CAT.style'
 
 function CAT() {

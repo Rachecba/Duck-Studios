@@ -154,7 +154,7 @@ export const CopyrightContainer = styled.div`
   background: #141414;
   display: flex;
   justify-content: center;
-  font-family: Shippori Antique B1;
+  font-family: 'Shippori Antique B1', sans-serif;
 
   p {
     margin-top: 0.9rem;
