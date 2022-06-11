@@ -51,7 +51,7 @@ export const Question = styled.div<{
   }
 
   &:after {
-    content: ${(props) => (props.open ? '\\02795' : '\\2796')};
+    content: ${(props) => (props.open ? '-' : '+')};
     font-size: 13px;
     color: ${(props) => (props.open ? '#FFB610' : 'white')};
     float: right;

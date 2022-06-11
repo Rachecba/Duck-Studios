@@ -22,9 +22,9 @@ function CAT() {
                     </p>
                 </Styled.Text>
                 <Styled.Social>
-                    <img alt='fb' src={ fbIcon }/>
-                    <img alt='ig' src={ instagramIcon }/>
-                    <img alt='in' src={ inIcon }/>
+                    <a href="https://www.facebook.com/duckstudioss"><img alt='fb' src={ fbIcon }/></a>
+                    <a href="https://instagram.com/duck_studios_?igshid=YmMyMTA2M2Y="><img alt='ig' src={ instagramIcon }/></a>
+                    {/* <img alt='in' src={ inIcon }/> */}
                 </Styled.Social>
             </Styled.TextContainer>
         </Styled.Container>

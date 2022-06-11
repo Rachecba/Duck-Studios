@@ -4,6 +4,12 @@ import * as Styled from './FAQ.style'
 
 function FAQ() {
     const [isOpen, setIsOpen] = useState(false)
+    const [selected, setSelected] = useState(0)
+
+    const onClick = (newSelected: number) => { 
+        setIsOpen(!isOpen)
+        setSelected(newSelected)
+    }
 
     return (
         <Styled.Container>
@@ -11,10 +17,10 @@ function FAQ() {
                 <h1>FAQs</h1>
             </div>
             <Styled.QuestionsContainer>
-                { faq.map((item) => { 
+                { faq.map((item, index) => { 
                     return (
                         <>
-                            <Styled.Question open={ isOpen } onClick={ () => setIsOpen(!isOpen)}>
+                            <Styled.Question open={ index === selected} onClick={ () => onClick(index) }>
                                 <div className="header">
                                     <h1>{ item.question }</h1>
                                 </div>
