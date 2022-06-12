@@ -20,6 +20,10 @@ export const QuestionsContainer = styled.div`
   width: 50%;
   margin: auto;
 
+  ${(props) => props.theme.breakpoints.down('lg')} {
+    width: 90%;
+  }
+
   div:last-child {
     border-bottom: unset;
   }

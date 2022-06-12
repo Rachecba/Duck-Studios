@@ -94,3 +94,5 @@ export const testimonials = [
         answer: "Yes, we speak english and spanish"
     }
 ]
+
+export const designMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdesign-mockup.png?alt=media&token=c9559c07-87c7-4f55-b842-994b221f2502"
