@@ -5,11 +5,20 @@ export const Container = styled.div`
   justify-content: space-around;
   margin-top: 1rem;
   flex-wrap: wrap;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
 
   ${(props) => props.theme.breakpoints.down('lg')} {
     margin-top: 3rem;
     justify-content: unset;
     padding: 0 1rem;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
 `
 
@@ -48,6 +57,7 @@ export const TextContainer = styled.div`
 
 export const Features = styled.div`
   color: white;
+  display: flex;
 
   h1 {
     font-size: 50px;
@@ -58,8 +68,64 @@ export const Features = styled.div`
     }
   }
 
-  span {
+  .span {
     color: #e49f00;
+  }
+
+  .title {
+    @keyframes a-ltr-after {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(101%);
+      }
+    }
+
+    @keyframes a-ltr-before {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(200%);
+      }
+    }
+
+    .span-animated:nth-of-type(1)::before,
+    .span-animated:nth-of-type(1)::after {
+      animation-delay: 1s;
+    }
+
+    .span-animated {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      line-height: 1.2;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #e49f00;
+        animation: a-ltr-after 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+        transform: translateX(-101%);
+      }
+
+      //   &::before {
+      //     content: '';
+      //     position: absolute;
+      //     top: 0;
+      //     right: 0;
+      //     width: 100%;
+      //     height: 100%;
+      //     // background: var(--bg-color);
+      //     animation: a-ltr-before 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+      //     transform: translateX(0);
+      //   }
+    }
   }
 `
 

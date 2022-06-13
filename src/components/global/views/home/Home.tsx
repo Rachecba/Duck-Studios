@@ -24,7 +24,6 @@ function Home() {
         <CAT />
         <Testimonials />
         <FAQ />
-        <Footer />
       </Styled.ContainerWrap>
     )
 }

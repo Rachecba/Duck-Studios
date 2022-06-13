@@ -96,3 +96,54 @@ export const testimonials = [
 ]
 
 export const designMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdesign-mockup.png?alt=media&token=c9559c07-87c7-4f55-b842-994b221f2502"
+
+export const designServices = [
+    {
+        title: "Branding",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fbranding.png?alt=media&token=b5775a31-96ef-49ff-99d4-808065a9eca1",
+        description: "We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create arts that will leave your audience impressed!"
+    },
+    {
+        title: "Social Media",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fsocial-media.png?alt=media&token=8ef2ccde-17a3-4477-b6be-51c79db0179b",
+        description: "We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+    },
+    {
+        title: "Labels",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Flabels.png?alt=media&token=1142e877-b3bb-490c-b99c-aa6bc221423b",
+        description: "We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+    },
+    {
+        title: "UI/UX Design",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fweb-design.png?alt=media&token=ef8f998f-5c4e-4d00-bce3-59a26ed4417d",
+        description: "We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+    }
+]
+
+export const designTestimonials = [
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGorithmic%20-%20Testimonial.png?alt=media&token=6248512c-bc96-4285-80c4-e3a3c8f40763"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FToursys%20-%20Testimonial.png?alt=media&token=26684a4b-481e-4b90-95b2-c096ea855d2a"
+    },
+]
+
+export const designProjects = [
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443",
+        projectTitle: "LawGorithmic",
+        projectDescription: "This is a law firm specialized in tech companies and cryptocurrencies. We designed their brand identity; from the logo to typography, we ensured to create a brand that easily identifies with the functions of the company"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4",
+        projectTitle: "Premium Garage",
+        projectDescription: "We started finding the right name for this online car seller platform, and then designed the branding and visual identity of this company. We also designed the UI/UX of their website"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6",
+        projectTitle: "Danny Cigars",
+        projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem odio, aliquam vel felis vitae, condimentum porttitor sapien. In ultrices rhoncus enim, eu blandit felis lobortis eu."
+    },
+
+]

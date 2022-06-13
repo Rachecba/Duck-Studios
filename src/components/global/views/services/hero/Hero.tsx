@@ -13,7 +13,7 @@ function Hero({ title, span, subtitle, image} : Props) {
         <Styled.Container>
             <Styled.TextContainer>
                 <Styled.Features>
-                    <h1>{ title }<span>{ span }</span></h1>
+                    <h1 className="title">{ title }<span className="span span-animated">{ span }</span></h1>
                 </Styled.Features>
                 <h4 className='subtitle'>{ subtitle }</h4>
                 <Styled.Buttons>
