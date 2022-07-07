@@ -31,7 +31,7 @@ export const Title = styled.div`
 
 export const Services = styled.div`
   width: 100%;
-  height: 100vh;
+  display: flex;
   position: relative;
   margin-top: 2rem;
 `
@@ -45,23 +45,24 @@ export const Background = styled.div`
   background-image: url('https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fservices-background.png?alt=media&token=d6354987-b435-4d38-a641-26403b72ea44');
   background-size: contain;
   background-repeat: no-repeat;
+  display: flex;
+
 `
 
 export const CardsContainer = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 9;
   padding: 0 8rem;
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height:100%;
 
   ${(props) => props.theme.breakpoints.down('lg')} {
     padding: 0 1rem;
     margin-top: 0rem;
   }
+
 
   .middle-card {
     border-right: 1px solid #141414;

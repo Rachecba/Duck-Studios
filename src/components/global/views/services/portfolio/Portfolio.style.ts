@@ -1,8 +1,41 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  margin-top: 20rem;
+  margin-top: 8rem;
   font-family: 'Montserrat';
+
+   .margin-center{
+    text-align:center;
+   }
+
+   .social-icon{
+    color:white;
+    font-size:20px;
+    margin-right:30px;
+   }
+
+  .see-more-btn {
+    background: #ce8f00;
+    border-radius: 8px;
+    padding: 0.3rem 1.5rem;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    font-size: 17px;
+
+    ${(props) => props.theme.breakpoints.down('lg')} {
+      font-size: 17px;
+    }
+
+    ${(props) => props.theme.breakpoints.down('sm')} {
+      margin-top: 0rem;
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 16px #815901;
+      background: #ce8f00;
+    }
+  }
 `
 
 export const SectionTitle = styled.div`
@@ -40,6 +73,12 @@ export const ProjectsContainer = styled.div`
   justify-content: space-around;
   margin-top: 4rem;
 
+
+  ${(props) => props.theme.breakpoints.down('sm')} {
+    flex-direction:column;
+    align-items: center;
+  }
+
   img {
     max-width: 100%;
     max-height: 100%;
@@ -49,6 +88,10 @@ export const ProjectsContainer = styled.div`
 
 export const Project = styled.div`
   width: 25%;
+  ${(props) => props.theme.breakpoints.down('sm')} {
+    width: 90%;
+    margin-bottom:4rem;
+  }
 `
 
 export const Description = styled.div`
@@ -63,6 +106,25 @@ export const ProjectTitle = styled.div`
     font-size: 1.5rem;
     font-weight: 600;
   }
+`
+
+export const ProjectLink = styled.div`
+  margin-top: 0.5rem;
+
+  h3 {
+    font-size: 1.1rem;
+    margin-bottom:0;
+  }
+  a{
+    color:#0087DE;
+    font-size: 1.1rem;
+    text-decoration:none;
+  }
+`
+export const SocialMediaLinks = styled.div`
+  display:flex;
+  flex-directon:row;
+  margin-top:20px;
 `
 
 export const ProjectDescription = styled.div``

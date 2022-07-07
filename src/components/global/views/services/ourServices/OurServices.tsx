@@ -25,7 +25,7 @@ function OurServices({ title, services }: Props) {
             <Styled.Title>
                 <h1>{ title }</h1>
             </Styled.Title>
-            <Styled.Services>
+            <Styled.Services className="portfolio-button animate__animated animate__fadeInUp">
                  <Styled.Background/>
                 <Styled.CardsContainer>
                     { services.map((item, index) => { 

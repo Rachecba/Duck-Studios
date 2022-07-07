@@ -56,7 +56,7 @@ export const Features = styled.div`
 export const SliderContainer = styled.div`
   color: white;
   font-family: 'Montserrat';
-  font-size: 50px;
+  font-size: 48px;
   font-weight: bold;
   margin-top: 1.5rem;
 

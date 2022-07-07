@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   overflow: hidden;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 
   ${(props) => props.theme.breakpoints.down('lg')} {
     margin-top: 3rem;
@@ -209,7 +209,10 @@ export const Buttons = styled.div`
 export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
+  .img{
+    object-fit:scale-down;
+  }
 
   ${(props) => props.theme.breakpoints.down('lg')} {
     margin-top: 2rem;
@@ -217,6 +220,7 @@ export const ImageContainer = styled.div`
 
   ${(props) => props.theme.breakpoints.down('md')} {
     margin-top: 5rem;
+    width:100%;
   }
 
   img {

@@ -91,13 +91,13 @@ function Header({ position }: { position?: boolean }) {
               </DropdownToggle>
               <DropdownMenu end>
                 <DropdownItem>
-                  Software
+                <Link to="/software" onClick={() => {setIsOpen(false) }}  className='nav-link'>Software</Link>
+                </DropdownItem>
+                <DropdownItem >
+                <Link to="/graphic-design" onClick={() => {setIsOpen(false) }}  className='nav-link'>Graphic Design</Link>
                 </DropdownItem>
                 <DropdownItem>
-                  Graphic Design
-                </DropdownItem>
-                <DropdownItem>
-                  Marketing
+                <Link to="/marketing" onClick={() => {setIsOpen(false) }}  className='nav-link'>Marketing</Link>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
@@ -131,7 +131,7 @@ function Header({ position }: { position?: boolean }) {
               </DropdownMenu>
             </UncontrolledDropdown> */}
             <NavItem className='contact-dropdown'>
-              <NavHashLink to="/#contact" onClick={() => {setIsOpen(false) }}  smooth className='contact'><span>CONTACT US</span></NavHashLink>
+              <NavHashLink to="/#contact" onClick={() => {setIsOpen(false) }}  smooth className='portfolio-button'><span>CONTACT US</span></NavHashLink>
             </NavItem>
           </Nav>
         </Collapse>

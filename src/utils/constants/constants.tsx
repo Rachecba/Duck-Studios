@@ -41,26 +41,26 @@ export const inIcon = 'https://firebasestorage.googleapis.com/v0/b/duck-studios-
 
 export const testimonials = [
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FNC%20Pharmacy%20-%20Testimonial.png?alt=media&token=303c9d2b-0b11-45cf-95f6-0bbd74a04f12' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FNC%20Pharmacy%20-%20Testimonial.png?alt=media&token=303c9d2b-0b11-45cf-95f6-0bbd74a04f12'
     },
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FiOTEK%20-%20Testimonial.png?alt=media&token=93aa6a40-6d53-4b2b-a84c-b70d683badf6' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FiOTEK%20-%20Testimonial.png?alt=media&token=93aa6a40-6d53-4b2b-a84c-b70d683badf6'
     },
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGorithmic%20-%20Testimonial.png?alt=media&token=6248512c-bc96-4285-80c4-e3a3c8f40763' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGorithmic%20-%20Testimonial.png?alt=media&token=6248512c-bc96-4285-80c4-e3a3c8f40763'
     },
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FUMIFEM%20-%20Testimonial.png?alt=media&token=81952f30-0653-49a8-988b-00c2e0210840' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FUMIFEM%20-%20Testimonial.png?alt=media&token=81952f30-0653-49a8-988b-00c2e0210840'
     },
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FToursys%20-%20Testimonial.png?alt=media&token=26684a4b-481e-4b90-95b2-c096ea855d2a' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FToursys%20-%20Testimonial.png?alt=media&token=26684a4b-481e-4b90-95b2-c096ea855d2a'
     },
     {
-        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLucrecia%20-%20Testimonial.png?alt=media&token=dd3742ee-9bc4-4cc2-9591-1c3b475b0bce' 
+        image: 'https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLucrecia%20-%20Testimonial.png?alt=media&token=dd3742ee-9bc4-4cc2-9591-1c3b475b0bce'
     },
 ]
 
-    export const faq = [
+export const faq = [
     {
         question: 'What do I need for my website?',
         answer: 'Let everything to us! You just need to give us a background about your company and we will start from there. If we feel we need a little more info, we will ask you exactly what we need.'
@@ -131,17 +131,19 @@ export const designTestimonials = [
 
 export const designProjects = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443",
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
         projectTitle: "LawGorithmic",
-        projectDescription: "This is a law firm specialized in tech companies and cryptocurrencies. We designed their brand identity; from the logo to typography, we ensured to create a brand that easily identifies with the functions of the company"
+        projectDescription: "This is a law firm specialized in tech companies and cryptocurrencies. We designed their brand identity; from the logo to typography, we ensured to create a brand that easily identifies with the functions of the company",
+        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
+        projectLink: { url: "example.com", name: "The name", type: "app" }
     },
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4",
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
         projectTitle: "Premium Garage",
         projectDescription: "We started finding the right name for this online car seller platform, and then designed the branding and visual identity of this company. We also designed the UI/UX of their website"
     },
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6",
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6"],
         projectTitle: "Danny Cigars",
         projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem odio, aliquam vel felis vitae, condimentum porttitor sapien. In ultrices rhoncus enim, eu blandit felis lobortis eu."
     },

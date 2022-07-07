@@ -5,6 +5,57 @@ export const NavBar = styled.div<{
 }>`
   padding: 1rem 2rem;
 
+  .portfolio-button {
+    padding: 0.7rem 1rem !important;
+    border-radius: 2rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+    font-size: 16px;
+    color: white;
+    border: solid 3px transparent;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+      ),
+      linear-gradient(
+        76deg,
+        #fbda90 0%,
+        #ffb610 24%,
+        #8d6300 46%,
+        #543c01 70%,
+        #c88900 100%
+      );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #0b0b0b inset;
+    transition: background-image 0.8s, box-shadow 0.8s;
+
+    ${(props) => props.theme.breakpoints.down('lg')} {
+      font-size: 14px;
+      border-radius: 10px;
+      padding: 0.3rem 1rem;
+    }
+
+    &:hover {
+      background-image: linear-gradient(
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0)
+        ),
+        linear-gradient(
+          340deg,
+          #fbda90 0%,
+          #ffb610 24%,
+          #8d6300 46%,
+          #543c01 70%,
+          #c88900 100%
+        );
+
+      box-shadow: unset;
+    }
+  }
+
   ${(props) => props.theme.breakpoints.down('lg')} {
     padding: 0;
     display: flex;
