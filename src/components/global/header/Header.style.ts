@@ -218,7 +218,7 @@ export const NavBar = styled.div<{
       }
     }
 
-    img {
+    .logo {
       width: 4rem !important;
       margin-left: 2rem;
       margin-top: 0.5rem;
@@ -265,7 +265,7 @@ export const NavBar = styled.div<{
         }
       }
 
-      img {
+      .logo {
         width: 14rem !important;
         height: 4.2rem !important;
         transition: all ease 1s;
@@ -284,7 +284,7 @@ export const NavBar = styled.div<{
       }
 
       ${(props) => props.theme.breakpoints.down('md')} {
-        img {
+        .logo {
           padding-top: 0rem;
           padding-bottom: 0rem;
         }
@@ -393,6 +393,35 @@ export const NavBar = styled.div<{
 
   .languageIcon {
     width: 2.3rem !important;
-    margin: 0rem;
+  }
+
+  .languageIconSmall{
+    width: 1.5rem !important;
+    float:right;
+  }
+
+  .languageDropDown{
+    margin-left: -20px;
+    ${(props) => props.theme.breakpoints.down('sm')} {
+      margin-left: unset;
+    }
+  }
+  .languageDropdownItem{
+   width:8rem;
+    ${(props) => props.theme.breakpoints.down('sm')} {
+    width: 100%;
+    }
+    ${(props) => props.theme.breakpoints.down('lg')} {
+      width: 100%;
+    }
+  }
+
+  .languageSelector{
+    ${(props) => props.theme.breakpoints.down('sm')} {
+      margin-top:1rem;
+    }
+    ${(props) => props.theme.breakpoints.down('lg')} {
+      margin-top:1rem;
+    }
   }
 `

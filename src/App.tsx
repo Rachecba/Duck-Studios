@@ -6,7 +6,12 @@ import Main from './Main';
 import Header from './components/global/header/Header';
 import Footer from './components/global/footer/Footer';
 
+import ReactGA from 'react-ga';
+ 
 function App() {
+
+  const TRACKING_ID = "G-Q45DMQLQK9"; 
+  ReactGA.initialize(TRACKING_ID);
   return (
     <ThemeProvider theme={theme}>
     <Router>

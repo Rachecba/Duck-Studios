@@ -14,63 +14,44 @@ import {
 import { NavHashLink } from 'react-router-hash-link';
 import * as Styled from './Header.style'
 import { Link } from "react-router-dom";
-import { logotipo } from "../../../utils/constants/constants";
+import { logotipo, languageIcons } from "../../../utils/constants/constants";
 import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/constants/resolution";
 import { useScreenSize } from "../../../utils/hooks/screenSize";
-import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-// import i18n from '../../../../i18n';
+import { useTranslation } from 'react-i18next';
+// import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { withTranslation } from 'react-i18next';
 
 function Header({ position }: { position?: boolean }) {
+  const { t, i18n, ready } = useTranslation('header',{ useSuspense: true });
+
   const [isOpen, setIsOpen] = useState(false);
-  // const [navbar, setnavbar] = useState(false);
+  const [language, setLanguage] = useState("en");
+
   const windowDimension = useScreenSize();
   const size = calculateResolutionSize(windowDimension.winWidth);
   const toggle = () => { setIsOpen(!isOpen) };
 
-  // const browserLanguage = () => { 
-  //   const language = window.navigator.language;
-  //   return language.split('-')[0]
-  // }
+  const getLangIcon = (lng:any) =>{
+    return languageIcons.find( icon => icon.code === lng)?.icon;
+  }
 
-  // const [language, setLanguage] = useState(browserLanguage)
+  useEffect(() => {
+    // isOpen && size !== resolutionSizesNames.large ? disableBodyScroll(document) : enableBodyScroll(document);
+    return () => {
+      toggle();
+    };
+  }, [toggle]);
 
-  // const changeLanguage = (lng: string | undefined) => {
-  //   i18n.changeLanguage(lng);
-  // }
-
-  // const current = (selected: string) => { 
-  //   let x;
-  //   languageIcons.map(item => { 
-  //     if (item.code === selected)
-  //       x = item.icon;
-  //   })
-
-  //   return x;
-  // }
-
-  // const icon = (language: string) => {
-  //  let x;
-  //   languageIcons.map(item => { 
-  //     if (item.code === language)
-  //       x = item.icon;
-  //   })
-  //   changeLanguage(language);
-
-  //   return x;
-  // }
-
-  // useEffect(() => {
-  //   isOpen && size !== resolutionSizesNames.large ? disableBodyScroll(document) : enableBodyScroll(document);
-  //   return () => {
-  //     toggle();
-  //   };
-  // }, [toggle]);
+  const changeLanguage = (lng:any) => {
+    setLanguage(lng);
+    i18n.changeLanguage(lng);
+  }
 
   return (
     <Styled.NavBar isOpen={ isOpen }>
       <div className={isOpen ? 'body-background' : ''}></div>
       <Navbar expand="lg" className={isOpen ? 'background-navbar-mobile' : ''}>
-        <NavbarBrand href="/"><img src={ logotipo } alt="Duck Studios" /></NavbarBrand>
+        <NavbarBrand href="/"><img src={ logotipo } alt="Duck Studios" className="logo"/></NavbarBrand>
         <NavbarToggler onClick={ toggle }>
           <span>
             <div id="navMenu" onClick={ toggle } className={ isOpen ? "active" : ""}>
@@ -87,7 +68,7 @@ function Header({ position }: { position?: boolean }) {
             </NavItem>
             <UncontrolledDropdown inNavbar nav>
               <DropdownToggle caret nav>
-                SERVICES
+                {t('header.services')}
               </DropdownToggle>
               <DropdownMenu end>
                 <DropdownItem>
@@ -117,22 +98,22 @@ function Header({ position }: { position?: boolean }) {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-           {/* <UncontrolledDropdown inNavbar nav className="languageSelector">
-              <DropdownToggle caret nav className="language">
-                <img src={ current(language) } alt='selected language' className="languageIcon"/>
-              </DropdownToggle>
-              <DropdownMenu end>
-                <DropdownItem onClick={() => setLanguage('es')} className="languageIcon">
-                  <img src={ icon('es')} alt='es'/>
-                </DropdownItem>
-                <DropdownItem onClick={() => setLanguage('en')} className="languageIcon">
-                  <img src={ icon('en')} alt='en'/>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
             <NavItem className='contact-dropdown'>
               <NavHashLink to="/#contact" onClick={() => {setIsOpen(false) }}  smooth className='portfolio-button'><span>CONTACT US</span></NavHashLink>
             </NavItem>
+            <UncontrolledDropdown inNavbar className="languageSelector">
+              <DropdownToggle caret nav>
+                <img src={ getLangIcon(language) } alt='selected language' className="languageIcon"/>
+              </DropdownToggle>
+              <DropdownMenu className="languageDropDown">
+                <DropdownItem onClick={() => changeLanguage('es')} className='languageDropdownItem'>
+                  <span>Español</span> <img src={ getLangIcon('es')} alt='es' className="languageIconSmall"/>
+                </DropdownItem>
+                <DropdownItem onClick={() => changeLanguage('en')} className='languageDropdownItem'>
+                  <span>English</span> <img src={ getLangIcon('en')} alt='en' className="languageIconSmall"/>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
           </Nav>
         </Collapse>
       </Navbar>
