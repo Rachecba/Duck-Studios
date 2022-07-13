@@ -29,14 +29,15 @@ export const TextContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 35%;
+  align-items: center;
 
   ${(props) => props.theme.breakpoints.down('lg')} {
     width: 70%;
   }
 
   ${(props) => props.theme.breakpoints.down('sm')} {
-    width: 70%;
-    padding-right: 1rem;
+    width: 100%;
+    margin-left: 0;
   }
 `
 
@@ -54,7 +55,9 @@ export const Social = styled.div`
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
+  align-items:center;
   font-size: 20px;
+  width:90%;
 
   img {
     width: 2rem;
@@ -69,6 +72,9 @@ export const Social = styled.div`
   a {
     color: white;
     text-decoration: none;
+    ${(props) => props.theme.breakpoints.down('sm')} {
+      font-size:1rem;
+    }
   }
 
   ul {

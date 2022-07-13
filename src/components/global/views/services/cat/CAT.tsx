@@ -20,7 +20,7 @@ function CAT() {
                     <div className="contact">
                         <ul>
                             <li><a href="mailto:info@duckstudios.net"><span><MailIcon/></span>info@duckstudios.net</a></li>
-                            <li><span><LocalPhoneIcon/></span>+506 8754-7781</li>
+                            <li><a href="tel:+506 87547781"><span><LocalPhoneIcon/></span>+506 8754-7781</a></li>
                         </ul>
                     </div>
                     <div className="social-media">
