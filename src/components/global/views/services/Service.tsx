@@ -17,7 +17,7 @@ function Service({ heroTitle, heroSpan, heroSubtitle, heroImage} : Props) {
     return (
         <Styled.Container>
             <Hero title={ heroTitle } span={ heroSpan } subtitle={ heroSubtitle } image={ heroImage } />
-            <OurServices title='What do you want us to design?' services={ designServices } />
+            <OurServices title='ourServices.subtitle' services={ designServices } />
             <Portfolio projects={designProjects}/>
             <Testimonials testimonials={ designTestimonials } />
             <CAT />

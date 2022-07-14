@@ -1,0 +1,21 @@
+{
+    "banner":{
+        "features":{
+            "creative":"Creativo.",
+            "awesome":"Asombroso.",
+            "functional":"Funcional."
+        },
+        "slider":{
+            "software":"SOFTWARE",
+            "graphicDesign":"DISEÑO GRÁFICO",
+            "marketing":"MARKETING",
+            "subtitle":{
+                "we":"Somos",
+                "really":"REALMENTE",
+                "text":"como ninguna otra Agencia Digital"
+            }
+        },
+        "btnServices":"Servicios",
+        "btnPortfolio":"Portafolio"
+    }
+}

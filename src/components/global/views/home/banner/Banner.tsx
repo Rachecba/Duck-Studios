@@ -1,10 +1,11 @@
 import Button from '@mui/material/Button/Button'
 import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next';
 import { bannerMockup } from '../../../../../utils/constants/constants'
 import * as Styled from './Banner.style'
 
 function Banner() {
-
+  const { t, i18n, ready } = useTranslation('banner', { useSuspense: true });
   const rotate = () => { 
     const show = document.querySelector('.mask span[data-show]')
     const next = show?.nextElementSibling || document.querySelector('.mask span:first-child')
@@ -31,21 +32,21 @@ function Banner() {
       <Styled.Container>
         <Styled.TextContainer>
           <Styled.Features>
-            <h1>Creative.</h1>
-            <h1>Awesome.</h1>
-            <h1>Functional.</h1>
+            <h1>{t('banner.features.creative')}</h1>
+            <h1>{t('banner.features.awesome')}</h1>
+            <h1>{t('banner.features.functional')}</h1>
           </Styled.Features>
           <Styled.SliderContainer>
             <div className='mask'>
-              <span data-show>SOFTWARE</span>
-              <span>MARKETING</span>
-              <span>GRAPHIC DESIGN</span>
+              <span data-show>{t('banner.slider.software')}</span>
+              <span>{t('banner.slider.marketing')}</span>
+              <span>{t('banner.slider.graphicDesign')}</span>
             </div>
           </Styled.SliderContainer>
-          <h4 className='subtitle'>We <span>REALLY</span> are not just another Digital Agency</h4>
+          <h4 className='subtitle'>{t('banner.slider.subtitle.we')} <span>{t('banner.slider.subtitle.really')}</span> {t('banner.slider.subtitle.text')}</h4>
           <Styled.Buttons>
-            <Button className='services-button'>Services</Button>
-            <Button className='portfolio-button'>Portfolio</Button>
+            <Button className='services-button'>{t('banner.btnServices')}</Button>
+            <Button className='portfolio-button'>{t('banner.btnPortfolio')}</Button>
           </Styled.Buttons>
         </Styled.TextContainer>
         <Styled.ImageContainer>

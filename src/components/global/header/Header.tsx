@@ -19,10 +19,9 @@ import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/co
 import { useScreenSize } from "../../../utils/hooks/screenSize";
 import { useTranslation } from 'react-i18next';
 // import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import { withTranslation } from 'react-i18next';
 
 function Header({ position }: { position?: boolean }) {
-  const { t, i18n, ready } = useTranslation('header',{ useSuspense: true });
+  const { t, i18n, ready } = useTranslation('header', { useSuspense: true });
 
   const [isOpen, setIsOpen] = useState(false);
   const [language, setLanguage] = useState("en");
@@ -31,8 +30,8 @@ function Header({ position }: { position?: boolean }) {
   const size = calculateResolutionSize(windowDimension.winWidth);
   const toggle = () => { setIsOpen(!isOpen) };
 
-  const getLangIcon = (lng:any) =>{
-    return languageIcons.find( icon => icon.code === lng)?.icon;
+  const getLangIcon = (lng: any) => {
+    return languageIcons.find(icon => icon.code === lng)?.icon;
   }
 
   useEffect(() => {
@@ -42,19 +41,19 @@ function Header({ position }: { position?: boolean }) {
     };
   }, [toggle]);
 
-  const changeLanguage = (lng:any) => {
+  const changeLanguage = (lng: any) => {
     setLanguage(lng);
     i18n.changeLanguage(lng);
   }
 
   return (
-    <Styled.NavBar isOpen={ isOpen }>
+    <Styled.NavBar isOpen={isOpen}>
       <div className={isOpen ? 'body-background' : ''}></div>
       <Navbar expand="lg" className={isOpen ? 'background-navbar-mobile' : ''}>
-        <NavbarBrand href="/"><img src={ logotipo } alt="Duck Studios" className="logo"/></NavbarBrand>
-        <NavbarToggler onClick={ toggle }>
+        <NavbarBrand href="/"><img src={logotipo} alt="Duck Studios" className="logo" /></NavbarBrand>
+        <NavbarToggler onClick={toggle}>
           <span>
-            <div id="navMenu" onClick={ toggle } className={ isOpen ? "active" : ""}>
+            <div id="navMenu" onClick={toggle} className={isOpen ? "active" : ""}>
               <span></span>
               <span></span>
               <span></span>
@@ -64,53 +63,59 @@ function Header({ position }: { position?: boolean }) {
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <Link to="/" onClick={() => {setIsOpen(false) }}  className='nav-link'>HOME</Link>
+              <Link to="/" onClick={() => { setIsOpen(false) }} className='nav-link'>HOME</Link>
             </NavItem>
             <UncontrolledDropdown inNavbar nav>
               <DropdownToggle caret nav>
-                {t('header.services')}
+              {t('header.services.title')}
               </DropdownToggle>
               <DropdownMenu end>
                 <DropdownItem>
-                <Link to="/software" onClick={() => {setIsOpen(false) }}  className='nav-link'>Software</Link>
+                  <Link to="/software" onClick={() => { setIsOpen(false) }} className='nav-link'>
+                  {t('header.services.software')}
+                  </Link>
                 </DropdownItem>
                 <DropdownItem >
-                <Link to="/graphic-design" onClick={() => {setIsOpen(false) }}  className='nav-link'>Graphic Design</Link>
+                  <Link to="/graphic-design" onClick={() => { setIsOpen(false) }} className='nav-link'>
+                  {t('header.services.graphicDesign')}
+                  </Link>
                 </DropdownItem>
                 <DropdownItem>
-                <Link to="/marketing" onClick={() => {setIsOpen(false) }}  className='nav-link'>Marketing</Link>
+                  <Link to="/marketing" onClick={() => { setIsOpen(false) }} className='nav-link'>
+                  {t('header.services.marketing')}
+                  </Link>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <UncontrolledDropdown inNavbar nav>
               <DropdownToggle caret nav>
-                PORTFOLIO
+                {t('header.portfolio.title')}
               </DropdownToggle>
               <DropdownMenu end>
                 <DropdownItem>
-                  Software
+                  {t('header.portfolio.software')}
                 </DropdownItem>
                 <DropdownItem>
-                  Graphic Design
+                  {t('header.portfolio.graphicDesign')}
                 </DropdownItem>
                 <DropdownItem>
-                  Marketing
+                  {t('header.portfolio.marketing')}
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem className='contact-dropdown'>
-              <NavHashLink to="/#contact" onClick={() => {setIsOpen(false) }}  smooth className='portfolio-button'><span>CONTACT US</span></NavHashLink>
+              <NavHashLink to="/#contact" onClick={() => { setIsOpen(false) }} smooth className='portfolio-button'><span>{t('header.contact')}</span></NavHashLink>
             </NavItem>
             <UncontrolledDropdown inNavbar className="languageSelector">
               <DropdownToggle caret nav>
-                <img src={ getLangIcon(language) } alt='selected language' className="languageIcon"/>
+                <img src={getLangIcon(language)} alt='selected language' className="languageIcon" />
               </DropdownToggle>
               <DropdownMenu className="languageDropDown">
                 <DropdownItem onClick={() => changeLanguage('es')} className='languageDropdownItem'>
-                  <span>Español</span> <img src={ getLangIcon('es')} alt='es' className="languageIconSmall"/>
+                  <span>Español</span> <img src={getLangIcon('es')} alt='es' className="languageIconSmall" />
                 </DropdownItem>
                 <DropdownItem onClick={() => changeLanguage('en')} className='languageDropdownItem'>
-                  <span>English</span> <img src={ getLangIcon('en')} alt='en' className="languageIconSmall"/>
+                  <span>English</span> <img src={getLangIcon('en')} alt='en' className="languageIconSmall" />
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

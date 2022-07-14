@@ -13,6 +13,11 @@ export const Container = styled.div`
     margin-top: 3rem;
     justify-content: unset;
     padding: 0 1rem;
+    height:100%;
+  }
+
+  ${(props) => props.theme.breakpoints.down('sm')} {
+    height:100%;
   }
 
   *,

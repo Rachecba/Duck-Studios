@@ -7,6 +7,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Button, Link } from "@mui/material";
+import { isTemplateSpan } from "typescript";
 
 function Portfolio({ projects }: Props) {
 
@@ -43,7 +44,7 @@ function Portfolio({ projects }: Props) {
                         <>
                             <Styled.Project>
                                 <Styled.Slider>
-                                    <Splide aria-label="Project images" options={{ rewind: true }}>
+                                    <Splide aria-label="Project images" options={{ rewind: true,arrows:item.images.length>1 }}>
                                         {item.images.map((image) => {
                                             return (
                                                 <SplideSlide>

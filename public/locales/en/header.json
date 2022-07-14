@@ -1,5 +1,17 @@
 { 
     "header":{
-        "services":"Services"
+        "services":{
+            "title":"Services",
+            "software":"Software",
+            "graphicDesign":"Grapich Design",
+            "marketing":"Marketing"
+        },
+        "portfolio":{
+            "title":"Portfolio",
+            "software":"Software",
+            "graphicDesign":"Grapich Design",
+            "marketing":"Marketing"
+        },
+        "contact":"Contact us"
     }
 }

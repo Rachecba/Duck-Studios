@@ -1,9 +1,12 @@
 import Button from "@mui/material/Button/Button"
 import React from "react"
+import { useTranslation } from "react-i18next";
 import { Props } from "./OurServices.props"
 import * as Styled from './OurServices.style'
 
 function OurServices({ title, services }: Props) {
+    
+  const { t, i18n, ready } = useTranslation('ourServices', { useSuspense: true });
     
     const cardPosition = (index: number, arrayLenght: number) => { 
         if (index === 0) {
@@ -20,10 +23,10 @@ function OurServices({ title, services }: Props) {
     return (
         <Styled.Container>
             <Styled.SectionTitle>
-                <h1>Our Services</h1>
+                <h1>{t('ourServices.title')}</h1>
             </Styled.SectionTitle>
             <Styled.Title>
-                <h1>{ title }</h1>
+                <h1>{t( title) }</h1>
             </Styled.Title>
             <Styled.Services className="portfolio-button animate__animated animate__fadeInUp">
                  <Styled.Background/>

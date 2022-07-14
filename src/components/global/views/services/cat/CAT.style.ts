@@ -28,7 +28,7 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 35%;
+  width: 40%;
   align-items: center;
 
   ${(props) => props.theme.breakpoints.down('lg')} {
@@ -62,6 +62,10 @@ export const Social = styled.div`
   img {
     width: 2rem;
     margin-right: 1rem;
+    ${(props) => props.theme.breakpoints.down('sm')} {
+      width: 1.2rem;
+      margin-right: 2px;
+    }
   }
 
   li {
@@ -75,6 +79,12 @@ export const Social = styled.div`
     ${(props) => props.theme.breakpoints.down('sm')} {
       font-size:1rem;
     }
+
+    .img{
+      ${(props) => props.theme.breakpoints.down('sm')} {
+        height:50px;
+      }
+    }
   }
 
   ul {
@@ -83,8 +93,12 @@ export const Social = styled.div`
 
   .contact {
     .css-i4bv87-MuiSvgIcon-root {
-      font-size: 2rem;
+      width: 3rem;
       margin-right: 1rem;
+      ${(props) => props.theme.breakpoints.down('sm')} {
+        width: 2rem;
+        margin-right: 2px;
+      }
     }
   }
 `

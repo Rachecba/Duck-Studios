@@ -24,9 +24,9 @@ function FAQ() {
                                 <div className="header">
                                     <h1>{ item.question }</h1>
                                 </div>
-                                <div className="answer">
+                                { index === selected&& (<div className="answer animate__animated animate__fadeInLeft">
                                     <p>{ item.answer }</p>
-                                </div>
+                                </div>)}
                             </Styled.Question>
                         </>
                     )
