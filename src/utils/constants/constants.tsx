@@ -140,5 +140,4 @@ export const designProjects = [
         projectTitle: "Danny Cigars",
         projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem odio, aliquam vel felis vitae, condimentum porttitor sapien. In ultrices rhoncus enim, eu blandit felis lobortis eu."
     },
-
 ]

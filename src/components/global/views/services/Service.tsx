@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
-import { designProjects, designServices, designTestimonials } from "../../../../utils/constants/constants"
+import { useTranslation } from "react-i18next"
+
 import CAT from "./cat/CAT"
 import Hero from "./hero/Hero"
 import OurServices from "./ourServices/OurServices"
@@ -8,7 +9,9 @@ import { Props } from "./Service.props"
 import * as Styled from './Service.style'
 import Testimonials from "./testimonials/Testimonials"
 
-function Service({ heroTitle, heroSpan, heroSubtitle, heroImage} : Props) {
+function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, designServices, designProjects,designTestimonials } : Props) {
+
+    
 
     useEffect(() => {
       window.scrollTo(0, 0)
@@ -17,7 +20,7 @@ function Service({ heroTitle, heroSpan, heroSubtitle, heroImage} : Props) {
     return (
         <Styled.Container>
             <Hero title={ heroTitle } span={ heroSpan } subtitle={ heroSubtitle } image={ heroImage } />
-            <OurServices title='ourServices.subtitle' services={ designServices } />
+            <OurServices title={servicesTitle} services={ designServices } />
             <Portfolio projects={designProjects}/>
             <Testimonials testimonials={ designTestimonials } />
             <CAT />

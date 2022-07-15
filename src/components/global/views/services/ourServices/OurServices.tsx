@@ -6,7 +6,7 @@ import * as Styled from './OurServices.style'
 
 function OurServices({ title, services }: Props) {
     
-  const { t, i18n, ready } = useTranslation('ourServices', { useSuspense: true });
+  const { t, i18n, ready } = useTranslation(['ourServices','global'], { useSuspense: true });
     
     const cardPosition = (index: number, arrayLenght: number) => { 
         if (index === 0) {
@@ -23,7 +23,7 @@ function OurServices({ title, services }: Props) {
     return (
         <Styled.Container>
             <Styled.SectionTitle>
-                <h1>{t('ourServices.title')}</h1>
+                <h1>{t('global:global.ourServices')}</h1>
             </Styled.SectionTitle>
             <Styled.Title>
                 <h1>{t( title) }</h1>
