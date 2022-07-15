@@ -1,9 +1,10 @@
 import React, { useEffect } from "react"
+import { useTranslation } from "react-i18next";
 import { aboutUsMockup } from "../../../../../utils/constants/constants"
 import * as Styled from './AboutUs.style'
 
 function AboutUs() {
-
+    const { t, i18n, ready } = useTranslation(['home'], { useSuspense: true });
     useEffect(() => {
       window.scrollTo(0, 0)
   }, [])
@@ -12,19 +13,15 @@ function AboutUs() {
         <Styled.Container>
             <Styled.TextContainer>
                 <Styled.SectionTitle>
-                    <h1>About Us</h1>
+                    <h1>{t('home.aboutUs.title')}</h1>
                 </Styled.SectionTitle>
                 <Styled.Title>
-                    <h1>Why Us?</h1>
+                    <h1>{t('home.aboutUs.subtitle')}</h1>
                 </Styled.Title>
                 <Styled.Text>
-                    <p>Duck Studios was born when seeing the lack of creativity, innovation and good
-                        technical practices that are currently in the market. We see how many companies
-                        promise low-cost web pages, which are not made by engineers, and therefore are not secure pages,
-                        nor do they meet technical standards. We also see how many others provide Marketing services,
-                        without really having the respective knowledge and studies, focusing only on creating content
-                        for networks and paying for advertising. We want to create real Software, real Marketing,
-                        and add our clients' projects creativity and magic in the process.</p>
+                    <p>
+                    {t('home.aboutUs.description')}
+                    </p>
                 </Styled.Text>
             </Styled.TextContainer>
             <Styled.ImageContainer>

@@ -1,9 +1,12 @@
 import React from "react"
+import { useTranslation } from "react-i18next";
 import { CATbackground, fbIcon, instagramIcon } from "../../../../../utils/constants/constants"
 import * as Styled from './CAT.style'
 
 function CAT() {
 
+    const { t, i18n, ready } = useTranslation(['CAT'], { useSuspense: true });
+    
     return (
         <Styled.Container>
             <Styled.Deco>
@@ -11,14 +14,14 @@ function CAT() {
             </Styled.Deco>
             <Styled.TextContainer>
                 <Styled.Title>
-                    <h1>We are swimming – in a sea of solutions</h1>
+                    <h1>{t('CAT.title')}</h1>
                 </Styled.Title>
                 <Styled.Text>
                     <p>
-                        We will be the perfect match between a creative solution and your necessity.
+                    {t('CAT.description1')}
                     </p>
                     <p>
-                        Follow us on our social media to get more info!
+                    {t('CAT.description2')}
                     </p>
                 </Styled.Text>
                 <Styled.Social>

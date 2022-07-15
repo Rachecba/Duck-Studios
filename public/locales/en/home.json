@@ -1,0 +1,31 @@
+{
+    "home":{
+        "ourServices":{
+            "title":"Our services",
+            "weHave":"We have",
+            "whatYouNeed":"what you need",
+            "software":{
+                "title":"SOFTWARE",
+                "description":"Count with the support of Software Engineers who create your website, mobile application or software. We deliver quality products that highlight the professionalism and essence of your company."
+            },
+            "marketing":{
+                "title":"MARKETING",
+                "description":"We make your company recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+            },
+            "graphicDesign":{
+                "title":"GRAPHIC DESIGN",
+                "description":"We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create art that will leave your audience impressed!"
+            }
+        },
+        "aboutUs":{
+            "title":"About us",
+            "subtitle":"Why us?",
+            "description":"Duck Studios was born when seeing the lack of creativity, innovation and good technical practices that are currently in the market. We see how many companies promise low-cost web pages, which are not made by engineers, and therefore are not secure pages, nor do they meet technical standards. We also see how many others provide Marketing services, without really having the respective knowledge and studies, focusing only on creating content for networks and paying for advertising. We want to create real Software, real Marketing, and add our clients' projects creativity and magic in the process."
+        },
+        "portfolio":{
+            "title":"PORTFOLIO",
+            "subtitle1":"Our clients success,",
+            "subtitle2":"is our success"
+        }
+    }
+}

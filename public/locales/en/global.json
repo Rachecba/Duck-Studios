@@ -1,5 +1,8 @@
 {
     "global":{
-        "btnSeeMore":"See more"
+        "btnSeeMore":"See more",
+        "software":"Software",
+        "grapichDesign":"Grapich design",
+        "marketing":"Marketing"
     }
 }

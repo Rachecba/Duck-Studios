@@ -62,37 +62,30 @@ export const testimonials = [
 
 export const faq = [
     {
-        question: 'What do I need for my website?',
-        answer: 'Let everything to us! You just need to give us a background about your company and we will start from there. If we feel we need a little more info, we will ask you exactly what we need.'
+        question: 'faq.question1',
     },
     {
-        question: 'Is Social Media really necessary?',
-        answer: "Yes!!"
+        question: 'faq.question2',
     },
     {
-        question: 'How can I start my own brand?',
-        answer: 'We can help you build your brand from scratch. We will ask you a couple questions to understand your vision and what you want, and then we will bring to life your ideas'
+        question: 'faq.question3',
     },
     {
-        question: 'What kind of sotware do you build?',
-        answer: 'We work with everything that requires to code. From websites to apps to personalized software'
+        question: 'faq.question4',
     },
     {
-        question: 'When can we start with my project?',
-        answer: 'As soon as you want! Just contact us and we will schedule a meeting to talk about your project and help you out with the details'
+        question: 'faq.question5',
     },
     {
-        question: 'How can I contact you?',
-        answer: 'You can contact us by email at info@duckstudios.net or via WhatsApp +506 8754 7781. You can also find us on social media @duck_studios_'
+        question: 'faq.question6',
     },
     {
-        question: 'Where are you located?',
-        answer: "We are located in Costa Rica, but we work virtually so we can be in touch at any time, it doesn't matter if you are in the other side of the world"
+        question: 'faq.question7',
     },
     {
-        question: 'Are you bilingual?',
-        answer: "Yes, we speak english and spanish"
-    }
+        question: 'faq.question8',
+    },
+    
 ]
 
 export const designMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdesign-mockup.png?alt=media&token=c9559c07-87c7-4f55-b842-994b221f2502"

@@ -2,20 +2,21 @@ import React from "react"
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
+import { useTranslation } from "react-i18next";
 import { testimonials } from "../../../../../utils/constants/constants";
 import * as Styled from './Testimonials.style'
 
 function Testimonials() {
      const AutoplaySlider = withAutoplay(AwesomeSlider);
-
+     const { t, i18n, ready } = useTranslation('testimonials', { useSuspense: true });
     return (
         <Styled.Container>
             <Styled.TitleContainer>
             <Styled.SectionTitle>
-                <h1>Testimonials</h1>
+                <h1>{t('testimonials.title')}</h1>
             </Styled.SectionTitle>
             <Styled.Title>
-                <h1>What our clients are saying</h1>
+                <h1>{t('testimonials.subtitle')}</h1>
                 </Styled.Title>
             </Styled.TitleContainer>
             <Styled.CarouselContainer>
