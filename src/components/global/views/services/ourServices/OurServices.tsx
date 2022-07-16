@@ -6,7 +6,7 @@ import * as Styled from './OurServices.style'
 
 function OurServices({ title, services }: Props) {
     
-  const { t, i18n, ready } = useTranslation(['ourServices','global'], { useSuspense: true });
+  const { t, i18n, ready } = useTranslation(['ourServices','global','grapichDesign','software','marketing'], { useSuspense: true });
     
     const cardPosition = (index: number, arrayLenght: number) => { 
         if (index === 0) {
@@ -38,9 +38,9 @@ function OurServices({ title, services }: Props) {
                                     <div className="icon">
                                         <img alt="software" src={ item.icon }/>
                                     </div>
-                                    <h1>{ item.title }</h1>
-                                    <p>{ item.description }</p>
-                                    <Button className="button">See more</Button>
+                                    <h1>{ t(item.title) }</h1>
+                                    <p>{ t(item.description) }</p>
+                                    <Button className="button">{t('global:global.btnSeeMore')}</Button>
                                 </Styled.Card>
                             </>
                         )

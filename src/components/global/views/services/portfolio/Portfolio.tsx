@@ -8,9 +8,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Button, Link } from "@mui/material";
 import { isTemplateSpan } from "typescript";
+import { useTranslation } from "react-i18next";
 
 function Portfolio({ projects }: Props) {
 
+    const { t, i18n, ready } = useTranslation(['portfolio','global','grapichDesign','software','marketing'], { useSuspense: true });
 
     const renderSocialMedia = (socialMedia: any) => {
         switch (socialMedia.type) {
@@ -32,10 +34,10 @@ function Portfolio({ projects }: Props) {
         <Styled.Container>
             <Styled.TitleContainer>
                 <Styled.SectionTitle>
-                    <h1>Portfolio</h1>
+                    <h1>{t('global:global.portfolio')}</h1>
                 </Styled.SectionTitle>
                 <Styled.Title>
-                    <h1>We have proof we are the best</h1>
+                    <h1>{t('portfolio:portfolio.subtitle')}</h1>
                 </Styled.Title>
             </Styled.TitleContainer>
             <Styled.ProjectsContainer>
@@ -55,18 +57,18 @@ function Portfolio({ projects }: Props) {
                                     </Splide>
                                 </Styled.Slider>
                                 <Styled.Description>
-                                    <Styled.ProjectTitle><h1>{item.projectTitle}</h1></Styled.ProjectTitle>
-                                    <Styled.ProjectDescription><p>{item.projectDescription}</p></Styled.ProjectDescription>
+                                    <Styled.ProjectTitle><h1>{t(item.projectTitle)}</h1></Styled.ProjectTitle>
+                                    <Styled.ProjectDescription><p>{t(item.projectDescription)}</p></Styled.ProjectDescription>
                                 </Styled.Description>
                                 {item.projectLink && (
                                     <Styled.Description>
-                                        <Styled.ProjectLink><h3>Take a look at their {item.projectLink.type}</h3></Styled.ProjectLink>
+                                        <Styled.ProjectLink><h3>{t('portfolio:portfolio.appSpan')} {item.projectLink.type}</h3></Styled.ProjectLink>
                                         <Styled.ProjectLink><a href={item.projectLink.url}>{item.projectLink.name}</a></Styled.ProjectLink>
                                     </Styled.Description>
                                 )}
                                 {item.socialMedia && (
                                     <Styled.Description>
-                                        <Styled.ProjectLink><h3>Take a look at their social media</h3></Styled.ProjectLink>
+                                        <Styled.ProjectLink><h3> {t('portfolio:portfolio.socialMediaSpan')} </h3></Styled.ProjectLink>
                                         <Styled.SocialMediaLinks>
                                             {item.socialMedia.map((item) => {
                                                 return (
