@@ -2,36 +2,36 @@
     "faq":{
         "title":"FAQs",
         "question1":{
-            "question":"What do I need for my website?",
-            "answer":"Let everything to us! You just need to give us a background about your company and we will start from there. If we feel we need a little more info, we will ask you exactly what we need."
+            "question":"¿Qué necesito para mi sitio web?",
+            "answer":"¡Déjalo todo en nuestras manos! Sólo tienes que darnos una información general sobre tu empresa y partiremos de ahí. Si creemos que necesitamos un poco más de información, te preguntaremos exactamente lo que necesitamos."
         },
         "question2":{
-            "question":"Is Social Media really necessary?",
-            "answer":"Yes!!"
+            "question":"¿Son realmente necesarias las redes sociales?",
+            "answer":"Si!!"
         },
         "question3":{
-            "question":"How can I start my own brand?",
-            "answer":"We can help you build your brand from scratch. We will ask you a couple questions to understand your vision and what you want, and then we will bring to life your ideas"
+            "question":"¿Cómo puedo crear mi propia marca?",
+            "answer":"Podemos ayudarte a construir tu marca desde cero. Te haremos un par de preguntas para entender tu visión y lo que quieres, y luego daremos vida a tus ideas"
         },
         "question4":{
-            "question":"What kind of software do you build?",
-            "answer":"We work with everything that requires to code. From websites to apps to personalized software"
+            "question":"¿Qué tipo de software construyen?",
+            "answer":"Trabajamos con todo lo que requiera codificar. Desde sitios web hasta aplicaciones y software personalizado."
         },
         "question5":{
-            "question":"When can we start with my project?",
-            "answer":"As soon as you want! Just contact us and we will schedule a meeting to talk about your project and help you out with the details"
+            "question":"¿Cuándo podemos empezar con mi proyecto?",
+            "answer":"¡Tan pronto como quiera! Sólo tienes que ponerte en contacto con nosotros y programaremos una reunión para hablar de tu proyecto y ayudarte con los detalles"
         },
         "question6":{
-            "question":"How can I contact you?",
-            "answer":"You can contact us by email at info@duckstudios.net or via WhatsApp +506 8754 7781. You can also find us on social media @duck_studios_"
+            "question":"¿Cómo puedo contactar con ustedes?",
+            "answer":"Puede ponerse en contacto con nosotros por correo electrónico en info@duckstudios.net o por WhatsApp +506 8754 7781. También puedes encontrarnos en las redes sociales @duck_studios_"
         },
         "question7":{
-            "question":"Where are you located?",
-            "answer":"We are located in Costa Rica, but we work virtually so we can be in touch at any time, it doesn't matter if you are in the other side of the world"
+            "question":"¿Dónde estamos ubicados?",
+            "answer":"Estamos ubicados en Costa Rica, pero trabajamos virtualmente para poder estar en contacto en cualquier momento, no importa si estás en el otro lado del mundo"
         },
         "question8":{
-            "question":"Are you bilingual?",
-            "answer":"Yes, we speak english and spanish"
+            "question":"¿Somos bilingues?",
+            "answer":"Sí, hablamos inglés y español"
         }
     }
 }

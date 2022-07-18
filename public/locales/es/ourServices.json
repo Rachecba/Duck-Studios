@@ -1,20 +1,20 @@
 {
     "ourServices":{
         "home":{
-            "title":"Our services",
-            "weHave":"We have",
-            "whatYouNeed":"what you need",
+            "title":"Nuestros servicios",
+            "weHave":"Nosotros tenemos",
+            "whatYouNeed":"Lo que tu necesitas",
             "software":{
                 "title":"SOFTWARE",
-                "description":"Count with the support of Software Engineers who create your website, mobile application or software. We deliver quality products that highlight the professionalism and essence of your company."
+                "description":"Cuenta con el apoyo de Ingenieros de Software que crean tu sitio web, aplicación móvil o software. Entregamos productos de calidad que destacan la profesionalidad y la esencia de tu empresa."
             },
             "marketing":{
                 "title":"MARKETING",
-                "description":"We make your company recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "description":"Hacemos que tu empresa sea reconocida entre tu público objetivo, consiguiendo atraer más clientes, y por supuesto, que sigan comprando tu producto/servicio."
             },
             "graphicDesign":{
-                "title":"GRAPHIC DESIGN",
-                "description":"We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create art that will leave your audience impressed!"
+                "title":"DISEÑO GRÁFICO",
+                "description":"Te ayudamos a conseguir un diseño de marca único e impactante. Que capte y transmita la esencia de tu marca. ¡Conseguimos crear un arte que dejará impresionado a tu público!"
             }
         }
     }

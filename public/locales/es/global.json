@@ -1,11 +1,11 @@
 {
     "global":{
-        "btnSeeMore":"See more",
+        "btnSeeMore":"Ver más",
         "software":"Software",
-        "grapichDesign":"Grapich design",
+        "grapichDesign":"Diseño Gráfico",
         "marketing":"Marketing",
-        "services":"Services",
-        "portfolio":"Portfolio",
-        "ourServices":"Our services"
+        "services":"Servicios",
+        "portfolio":"Portafolio",
+        "ourServices":"Nuestros Servicios"
     }
 }

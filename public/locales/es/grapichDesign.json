@@ -1,35 +1,35 @@
 {
     "grapichDesign":{
-        "heroTitle":"We believe that",
-        "heroSpan":" creativity is what moves the world",
-        "heroSubtitle":"We bring your ideas to life",
+        "heroTitle":"Creemos que",
+        "heroSpan":" La creatividad es lo que mueve el mundo",
+        "heroSubtitle":"Damos vida a tus ideas",
         "services":{
-            "title":"What do you want us to design?",
+            "title":"¿Qué quieres que diseñemos?",
             "branding":{
-                "title":"Branding",
-                "description":"We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create arts that will leave your audience impressed!"
+                "title":"Marca",
+                "description":"Te ayudamos a conseguir un diseño de marca único e impactante. Que capte y transmita la esencia de tu marca. ¡Conseguimos crear artes que dejarán impresionada a tu audiencia!"
             },
             "socialMedia":{
-                "title":"Social Media",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "title":"Redes Sociales",
+                "description":"Destaca de tu competencia en redes sociales y logra más ventas y alcance. Con nuestros diseños, tus redes sociales demostrarán la autenticidad de tu marca."
             },
             "labels":{
-                "title":"Labels",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "title":"Etiquetas",
+                "description":"Obtén un diseño que represente a tu marca y que enamore a tus clientes. Brinda una experiencia única para tus usuarios al momento de recibir tus productos"
             },
             "ui":{
-                "title":"UI/UX Design",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "title":"UI/UX Diseño",
+                "description":"No es sólo una página web, es toda una experiencia. Con nuestro diseño UI/UX logramos que tus clientes vivan la experiencia que brinda tu marca al entrar en tu página web. En este caso, el físico SI es lo más importante."
             }
         },
         "projects":{
             "lawGorithmic":{
                 "title":"LawGorithmic",
-                "description":"This is a law firm specialized in tech companies and cryptocurrencies. We designed their brand identity; from the logo to typography, we ensured to create a brand that easily identifies with the functions of the company"
+                "description":"Se trata de un bufete de abogados especializado en empresas tecnológicas y criptomonedas. Diseñamos su identidad de marca; desde el logotipo hasta la tipografía, nos aseguramos de crear una marca que se identificara fácilmente con las funciones de la empresa"
             },
             "premiumGarage":{
                 "title":"Premium Garage",
-                "description":"We started finding the right name for this online car seller platform, and then designed the branding and visual identity of this company. We also designed the UI/UX of their website"
+                "description":"Empezamos por encontrar el nombre adecuado para esta plataforma de venta de autos on-line, y luego diseñamos el branding y la identidad visual de esta empresa. También diseñamos la UI/UX de su sitio web"
             },
             "dannyCigars":{
                 "title":"Danny Cigars",
