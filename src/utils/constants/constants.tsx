@@ -139,7 +139,7 @@ export const designProjects = [
     },
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6"],
-        projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.dannyCigars",
+        projectTitle: "grapichDesign:grapichDesign.projects.dannyCigars.title",
         projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description"
     },
 ]
