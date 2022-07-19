@@ -5,21 +5,17 @@
         "heroSubtitle":"We bring your ideas to life",
         "services":{
             "title":"What do you want us to design?",
-            "branding":{
-                "title":"Branding",
-                "description":"We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create arts that will leave your audience impressed!"
+            "web":{
+                "title":"Website",
+                "description":"Yes, we already know that someone will let you get it cheaper. But with us you have the backing of software engineers and a design team focused entirely on delivering a website that will generate more sales, give you security and attract more customers. Whether it's an information page, e-commerce or something more elaborate. We don’t play around with your website."
             },
-            "socialMedia":{
-                "title":"Social Media",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+            "apps":{
+                "title":"Apps",
+                "description":"Do you have an amazing idea for the next app that everyone will want to use? Let our team guide and advise you in the best way possible, we want that idea to be a success as much as you do, and we are committed to developing it for you. (Plus, we don't have hidden fees on servers or third party services, nor do we magically disappear with your money)."
             },
-            "labels":{
-                "title":"Labels",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
-            },
-            "ui":{
-                "title":"UI/UX Design",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+            "systems":{
+                "title":"Systems",
+                "description":"Do you need a new system to manage your business sales, track your customers, or just have a new business idea for which you need to develop a web system? Our engineers do magic, contact us and let us make your life easier!"
             }
         },
         "projects":{

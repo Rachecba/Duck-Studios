@@ -1,31 +1,31 @@
 {
     "home":{
         "ourServices":{
-            "title":"Our services",
-            "weHave":"We have",
-            "whatYouNeed":"what you need",
+            "title":"Nuestros servicios",
+            "weHave":"Nosotros tenemos",
+            "whatYouNeed":"Lo que tu necesitas",
             "software":{
                 "title":"SOFTWARE",
-                "description":"Count with the support of Software Engineers who create your website, mobile application or software. We deliver quality products that highlight the professionalism and essence of your company."
+                "description":"Cuenta con el apoyo de Ingenieros de Software que crean tu sitio web, aplicación móvil o software. Entregamos productos de calidad que destacan la profesionalidad y la esencia de tu empresa."
             },
             "marketing":{
                 "title":"MARKETING",
-                "description":"We make your company recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "description":"Hacemos que tu empresa sea reconocida entre tu público meta, consiguiendo atraer más clientes, y por supuesto, que sigan comprando tu producto/servicio."
             },
             "graphicDesign":{
-                "title":"GRAPHIC DESIGN",
-                "description":"We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create art that will leave your audience impressed!"
+                "title":"DISEÑO GRÁFICO",
+                "description":"Te ayudamos a conseguir un diseño de marca único e impactante. Que capte y transmita la esencia de tu marca. ¡Conseguimos crear un arte que dejará impresionado a tu público!"
             }
         },
         "aboutUs":{
-            "title":"About us",
-            "subtitle":"Why us?",
-            "description":"Duck Studios was born when seeing the lack of creativity, innovation and good technical practices that are currently in the market. We see how many companies promise low-cost web pages, which are not made by engineers, and therefore are not secure pages, nor do they meet technical standards. We also see how many others provide Marketing services, without really having the respective knowledge and studies, focusing only on creating content for networks and paying for advertising. We want to create real Software, real Marketing, and add our clients' projects creativity and magic in the process."
+            "title":"Acerca de nosotros",
+            "subtitle":"Por qué nosotros?",
+            "description":"Duck Studios nació al ver la falta de creatividad, innovación y buenas prácticas técnicas que hay actualmente en el mercado. Vemos como muchas empresas prometen páginas web de bajo costo, que no están hechas por ingenieros, y por lo tanto no son páginas seguras, ni cumplen con los estándares técnicos. También vemos como muchas otras ofrecen servicios de Marketing, sin tener realmente los conocimientos y estudios respectivos, centrándose únicamente en crear contenidos para las redes y pagar por la publicidad. Nosotros queremos crear Software de verdad, Marketing de verdad, y añadir a los proyectos de nuestros clientes creatividad y magia en el proceso."
         },
         "portfolio":{
-            "title":"PORTFOLIO",
-            "subtitle1":"Our clients success,",
-            "subtitle2":"is our success"
+            "title":"PORTAFOLIO",
+            "subtitle1":"El éxito de nuestros clientes,",
+            "subtitle2":"es nuestro éxito"
         }
     }
 }

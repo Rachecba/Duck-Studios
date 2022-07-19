@@ -1,25 +1,21 @@
 {
     "software":{
-        "heroTitle":"We believe that",
-        "heroSpan":" creativity is what moves the world",
-        "heroSubtitle":"We bring your ideas to life",
+        "heroTitle":"Creemos que",
+        "heroSpan":" La creatividad es lo que mueve el mundo",
+        "heroSubtitle":"Damos vida a tus ideas",
         "services":{
-            "title":"What do you want us to design?",
-            "branding":{
-                "title":"Branding",
-                "description":"We help you achieve a unique and striking brand design. That captures and transmits the essence of your brand. We managed to create arts that will leave your audience impressed!"
+            "title":"Que quieres que diseñemos?",
+            "web":{
+                "title":"Páginas Web",
+                "description":"Si, ya sabemos que alguien te la deja mas barata. Pero con nosotros tienes el respaldo de Ingenieros en Software y un equipo de diseño enfocados completamente en entregarte la página que te generará mas ventas, te dará seguridad y atraerá más clientes. Ya sea una página informativa, ecommerce o algo mas elaborado, nosotros no te ponemos peros"
             },
-            "socialMedia":{
-                "title":"Social Media",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+            "apps":{
+                "title":"Aplicaciones",
+                "description":"Tienes una increíble idea para la próxima aplicación que todos querrán usar? Permite que nuestro equipo te guie y asesore de la mejor manera, queremos tanto como tu que esa idea sea todo un éxito, y estamos comprometidos en desarrollarla por ti. (Además, no tenemos tarifas escondidas en servidores ni servicios de terceros, ni nos desaparecemos mágicamente con tu dinero)"
             },
-            "labels":{
-                "title":"Labels",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
-            },
-            "ui":{
-                "title":"UI/UX Design",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+            "systems":{
+                "title":"Sistemas",
+                "description":"Necesitas un sistema nuevo para manejar las ventas de tu negocio, darle seguimiento a tus clientes, o sólo tienes una nueva idea de negocio para el cual necesitas desarrollar un sistema web? Nuestros ingenieros hacen magia, contáctanos y déjanos solucionarte la vida!."
             }
         },
         "projects":{
