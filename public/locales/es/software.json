@@ -1,8 +1,8 @@
 {
     "software":{
-        "heroTitle":"Creemos que",
-        "heroSpan":" La creatividad es lo que mueve el mundo",
-        "heroSubtitle":"Damos vida a tus ideas",
+        "heroTitle":"Somos nerds que saben cómo",
+        "heroSpan":"dar vida a tus ideas",
+        "heroSubtitle":"Deja el trabajo duro a nosotros y disfruta de los beneficios del proyecto final, pero te pedimos mucho café, por favor.",
         "services":{
             "title":"Que quieres que diseñemos?",
             "web":{
@@ -21,15 +21,15 @@
         "projects":{
             "lawGorithmic":{
                 "title":"LawGorithmic",
-                "description":"This is a law firm specialized in tech companies and cryptocurrencies. We designed their brand identity; from the logo to typography, we ensured to create a brand that easily identifies with the functions of the company"
+                "description":"Diseñamos la interfaz y desarrollamos la pagina web de este bufete de abogados especializados en tecnología y criptomonedas. Realizamos una pagina informativa cuyo objetivo es que sus clientes logren ponerse en contacto y conocer sus servicios de manera rápida y sencilla."
             },
-            "premiumGarage":{
-                "title":"Premium Garage",
-                "description":"We started finding the right name for this online car seller platform, and then designed the branding and visual identity of this company. We also designed the UI/UX of their website"
+            "deerAnalitycs":{
+                "title":"Deer Analytics",
+                "description":"Esta página web fue diseñada y desarrollada para una compañía que brinda servicios de capacitaciones y cursos enfocados en el área de análisis de datos. Realizamos plantillas para que el cliente pueda modificar la información de cursos a su gusto."
             },
-            "dannyCigars":{
-                "title":"Danny Cigars",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem odio, aliquam vel felis vitae, condimentum porttitor sapien. In ultrices rhoncus enim, eu blandit felis lobortis eu."
+            "unifem":{
+                "title":"Unifem",
+                "description":"UMIFEM es una clínica especializada en la mujer. Enfocamos el diseño de la pagina en la identidad floral y femenina que envuelve a la marca. Con el desarrollo del sitio web logramos brindar a sus pacientes informacion sobre sus servicios, productos, promociones e incluso que agenden citas en línea."
             }
         }
     }

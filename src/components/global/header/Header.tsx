@@ -63,7 +63,7 @@ function Header({ position }: { position?: boolean }) {
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <Link to="/" onClick={() => { setIsOpen(false) }} className='nav-link'>HOME</Link>
+              <Link to="/" onClick={() => { setIsOpen(false) }} className='nav-link'>{t('header.home')}</Link>
             </NavItem>
             <UncontrolledDropdown inNavbar nav>
               <DropdownToggle caret nav>

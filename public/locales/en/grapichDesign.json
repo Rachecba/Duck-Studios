@@ -3,6 +3,8 @@
         "heroTitle":"We believe that",
         "heroSpan":" creativity is what moves the world",
         "heroSubtitle":"We bring your ideas to life",
+        "btnServicesDesign":"Services",
+        "btnPortfolio":"Portfolio",
         "services":{
             "title":"What do you want us to design?",
             "branding":{
@@ -11,15 +13,15 @@
             },
             "socialMedia":{
                 "title":"Social Media",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "description":"Stand out from your competition on social media and achieve more sales and reach. With our designs, your social media will demonstrate the authenticity of your brand."
             },
             "labels":{
                 "title":"Labels",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "description":"Get a design that represents your brand and that your customers will love. Provide a unique experience for your users when they receive your products."
             },
             "ui":{
                 "title":"UI/UX Design",
-                "description":"We achieve that your company is recognized among your target audience, managing to attract more customers, and of course, that they continue to buy your product/service."
+                "description":"It's not just a website, it's a whole experience. With our UI/UX design we make your customers live the experience that your brand offers when they enter your website. In this case, the physical IS the most important thing."
             }
         },
         "projects":{

@@ -3,9 +3,13 @@ import { CATbackground, fbIcon, instagramIcon } from "../../../../../utils/const
 import MailIcon from '@mui/icons-material/Mail';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import * as Styled from './CAT.style'
+import { useTranslation } from "react-i18next";
+
 
 function CAT() {
 
+ const { t, i18n, ready } = useTranslation(['ourServices','global','grapichDesign','software','marketing', ], { useSuspense: true });
+ 
     return (
         <Styled.Container>
             <Styled.Deco>
@@ -13,8 +17,8 @@ function CAT() {
             </Styled.Deco>
             <Styled.TextContainer>
                 <Styled.Title>
-                    <h1>Contact Us,</h1>
-                    <h1>You'll regret it if you don't ;)</h1>
+                    <h1>{t('cat:CAT.contactCat')}</h1>
+                    <h1>{t('cat:CAT.regretCat')}</h1>
                 </Styled.Title>
                 <Styled.Social>
                     <div className="contact">
