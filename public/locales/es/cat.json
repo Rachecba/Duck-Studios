@@ -1,7 +1,9 @@
 {
     "CAT":{
+        "contactCat":"Contáctanos,",
+        "regretCat":"Te arrepentirás si no lo haces ;)",
         "title":"Estamos nadando - en un mar de soluciones",
-        "description1":"Seremos la combinación perfecta entre una solución creativa y su necesidad.",
+        "description1":"Seremos la combinación perfecta entre una solución creativa y tu necesidad.",
         "description2":"Síguenos en nuestras redes sociales para obtener más información!"
     }
 }

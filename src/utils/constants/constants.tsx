@@ -135,39 +135,38 @@ export const designProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
         projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.title",
-        projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description"
+        projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description",
+        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
+        projectLink: { url: "example.com", name: "The name", type: "app" }
     },
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6"],
         projectTitle: "grapichDesign:grapichDesign.projects.dannyCigars.title",
-        projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description"
+        projectDescription: "grapichDesign:grapichDesign.projects.dannyCigars.description",
+        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
+        projectLink: { url: "example.com", name: "The name", type: "app" }
     },
 ]
 
 // SOFTWARE
 
-export const softwareMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdesign-mockup.png?alt=media&token=c9559c07-87c7-4f55-b842-994b221f2502"
+export const softwareMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20mockup%20PORTADA.png?alt=media&token=4c6ff528-6c7a-4602-bde7-ec8be02606eb"
 
 export const softwareServices = [
     {
-        title: "grapichDesign:grapichDesign.services.branding.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fbranding.png?alt=media&token=b5775a31-96ef-49ff-99d4-808065a9eca1",
-        description: "grapichDesign:grapichDesign.services.branding.description"
+        title: "software:software.services.web.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fweb.svg?alt=media&token=9add7edc-0244-481b-96e1-72b0a603b7cd",
+        description: "software:software.services.web.description"
     },
     {
-        title: "grapichDesign:grapichDesign.services.socialMedia.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fsocial-media.png?alt=media&token=8ef2ccde-17a3-4477-b6be-51c79db0179b",
-        description: "grapichDesign:grapichDesign.services.socialMedia.description"
+        title: "software:software.services.apps.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fapps.svg?alt=media&token=fb2a45c9-74c3-4a94-9527-302a314a4ab4",
+        description: "software:software.services.apps.description"
     },
     {
-        title: "grapichDesign:grapichDesign.services.labels.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Flabels.png?alt=media&token=1142e877-b3bb-490c-b99c-aa6bc221423b",
-        description: "grapichDesign:grapichDesign.services.labels.description"
-    },
-    {
-        title: "grapichDesign:grapichDesign.services.ui.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fweb-design.png?alt=media&token=ef8f998f-5c4e-4d00-bce3-59a26ed4417d",
-        description: "grapichDesign:grapichDesign.services.ui.description"
+        title: "software:software.services.systems.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fsystem.svg?alt=media&token=016ebffa-69c7-4f93-b87e-fe925ce62b95",
+        description: "software:software.services.systems.description"
     }
 ]
 
@@ -183,48 +182,71 @@ export const softwareTestimonials = [
 export const softwareProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
-        projectTitle: "grapichDesign:grapichDesign.projects.lawGorithmic.title",
-        projectDescription: "grapichDesign:grapichDesign.projects.lawGorithmic.description",
+        projectTitle: "software:software.projects.lawGorithmic.title",
+        projectDescription: "software:software.projects.lawGorithmic.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }
     },
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
-        projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.title",
-        projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description"
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20phone.png?alt=media&token=ca3c6e8d-ca62-48fa-8fa4-73b4cbcd522e"],
+        projectTitle: "software:software.projects.deerAnalitycs.title",
+        projectDescription: "software:software.projects.deerAnalitycs.description",
+        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
+        projectLink: { url: "example.com", name: "The name", type: "app" }
     },
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6"],
-        projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.dannyCigars",
-        projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description"
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fclay-ipad-pro-12-9-in-mockup-landscape-front-view%20copy.png?alt=media&token=f915385b-2a43-4e65-addf-7025d51f5317"],
+        projectTitle: "software:software.projects.unifem.title",
+        projectDescription: "software:software.projects.unifem.description",
+        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
+        projectLink: { url: "example.com", name: "The name", type: "app" }
     },
 ]
 
 // MARKETING
 
-export const marketingMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdesign-mockup.png?alt=media&token=c9559c07-87c7-4f55-b842-994b221f2502"
+export const marketingMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fmarketing%20mockup%20banner.png?alt=media&token=f176812a-6c05-4fb3-a718-064605d484e2"
 
 export const marketingServices = [
     {
-        title: "grapichDesign:grapichDesign.services.branding.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fbranding.png?alt=media&token=b5775a31-96ef-49ff-99d4-808065a9eca1",
-        description: "grapichDesign:grapichDesign.services.branding.description"
+        title: "marketing:marketing.services.emailMarketing.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Femail_marketing.svg?alt=media&token=c00bb5d2-0f98-4be4-9959-02061d0a7ad9",
+        description: "marketing:marketing.services.emailMarketing.description"
     },
     {
-        title: "grapichDesign:grapichDesign.services.socialMedia.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fsocial-media.png?alt=media&token=8ef2ccde-17a3-4477-b6be-51c79db0179b",
-        description: "grapichDesign:grapichDesign.services.socialMedia.description"
+        title: "marketing:marketing.services.digitalAdvertising.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fpauta_digital.svg?alt=media&token=9df3e7a8-3174-4c8c-aa8a-977dfffed2bc",
+        description: "marketing:marketing.services.digitalAdvertising.description"
     },
     {
-        title: "grapichDesign:grapichDesign.services.labels.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Flabels.png?alt=media&token=1142e877-b3bb-490c-b99c-aa6bc221423b",
-        description: "grapichDesign:grapichDesign.services.labels.description"
+        title: "marketing:marketing.services.blogWriting.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fredaccion_blogs.svg?alt=media&token=bfa70375-6990-4b6c-b793-25e2202bca21",
+        description: "marketing:marketing.services.blogWriting.description"
+
+        
     },
     {
-        title: "grapichDesign:grapichDesign.services.ui.title",
-        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/icons%2Fweb-design.png?alt=media&token=ef8f998f-5c4e-4d00-bce3-59a26ed4417d",
-        description: "grapichDesign:grapichDesign.services.ui.description"
-    }
+        title: "marketing:marketing.services.contentPlanning.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fplanificacion.svg?alt=media&token=231bb777-25a9-40d4-87dc-b9fd91a97e86",
+        description: "marketing:marketing.services.contentPlanning.description"
+
+        
+    },
+    {
+        title: "marketing:marketing.services.copywriting.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fcopywriting.svg?alt=media&token=ae0c5391-ea48-4b12-89fa-c00bbac80ae8",
+        description: "marketing:marketing.services.copywriting.description"
+
+        
+    },
+    {
+        title: "marketing:marketing.services.socialManagement.title",
+        icon: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fmanagement.svg?alt=media&token=e1b3393c-33f2-4282-819a-fcc35e246efb",
+        description: "marketing:marketing.services.socialManagement.description"
+
+        
+    },
+
 ]
 
 export const marketingTestimonials = [
@@ -238,20 +260,18 @@ export const marketingTestimonials = [
 
 export const marketingProjects = [
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
-        projectTitle: "grapichDesign:grapichDesign.projects.lawGorithmic.title",
-        projectDescription: "grapichDesign:grapichDesign.projects.lawGorithmic.description",
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fme%20insta.png?alt=media&token=58590f62-3b1f-403b-a6f1-b611342d4082"],
+        projectTitle: "marketing:marketing.projects.expeditionsWorld.title",
+        projectDescription: "marketing:marketing.projects.expeditionsWorld.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }
     },
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
-        projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.title",
-        projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description"
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Femail%20marketing.png?alt=media&token=7513d7f0-8bbf-420d-a5f7-4989d176afda"],
+        projectTitle: "marketing:marketing.projects.unifem.title",
+        projectDescription: "marketing:marketing.projects.unifem.description",
+        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
+        projectLink: { url: "example.com", name: "The name", type: "app" }
     },
-    {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6"],
-        projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.dannyCigars",
-        projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description"
-    },
+
 ]

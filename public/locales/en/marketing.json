@@ -1,8 +1,8 @@
 {
     "marketing":{
-        "heroTitle":"We believe that",
-        "heroSpan":" creativity is what moves the world",
-        "heroSubtitle":"We bring your ideas to life",
+        "heroTitle":"We are not content creators",
+        "heroSpan":"we take marketing seriously",
+        "heroSubtitle":"Just go for a coffe, relax,and see your business grow with us",
         "services":{
             "title":"What do you want us to design?",
             "emailMarketing":{
@@ -17,7 +17,7 @@
                 "title":"Blog Writing",
                 "description":"Want to make it to the top search results? Add blogs to your website. That’s rule #3 of SEO. Allow us to write for you informative, entertaining and intersting blogs that draw the attention of your audience to have more visits to your page."
             },
-            "contentePlanning":{
+            "contentPlanning":{
                 "title":"Content planning",
                 "description":"We take care that your social media gets the attention of your clients, and as we millennials say “make it look aesthetic”. We design content according to your brand’s visual identity and create audiovisual content that will blow your mind (and your clients too 😉 ). Let the professionalism of your brand be noticed!"
             },
@@ -31,17 +31,13 @@
             }
         },
         "projects":{
-            "lawGorithmic":{
-                "title":"LawGorithmic",
-                "description":"This is a law firm specialized in tech companies and cryptocurrencies. We designed their brand identity; from the logo to typography, we ensured to create a brand that easily identifies with the functions of the company"
+            "expeditionsWorld":{
+                "title":"Expedition World",
+                "description":"This tourism company decided to refresh its image and update its social networks. We take care of getting more customers through their networks and give them more confidence."
             },
-            "premiumGarage":{
-                "title":"Premium Garage",
-                "description":"We started finding the right name for this online car seller platform, and then designed the branding and visual identity of this company. We also designed the UI/UX of their website"
-            },
-            "dannyCigars":{
-                "title":"Danny Cigars",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem odio, aliquam vel felis vitae, condimentum porttitor sapien. In ultrices rhoncus enim, eu blandit felis lobortis eu."
+            "unifem":{
+                "title":"Unifem",
+                "description":"When developing the website of this clinic, we included a space for newsletter subscriptions, this way we were able to work with email marketing to get more clients to benefit from the clinic's services and learn about its services and promotions."
             }
         }
     }

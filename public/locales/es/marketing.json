@@ -1,8 +1,8 @@
 {
     "marketing":{
-        "heroTitle":"Creemos que",
-        "heroSpan":"la creatividad es lo que mueve el mundo",
-        "heroSubtitle":"Damos vida a tus ideas",
+        "heroTitle":"No somos creadores de contenidos",
+        "heroSpan":"nos tomamos el marketing en serio",
+        "heroSubtitle":"Sólo tienes que ir a tomar un café, relajarte, y ver cómo crece tu negocio con nosotros",
         "services":{
             "title":"Que quieres que diseñemos",
             "emailMarketing":{
@@ -31,17 +31,13 @@
             }
         },
         "projects":{
-            "lawGorithmic":{
-                "title":"LawGorithmic",
-                "description":"Se trata de un bufete de abogados especializado en empresas tecnológicas y criptomonedas. Diseñamos su identidad de marca; desde el logotipo hasta la tipografía, nos aseguramos de crear una marca que se identificara fácilmente con las funciones de la empresa"
+            "expeditionsWorld":{
+                "title":"Mundo Expediciones",
+                "description":"Esta empresa de turismo decidió refrescar su imagen y actualizarse con las redes sociales. Nos encargamos de lograr mayores clientes a través de sus redes y brindarles mayor confianza."
             },
-            "premiumGarage":{
-                "title":"Premium Garage",
-                "description":"Empezamos por encontrar el nombre adecuado para esta plataforma de venta de autos on-line, y luego diseñamos el branding y la identidad visual de esta empresa. También diseñamos la UI/UX de su sitio web"
-            },
-            "dannyCigars":{
-                "title":"Danny Cigars",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem odio, aliquam vel felis vitae, condimentum porttitor sapien. In ultrices rhoncus enim, eu blandit felis lobortis eu."
+            "unifem":{
+                "title":"Unifem",
+                "description":"Al desarrollar la página web de esta clínica, incluimos un espacio para las subscripciones al newsletter, de esta manera pudimos trabajar con email marketing logrando obtener mas clientes que se benficiaran de los servicios de la clínica y conocieran sobre sus servicios y promociones"
             }
         }
     }

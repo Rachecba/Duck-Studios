@@ -1,5 +1,6 @@
 { 
     "header":{
+        "home":"HOME",
         "services":{
             "title":"Services",
             "software":"Software",

@@ -21,8 +21,8 @@ function Hero({ title, span, subtitle, image }: Props) {
                 </Styled.Features>
                 <h4 className='subtitle'>{t(subtitle)}</h4>
                 <Styled.Buttons>
-                    <Button className="services-button">{t('global:services')}</Button>
-                    <Button className="portfolio-button animate__animated animate__swing">{t('global:portfolio')}</Button>
+                    <Button className="services-button">{t('global:global.services')}</Button>
+                    <Button className="portfolio-button animate__animated animate__swing">{t('global:global.portfolio')}</Button>
                 </Styled.Buttons>
             </Styled.TextContainer>
             <Styled.ImageContainer className="animate__animated animate__slideInRight">

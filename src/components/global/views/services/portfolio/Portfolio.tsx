@@ -86,7 +86,7 @@ function Portfolio({ projects }: Props) {
                 })}
             </Styled.ProjectsContainer>
             <h1 className="margin-center">
-                <Button className="see-more-btn">See more</Button>
+                <Button className="see-more-btn">{t('global:global.btnSeeMore')}</Button>
             </h1>
         </Styled.Container>
     )
