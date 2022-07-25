@@ -93,13 +93,19 @@ function Header({ position }: { position?: boolean }) {
               </DropdownToggle>
               <DropdownMenu end>
                 <DropdownItem>
+                  <Link to="/portfolio/software" onClick={() => { setIsOpen(false) }} className='nav-link'>
                   {t('header.portfolio.software')}
+                  </Link>
                 </DropdownItem>
                 <DropdownItem>
+                  <Link to="/portfolio/graphic-design" onClick={() => { setIsOpen(false) }} className='nav-link'>
                   {t('header.portfolio.graphicDesign')}
+                  </Link>
                 </DropdownItem>
                 <DropdownItem>
+                  <Link to="/portfolio/marketing" onClick={() => { setIsOpen(false) }} className='nav-link'>
                   {t('header.portfolio.marketing')}
+                  </Link>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

@@ -126,7 +126,7 @@ export const designTestimonials = [
 
 export const designProjects = [
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
         projectTitle: "grapichDesign:grapichDesign.projects.lawGorithmic.title",
         projectDescription: "grapichDesign:grapichDesign.projects.lawGorithmic.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
@@ -275,3 +275,67 @@ export const marketingProjects = [
     },
 
 ]
+
+
+// PORTFOLIOS
+
+// GRAPICH DESIGN
+
+export const softwarePortfolio = {
+    title: "SOFT",
+    title2:"WARE",
+    service:"software",
+    projects:[{
+        urlName: "deer-analytics",
+        title:"Deer Analytics",
+        category:"Website",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+                paragraphs:[
+                    "This website was build for a law firm that specializes in crypto currencies and tech companies.",
+                    "The idea was to mix the elegance and seriousness of a law firm with the tech side of the crypto currencies."
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+                paragraphs:["The website allows their clients to get in touch with them in the easiest way by just clicking on a WhatsApp bubble that's in the page.","Also, to reach more audience on browsers we added a blogs page and add to the page basic principles of SEO as well as the Google Search Console's set up."]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                paragraphs:["This website is 100% responsive. You can open it in any device and it will look great!","Go to www.lawgorithmic.io to visit the web"]
+            }
+        ],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9"],
+        video:{
+            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+        }
+    }]
+}
+
+export const grapichDesignPortfolio = {
+    title: "MARKE",
+    title2:"TING",
+    projects:[{
+        title:"Mundo Expediciones",
+        category:"Social Media",
+        images:["a","b"],
+        paragraphs:[
+            {
+            direction:"left",
+            image:"",
+            description:""
+            }
+        ],
+        video:""
+    }]
+}
