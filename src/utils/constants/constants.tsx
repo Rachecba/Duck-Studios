@@ -279,16 +279,18 @@ export const marketingProjects = [
 
 // PORTFOLIOS
 
-// GRAPICH DESIGN
+// SOFTWARE PORTFOLIO
 
 export const softwarePortfolio = {
-    title: "SOFT",
-    title2:"WARE",
+    title1: "softwarePortfolio:softwarePortfolio.title1",
+    title2:"softwarePortfolio:softwarePortfolio.title2",
     service:"software",
+    translateRoot:"softwarePortfolio",
     projects:[{
         urlName: "deer-analytics",
-        title:"Deer Analytics",
-        category:"Website",
+        translateRoot:"deerAnalytics",
+        title:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.category",
         images:[
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
              "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
@@ -299,22 +301,28 @@ export const softwarePortfolio = {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
                 paragraphs:[
-                    "This website was build for a law firm that specializes in crypto currencies and tech companies.",
-                    "The idea was to mix the elegance and seriousness of a law firm with the tech side of the crypto currencies."
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.1.paragraphs.2"
                 ]
             },
             {
                 textDirection:"right",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
-                paragraphs:["The website allows their clients to get in touch with them in the easiest way by just clicking on a WhatsApp bubble that's in the page.","Also, to reach more audience on browsers we added a blogs page and add to the page basic principles of SEO as well as the Google Search Console's set up."]
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.2.paragraphs.2"
+                ]
             },
             {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
-                paragraphs:["This website is 100% responsive. You can open it in any device and it will look great!","Go to www.lawgorithmic.io to visit the web"]
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.3.paragraphs.2"
+                 ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9"],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
         video:{
             url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
             poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
@@ -322,20 +330,106 @@ export const softwarePortfolio = {
     }]
 }
 
+// GRAPICH DESIGN
+
 export const grapichDesignPortfolio = {
-    title: "MARKE",
-    title2:"TING",
+    title1: "graphicDesignPortfolio:graphicDesignPortfolio.title1",
+    title2:"graphicDesignPortfolio:graphicDesignPortfolio.title2",
+    service:"software",
+    translateRoot:"softwarePortfolio",
     projects:[{
-        title:"Mundo Expediciones",
-        category:"Social Media",
-        images:["a","b"],
-        paragraphs:[
+        urlName: "deer-analytics",
+        translateRoot:"deerAnalytics",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+        ],
+        descriptions:[
             {
-            direction:"left",
-            image:"",
-            description:""
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.2"
+                 ]
             }
         ],
-        video:""
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
+        video:{
+            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+        }
     }]
 }
+
+
+// MARKETING PORTFOLIO
+
+export const marketingPortfolio = {
+    title1: "marketingPortfolio:marketingPortfolio.title1",
+    title2:"marketingPortfolio:marketingPortfolio.title2",
+    service:"software",
+    translateRoot:"softwarePortfolio",
+    projects:[{
+        urlName: "deer-analytics",
+        translateRoot:"deerAnalytics",
+        title:"marketingPortfolio:marketingPortfolio.projects.deerAnalytics.title",
+        category:"marketingPortfolio:marketingPortfolio.projects.deerAnalytics.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+                paragraphs:[
+                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.1",
+                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+                paragraphs:[
+                   "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.1",
+                   "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                paragraphs:[
+                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.1",
+                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
+        video:{
+            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+        }
+    }]
+}
+

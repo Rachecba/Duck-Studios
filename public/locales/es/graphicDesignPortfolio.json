@@ -1,0 +1,32 @@
+{
+    "graphicDesignPortfolio":{
+        "title1":"GRAPICH",
+        "title2":"DESIGN",
+        "projects":{
+            "deerAnalytics":{
+               "title":"Deer Analytics",
+               "category":"Website",
+               "descriptions":{    
+                  "1":{
+                    "paragraphs":{
+                         "1":"This website was build for a law firm that specializes in crypto currencies and tech companies.",
+                         "2":"The idea was to mix the elegance and seriousness of a law firm with the tech side of the crypto currencies."
+                       } 
+                     },
+                    "2":{
+                    "paragraphs":{
+                        "1":"The website allows their clients to get in touch with them in the easiest way by just clicking on a WhatsApp bubble that's in the page.",
+                        "2":"Also, to reach more audience on browsers we added a blogs page and add to the page basic principles of SEO as well as the Google Search Console's set up."
+                      }
+                     },                   
+                    "3":{
+                    "paragraphs":{
+                        "1":"This website is 100% responsive. You can open it in any device and it will look great!",
+                        "2":"Go to www.lawgorithmic.io to visit the web."
+                    }                    
+                }
+              }
+            }
+        }
+    }
+}

@@ -24,7 +24,7 @@ function Header({ position }: { position?: boolean }) {
   const { t, i18n, ready } = useTranslation('header', { useSuspense: true });
 
   const [isOpen, setIsOpen] = useState(false);
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("es");
 
   const windowDimension = useScreenSize();
   const size = calculateResolutionSize(windowDimension.winWidth);

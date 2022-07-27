@@ -5,9 +5,9 @@ import { designProjects, designTestimonials, testimonials } from "../../../../ut
 import { Props } from "./project-card.props";
 import * as Styled from './project-card.style';
 
-function ProjectCard({ project, service }: Props) {
+function ProjectCard({ project, service, key , translateRoot}: Props) {
   
-    const { t, i18n, ready } = useTranslation(['portfolio'], { useSuspense: true });
+    const { t } = useTranslation(['softwarePortfolio','marketingPortfolio','graphicDesignPortfolio'], { useSuspense: true });
 
     const randomIntFromInterval = (min:number, max:number) => { // min and max included 
         return Math.floor(Math.random() * (max - min + 1) + min)
@@ -28,8 +28,8 @@ function ProjectCard({ project, service }: Props) {
             })}
         </Splide>
         <Styled.TitleContainer>
-           <h1>{project.title}</h1>
-           <h2>{project.category}</h2>
+           <h1>{t(`${translateRoot}:${translateRoot}.projects.${project.translateRoot}.title`)}</h1>
+           <h2>{t(`${translateRoot}:${translateRoot}.projects.${project.translateRoot}.category`)}</h2>
         </Styled.TitleContainer>
         </Link>
     </Styled.Container>);

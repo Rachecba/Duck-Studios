@@ -7,4 +7,6 @@ export interface IProjectCard {
 export interface Props {
   project: any,
   service:any
+  translateRoot:string,
+  key:number
 }
