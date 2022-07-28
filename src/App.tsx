@@ -5,16 +5,8 @@ import * as Styled from './App.style'
 import Main from './Main';
 import Header from './components/global/header/Header';
 import Footer from './components/global/footer/Footer';
-import ReactGA from 'react-ga';
-import { useEffect } from 'react';
  
 function App() {
-
-  const TRACKING_ID = "G-6LW76DLFVS"; 
-
-  useEffect(() => {
-    ReactGA.initialize(TRACKING_ID);
-  }, []);
     
   return (
     <ThemeProvider theme={theme}>
