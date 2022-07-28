@@ -9,7 +9,7 @@ function Portfolio() {
     const { t, i18n, ready } = useTranslation(['home','global'], { useSuspense: true });
 
     return (
-        <Styled.Container>
+        <Styled.Container id="portfolio">
             <Styled.TitleContainer>
                 <Styled.SectionTitle>
                     <h1>{t('home.portfolio.title')}</h1>

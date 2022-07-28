@@ -327,15 +327,57 @@ export const softwarePortfolio = {
             url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
             poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
         }
+    },
+{
+        urlName: "deer-analytics",
+        translateRoot:"deerAnalytics",
+        title:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
+        video:{
+            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+        }
     }]
 }
 
-// GRAPICH DESIGN
+// MARKETING PORTFOLIO
 
 export const grapichDesignPortfolio = {
     title1: "graphicDesignPortfolio:graphicDesignPortfolio.title1",
     title2:"graphicDesignPortfolio:graphicDesignPortfolio.title2",
-    service:"software",
+    service:"marketing",
     translateRoot:"softwarePortfolio",
     projects:[{
         urlName: "deer-analytics",
@@ -387,7 +429,7 @@ export const grapichDesignPortfolio = {
 export const marketingPortfolio = {
     title1: "marketingPortfolio:marketingPortfolio.title1",
     title2:"marketingPortfolio:marketingPortfolio.title2",
-    service:"software",
+    service:"grapichDesign",
     translateRoot:"softwarePortfolio",
     projects:[{
         urlName: "deer-analytics",

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
 import AboutUs from "./aboutUs/AboutUs"
 import Banner from "./banner/Banner"
 import CAT from "./cat/CAT"
@@ -10,14 +10,14 @@ import Services from "./services/Services"
 import Testimonials from "./testimonials/Testimonials"
 
 function Home() {
-
     useEffect(() => {
       window.scrollTo(0, 0)
   }, [])
 
+
     return (
         <Styled.ContainerWrap>
-        <Banner />
+        <Banner/>
         <Services />
         <AboutUs />
         <Portfolio />

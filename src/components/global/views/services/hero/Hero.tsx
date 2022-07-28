@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 function Hero({ title, span, subtitle, image }: Props) {
 
-    const { t, i18n, ready } = useTranslation(['global','grapichDesign'], { useSuspense: true });
+    const { t, i18n, ready } = useTranslation(['global','grapichDesign','software','marketing'], { useSuspense: true });
 
     useEffect(() => {
         window.scrollTo(0, 0)

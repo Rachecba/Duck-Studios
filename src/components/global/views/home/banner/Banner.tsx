@@ -1,10 +1,11 @@
 import Button from '@mui/material/Button/Button'
-import { useEffect } from 'react'
+import { Ref, useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { bannerMockup } from '../../../../../utils/constants/constants'
 import * as Styled from './Banner.style'
 
-function Banner() {
+function Banner(serviceRef:any) {
   const { t, i18n, ready } = useTranslation('banner', { useSuspense: true });
   const rotate = () => { 
     const show = document.querySelector('.mask span[data-show]')
@@ -21,6 +22,15 @@ function Banner() {
     next?.setAttribute('data-show', '')
   }
 
+  const scrollToServices = () =>{
+    document.querySelector( '#services' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );;
+  }
+
+  const scrollToPortfolio = () =>{
+    document.querySelector( '#portfolio' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );;
+  }
+
+  
   useEffect(() => {
     const interval = setInterval(() => {
     rotate()
@@ -45,8 +55,8 @@ function Banner() {
           </Styled.SliderContainer>
           <h4 className='subtitle'>{t('banner.slider.subtitle.we')} <span>{t('banner.slider.subtitle.really')}</span> {t('banner.slider.subtitle.text')}</h4>
           <Styled.Buttons>
-            <Button className='services-button'>{t('banner.btnServices')}</Button>
-            <Button className='portfolio-button'>{t('banner.btnPortfolio')}</Button>
+            <Button onClick={scrollToServices} className='services-button'>{t('banner.btnServices')}</Button>
+            <Button onClick={scrollToPortfolio} className='portfolio-button'>{t('banner.btnPortfolio')}</Button>
           </Styled.Buttons>
         </Styled.TextContainer>
         <Styled.ImageContainer>

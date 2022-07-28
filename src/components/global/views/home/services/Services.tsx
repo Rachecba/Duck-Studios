@@ -7,7 +7,7 @@ import * as Styled from './Services.style'
 function Services() {
     const { t, i18n, ready } = useTranslation(['home','global'], { useSuspense: true });
     return (
-        <Styled.Container>
+        <Styled.Container id="services">
             <Styled.SectionTitle>
                 <h1>{t('home.ourServices.title')}</h1>
             </Styled.SectionTitle>

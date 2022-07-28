@@ -1,7 +1,7 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
-import { softwarePortfolio } from "../../../../utils/constants/constants";
+import { grapichDesignPortfolio, marketingPortfolio, softwarePortfolio } from "../../../../utils/constants/constants";
 import { Props } from "./project-card.props";
 import * as Styled from './portfolio-detail.style';
 import { Player } from 'video-react';
@@ -33,10 +33,10 @@ function ProjectDetail(props: any) {
             projectDetail = softwarePortfolio.projects.find(project => project.urlName === urlProject);
             break;
         case "grapichDesign":
-            
+            projectDetail = grapichDesignPortfolio.projects.find(project => project.urlName === urlProject);
         break;
         case "marketing":
-         
+            projectDetail = marketingPortfolio.projects.find(project => project.urlName === urlProject);
         break;
         default:
             break;

@@ -18,7 +18,7 @@ import { logotipo, languageIcons } from "../../../utils/constants/constants";
 import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/constants/resolution";
 import { useScreenSize } from "../../../utils/hooks/screenSize";
 import { useTranslation } from 'react-i18next';
-// import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+
 
 function Header({ position }: { position?: boolean }) {
   const { t, i18n, ready } = useTranslation('header', { useSuspense: true });
@@ -30,12 +30,23 @@ function Header({ position }: { position?: boolean }) {
   const size = calculateResolutionSize(windowDimension.winWidth);
   const toggle = () => { setIsOpen(!isOpen) };
 
+  const disableScrollBody = () =>{
+    document.body.style.height = "100%";
+    document.body.style.overflowY = "hidden";
+  }
+
+
+  const enableScrollBody = () =>{
+    document.body.style.height = "unser";
+    document.body.style.overflowY = "unset";
+  }
+
   const getLangIcon = (lng: any) => {
     return languageIcons.find(icon => icon.code === lng)?.icon;
   }
 
   useEffect(() => {
-    // isOpen && size !== resolutionSizesNames.large ? disableBodyScroll(document) : enableBodyScroll(document);
+     isOpen && size !== resolutionSizesNames.large ? disableScrollBody() : enableScrollBody();
     return () => {
       toggle();
     };
