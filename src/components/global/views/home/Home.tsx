@@ -18,9 +18,8 @@ function Home() {
     ReactGA.send('/homepage');
   }, []);
 
-
     return (
-        <Styled.ContainerWrap>
+      <Styled.ContainerWrap>
         <Banner/>
         <Services />
         <AboutUs />

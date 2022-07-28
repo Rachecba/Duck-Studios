@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button/Button'
-import { Ref, useEffect } from 'react'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import ReactGA from 'react-ga4';
 import { bannerMockup } from '../../../../../utils/constants/constants'
 import * as Styled from './Banner.style'
 
@@ -22,12 +22,20 @@ function Banner(serviceRef:any) {
     next?.setAttribute('data-show', '')
   }
 
-  const scrollToServices = () =>{
-    document.querySelector( '#services' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );;
+  const scrollToServices = () => {
+     ReactGA.event({
+       category: 'Homepage: Services Button',
+       action: `Click on banner services button`,
+     });
+    document.querySelector( '#services' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
   }
 
-  const scrollToPortfolio = () =>{
-    document.querySelector( '#portfolio' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );;
+  const scrollToPortfolio = () => {
+     ReactGA.event({
+       category: 'Homepage: Portfolio Button',
+       action: `Click on banner portfolio button`,
+     });
+    document.querySelector( '#portfolio' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
   }
 
   
