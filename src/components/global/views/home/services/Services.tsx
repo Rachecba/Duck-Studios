@@ -1,6 +1,7 @@
 import Button from "@mui/material/Button/Button"
 import React from "react"
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { designIcon, marketingIcon, softwareIcon } from "../../../../../utils/constants/constants"
 import * as Styled from './Services.style'
 
@@ -23,7 +24,9 @@ function Services() {
                         </div>
                         <h1>{t('home.ourServices.software.title')}</h1>
                         <p>{t('home.ourServices.software.description')}</p>
+                        <Link to={"/software"}>
                         <Button className="button">{t('global:global.btnSeeMore')}</Button>
+                        </Link>
                     </Styled.Card>
                     <Styled.Card className="middle-card">
                         <div className="icon">
@@ -31,7 +34,9 @@ function Services() {
                         </div>
                         <h1>{t('home.ourServices.marketing.title')}</h1>
                         <p>{t('home.ourServices.marketing.description')}</p>
+                        <Link to={"/marketing"}>
                         <Button className="button">{t('global:global.btnSeeMore')}</Button>
+                        </Link>
                     </Styled.Card>
                     <Styled.Card className="end-card">
                         <div className="icon">
@@ -39,7 +44,9 @@ function Services() {
                         </div>
                         <h1>{t('home.ourServices.graphicDesign.title')}</h1>
                         <p>{t('home.ourServices.graphicDesign.description')}</p>
+                        <Link to={"/graphic-design"}>
                         <Button className="button">{t('global:global.btnSeeMore')}</Button>
+                        </Link>
                     </Styled.Card>
                 </Styled.CardsContainer>
             </Styled.Services>

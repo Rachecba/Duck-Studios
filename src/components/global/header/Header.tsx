@@ -37,7 +37,7 @@ function Header({ position }: { position?: boolean }) {
 
 
   const enableScrollBody = () =>{
-    document.body.style.height = "unser";
+    document.body.style.height = "unset";
     document.body.style.overflowY = "unset";
   }
 
@@ -46,7 +46,7 @@ function Header({ position }: { position?: boolean }) {
   }
 
   useEffect(() => {
-     isOpen && size !== resolutionSizesNames.large ? disableScrollBody() : enableScrollBody();
+     isOpen  ? disableScrollBody() : enableScrollBody();
     return () => {
       toggle();
     };

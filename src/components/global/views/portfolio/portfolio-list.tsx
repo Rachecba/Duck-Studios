@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Props } from "./portfolio.props";
 import * as Styled from './portfolio.style';
@@ -14,6 +15,11 @@ function PortfolioList({ portfolio }: Props) {
   
     const { t } = useTranslation(['softwarePortfolio','marketingPortfolio','graphicDesignPortfolio'], { useSuspense: true });
     const title2array = t(portfolio.title2).split(/(?!$)/u);
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     return (
     <Styled.Container>
         <Styled.TitleContainer>

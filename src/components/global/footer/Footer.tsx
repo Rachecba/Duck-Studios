@@ -16,7 +16,7 @@ function Footer() {
     const { t, i18n, ready } = useTranslation('footer', { useSuspense: true });
 
     return (
-        <Styled.Container>
+        <Styled.Container className="animate__animated animate__slideInUp">
             <Styled.FooterContainer>
                 <Styled.Logo>
                     <img src={ logo } alt="logo" />

@@ -30,6 +30,10 @@ function ProjectDetail(props: any) {
         },
     }}
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const params = useParams();
     const urlProject = params.urlName;
     const urlService = params.service;
