@@ -3,12 +3,11 @@ import AboutUs from "./aboutUs/AboutUs"
 import Banner from "./banner/Banner"
 import CAT from "./cat/CAT"
 import FAQ from "./faq/FAQ"
-import Footer from "../../footer/Footer"
 import * as Styled from './Home.style'
 import Portfolio from "./portfolio/Portfolio"
 import Services from "./services/Services"
 import Testimonials from "./testimonials/Testimonials"
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function Home() {
     useEffect(() => {
@@ -16,7 +15,7 @@ function Home() {
     }, [])
   
   useEffect(() => {
-    ReactGA.pageview('/homepage');
+    ReactGA.send('/homepage');
   }, []);
 
 

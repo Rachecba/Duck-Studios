@@ -18,16 +18,10 @@ import { logotipo, languageIcons } from "../../../utils/constants/constants";
 import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/constants/resolution";
 import { useScreenSize } from "../../../utils/hooks/screenSize";
 import { useTranslation } from 'react-i18next';
-import ReactGA from 'react-ga';
 
 
 function Header({ position }: { position?: boolean }) {
-  const TRACKING_ID = "G-6LW76DLFVS"; 
-
-  useEffect(() => {
-    ReactGA.initialize(TRACKING_ID);
-  }, []);
-
+  
   const { t, i18n, ready } = useTranslation('header', { useSuspense: true });
 
   const [isOpen, setIsOpen] = useState(false);

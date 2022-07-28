@@ -2,18 +2,17 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { grapichDesignPortfolio, marketingPortfolio, softwarePortfolio } from "../../../../utils/constants/constants";
-import { Props } from "./project-card.props";
 import * as Styled from './portfolio-detail.style';
 import { Player } from 'video-react';
 import "./video-react.css";
 import { useEffect } from "react";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function ProjectDetail(props: any) {
 
     useEffect(() => {
         const path = window.location.pathname
-        ReactGA.pageview(path);
+        ReactGA.send(path);
     }, []);
   
     const { t, i18n, ready } = useTranslation(['portfolio','softwarePortfolio','marketingPortfolio','grapichDesignPortfolio'], { useSuspense: true });

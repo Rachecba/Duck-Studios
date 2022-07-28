@@ -3,13 +3,13 @@ import { useTranslation } from "react-i18next";
 import { Props } from "./portfolio.props";
 import * as Styled from './portfolio.style';
 import ProjectCard from "./project-card";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function PortfolioList({ portfolio }: Props) {
     
     useEffect(() => {
         const path = window.location.pathname
-        ReactGA.pageview(path);
+        ReactGA.send(path);
     }, []);
   
     const { t } = useTranslation(['softwarePortfolio','marketingPortfolio','graphicDesignPortfolio'], { useSuspense: true });
