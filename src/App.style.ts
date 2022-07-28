@@ -5,6 +5,11 @@ export const ContainerWrap = styled.div`
   height: 100%;
   overflow: hidden;
   margin: 0;
+
+  a {
+    color: unset;
+    text-decoration: unset;
+  }
 `
 
 export const PageHeader = styled.div`

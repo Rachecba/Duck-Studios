@@ -1,6 +1,7 @@
 import { Button } from "@mui/material"
 import React from "react"
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { designBackground, marketingBackground, softwareBackground } from "../../../../../utils/constants/constants"
 import * as Styled from './Portfolio.style'
 
@@ -23,21 +24,27 @@ function Portfolio() {
                     <img alt="software" src={ softwareBackground }/>
                     <div className="container">
                         <h1>{t('global:global.software')}</h1>
+                        <Link to={"/portfolio/software"}>
                         <Button className="button">{t('global:global.btnSeeMore')}</Button>
+                        </Link>
                     </div>
                 </Styled.Card>
                 <Styled.Card>
                    <img alt="design" src={ designBackground }/>
                     <div className="container">
                         <h1>{t('global:global.grapichDesign')}</h1>
+                        <Link to={"/portfolio/grapichDesign"}>
                         <Button className="button">{t('global:global.btnSeeMore')}</Button>
+                        </Link>
                     </div>
                 </Styled.Card>
                 <Styled.Card>
                    <img alt="marketing" src={ marketingBackground }/>
                     <div className="container">
                         <h1>{t('global:global.marketing')}</h1>
+                        <Link to={"/portfolio/marketing"}>
                         <Button className="button">{t('global:global.btnSeeMore')}</Button>
+                        </Link>
                     </div>
                 </Styled.Card>
             </Styled.PortfolioContainer>

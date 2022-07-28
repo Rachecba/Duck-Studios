@@ -88,6 +88,12 @@ export const ProjectsContainer = styled.div`
 
 export const Project = styled.div`
   width: 25%;
+
+  .img-project{
+    width:100%;
+    height:15rem;
+    object-fit:cover;
+  }
   ${(props) => props.theme.breakpoints.down('sm')} {
     width: 90%;
     margin-bottom:4rem;

@@ -50,7 +50,7 @@ function Portfolio({ projects }: Props) {
                                         {item.images.map((image) => {
                                             return (
                                                 <SplideSlide>
-                                                    <img src={image} alt={item.projectTitle} />
+                                                    <img src={image} alt={item.projectTitle} className="img-project"/>
                                                 </SplideSlide>
                                             )
                                         })}

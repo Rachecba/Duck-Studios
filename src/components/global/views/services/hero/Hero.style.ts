@@ -214,33 +214,34 @@ export const Buttons = styled.div`
 export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
   .img{
     object-fit:scale-down;
   }
 
   ${(props) => props.theme.breakpoints.down('lg')} {
-    margin-top: 2rem;
   }
 
   ${(props) => props.theme.breakpoints.down('md')} {
-    margin-top: 5rem;
     width:100%;
   }
 
   img {
     width: 38rem;
-
+    height:30rem;
+    border-radius:10px;
     ${(props) => props.theme.breakpoints.up('xxl')} {
       width: 46.5rem;
+      height:35rem;
     }
 
     ${(props) => props.theme.breakpoints.down('lg')} {
       width: 26rem;
+      height:31rem;
     }
 
     ${(props) => props.theme.breakpoints.down('md')} {
       width: 20rem;
+      height: 20rem
     }
   }
 `

@@ -6,6 +6,7 @@ import { Props } from "./project-card.props";
 import * as Styled from './portfolio-detail.style';
 import { Player } from 'video-react';
 import "./video-react.css";
+import { useEffect } from "react";
 function ProjectDetail(props: any) {
   
     const { t, i18n, ready } = useTranslation(['portfolio','softwarePortfolio','marketingPortfolio','grapichDesignPortfolio'], { useSuspense: true });
@@ -21,6 +22,10 @@ function ProjectDetail(props: any) {
           gap    : '.7rem',
         },
     }}
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const params = useParams();
     const urlProject = params.urlName;
