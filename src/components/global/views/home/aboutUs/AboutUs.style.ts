@@ -48,7 +48,7 @@ export const Text = styled.div`
 
   p {
     font-weight: 300;
-
+    text-align:justify;
     ${(props) => props.theme.breakpoints.down('lg')} {
       padding-right: 3rem;
     }

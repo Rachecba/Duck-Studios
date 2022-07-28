@@ -31,7 +31,7 @@ function Header({ position }: { position?: boolean }) {
   const toggle = () => { setIsOpen(!isOpen) };
 
   const disableScrollBody = () =>{
-    document.body.style.height = "100%";
+    document.body.style.height = "100vh";
     document.body.style.overflowY = "hidden";
   }
 

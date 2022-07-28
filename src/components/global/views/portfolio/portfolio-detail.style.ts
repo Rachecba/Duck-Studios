@@ -140,5 +140,8 @@ export const Paragraph = styled.div`
     font-family:Montserrat;
     font-size:1.3rem;
     text-align:justify;
+    ${(props) => props.theme.breakpoints.down('sm')} {
+      font-size:1rem;
+    }
   }
 `
