@@ -47,9 +47,6 @@ function Header({ position }: { position?: boolean }) {
 
   useEffect(() => {
      isOpen  ? disableScrollBody() : enableScrollBody();
-    return () => {
-      toggle();
-    };
   }, [toggle]);
 
   const changeLanguage = (lng: any) => {

@@ -3,7 +3,6 @@ import AboutUs from "./aboutUs/AboutUs"
 import Banner from "./banner/Banner"
 import CAT from "./cat/CAT"
 import FAQ from "./faq/FAQ"
-import Footer from "../../footer/Footer"
 import * as Styled from './Home.style'
 import Portfolio from "./portfolio/Portfolio"
 import Services from "./services/Services"
