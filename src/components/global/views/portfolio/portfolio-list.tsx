@@ -3,8 +3,14 @@ import { useTranslation } from "react-i18next";
 import { Props } from "./portfolio.props";
 import * as Styled from './portfolio.style';
 import ProjectCard from "./project-card";
+import ReactGA from 'react-ga';
 
 function PortfolioList({ portfolio }: Props) {
+    
+    useEffect(() => {
+        const path = window.location.pathname
+        ReactGA.pageview(path);
+    }, []);
   
     const { t } = useTranslation(['softwarePortfolio','marketingPortfolio','graphicDesignPortfolio'], { useSuspense: true });
     const title2array = t(portfolio.title2).split(/(?!$)/u);

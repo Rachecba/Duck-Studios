@@ -7,7 +7,14 @@ import * as Styled from './portfolio-detail.style';
 import { Player } from 'video-react';
 import "./video-react.css";
 import { useEffect } from "react";
+import ReactGA from 'react-ga';
+
 function ProjectDetail(props: any) {
+
+    useEffect(() => {
+        const path = window.location.pathname
+        ReactGA.pageview(path);
+    }, []);
   
     const { t, i18n, ready } = useTranslation(['portfolio','softwarePortfolio','marketingPortfolio','grapichDesignPortfolio'], { useSuspense: true });
 

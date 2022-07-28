@@ -7,9 +7,14 @@ import Portfolio from "./portfolio-sneak-peak/Portfolio"
 import { Props } from "./Service.props"
 import * as Styled from './Service.style'
 import Testimonials from "./testimonials/Testimonials"
+import ReactGA from 'react-ga';
 
 function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, designServices, designProjects,designTestimonials } : Props) {
 
+    useEffect(() => {
+        const path = window.location.pathname
+        ReactGA.pageview(path);
+    }, []);
     
     useEffect(() => {
       window.scrollTo(0, 0)

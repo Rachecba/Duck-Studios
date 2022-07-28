@@ -7,11 +7,16 @@ import * as Styled from './Home.style'
 import Portfolio from "./portfolio/Portfolio"
 import Services from "./services/Services"
 import Testimonials from "./testimonials/Testimonials"
+import ReactGA from 'react-ga';
 
 function Home() {
     useEffect(() => {
       window.scrollTo(0, 0)
-  }, [])
+    }, [])
+  
+  useEffect(() => {
+    ReactGA.pageview('/homepage');
+  }, []);
 
 
     return (
