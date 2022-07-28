@@ -2,12 +2,17 @@ import React, { useState } from "react"
 import { useTranslation } from "react-i18next"
 import { faq } from "../../../../../utils/constants/constants"
 import * as Styled from './FAQ.style'
+import ReactGA from 'react-ga4';
 
 function FAQ() {
     const [isOpen, setIsOpen] = useState(false)
     const [selected, setSelected] = useState(0)
 
     const onClick = (newSelected: number) => { 
+        ReactGA.event({
+            category: 'Homepage: FAQ',
+            action: `Open question #${newSelected}`,
+        });
         setIsOpen(!isOpen)
         setSelected(newSelected)
     }

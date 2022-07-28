@@ -11,21 +11,21 @@ function Services() {
     
     const softwareServicesEvent = () => { 
         ReactGA.event({
-            category: 'Homepage: Software Services',
+            category: 'Homepage: Services',
             action: `See Software Services`,
         });
     }
 
     const marketingServicesEvent = () => { 
         ReactGA.event({
-            category: 'Homepage: Marketing Services',
+            category: 'Homepage: Services',
             action: `See Marketing Services`,
         });
     }
 
     const designServicesEvent = () => { 
         ReactGA.event({
-            category: 'Homepage: Design Services',
+            category: 'Homepage: Services',
             action: `See Design Services`,
         });
     }

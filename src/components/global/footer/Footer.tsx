@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import * as Styled from './Footer.style'
 import { useTranslation } from "react-i18next";
+import ReactGA from 'react-ga4';
 
 function Footer() {
 
@@ -14,6 +15,42 @@ function Footer() {
         return new Date().getFullYear() 
     }
     const { t, i18n, ready } = useTranslation('footer', { useSuspense: true });
+
+    const facebookEvent = () => { 
+        ReactGA.event({
+            category: 'Homepage: Social Media',
+            action: `Go to Facebook page`,
+        });
+    }
+
+    const instagramEvent = () => { 
+        ReactGA.event({
+            category: 'Homepage: Social Media',
+            action: `Go to Instagram page`,
+        });
+    }
+
+    const softwareServicesEvent = () => { 
+        ReactGA.event({
+            category: 'Homepage: Software Services',
+            action: `See Software Services (footer)`,
+        });
+    }
+
+    const marketingServicesEvent = () => { 
+        ReactGA.event({
+            category: 'Homepage: Marketing Services',
+            action: `See Marketing Services (footer)`,
+        });
+    }
+
+    const designServicesEvent = () => { 
+        ReactGA.event({
+            category: 'Homepage: Design Services',
+            action: `See Design Services (footer)`,
+        });
+    }
+
 
     return (
         <Styled.Container className="animate__animated animate__slideInUp">
@@ -25,9 +62,9 @@ function Footer() {
                 <Styled.Services>
                     <h1>{t('footer.services')}</h1>
                         <ul>
-                            <li><Link to={'/'}>{t('global:global.marketing')}</Link></li>
-                            <li><Link to={'/'}>{t('global:global.grapichDesign')}</Link></li>
-                            <li><Link to={'/'}>{t('global:global.software')}</Link></li>
+                            <li onClick={ marketingServicesEvent }><Link to={'/'}>{t('global:global.marketing')}</Link></li>
+                            <li onClick={ designServicesEvent }><Link to={'/'}>{t('global:global.grapichDesign')}</Link></li>
+                            <li onClick={ softwareServicesEvent }><Link to={'/'}>{t('global:global.software')}</Link></li>
                         </ul>
                 </Styled.Services>
                 <Styled.Contact>
@@ -40,8 +77,8 @@ function Footer() {
                 <Styled.SM>
                     <h1>{t('footer.followUs')}</h1>
                     <ul>
-                        <li><a href="https://www.facebook.com/duckstudioss"><span><FacebookIcon/></span> Duck Studios</a></li>
-                        <li><a href="https://instagram.com/duck_studios_?igshid=YmMyMTA2M2Y="><span><InstagramIcon/></span> @duck_studios_</a></li>
+                        <li><a href="https://www.facebook.com/duckstudioss" onClick={ facebookEvent }><span><FacebookIcon/></span> Duck Studios</a></li>
+                        <li><a href="https://instagram.com/duck_studios_?igshid=YmMyMTA2M2Y=" onClick={ instagramEvent }><span><InstagramIcon/></span> @duck_studios_</a></li>
                     </ul>
                     </Styled.SM>
                 </Styled.LinksContainer>
