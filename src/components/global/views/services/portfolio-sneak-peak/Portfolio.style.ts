@@ -6,6 +6,7 @@ export const Container = styled.div`
 
    .margin-center{
     text-align:center;
+    margin-top:-1rem;
    }
 
    .social-icon{
@@ -94,9 +95,12 @@ export const Project = styled.div`
     height:15rem;
     object-fit:cover;
   }
+  ${(props) => props.theme.breakpoints.down('lg')} {
+    height:24rem;
+  }
   ${(props) => props.theme.breakpoints.down('sm')} {
     width: 90%;
-    margin-bottom:4rem;
+    margin-bottom:20rem;
   }
 `
 

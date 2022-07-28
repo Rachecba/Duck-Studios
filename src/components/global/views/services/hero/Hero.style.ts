@@ -218,10 +218,12 @@ export const ImageContainer = styled.div`
     object-fit:scale-down;
   }
 
-  ${(props) => props.theme.breakpoints.down('lg')} {
+  ${(props) => props.theme.breakpoints.down('sm')} {
+    margin-top:4rem;
   }
 
   ${(props) => props.theme.breakpoints.down('md')} {
+    margin-top:1rem;
     width:100%;
   }
 

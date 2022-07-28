@@ -5,7 +5,7 @@ import * as Styled from './CAT.style'
 
 function CAT() {
 
-    const { t, i18n, ready } = useTranslation(['CAT'], { useSuspense: true });
+    const { t, i18n, ready } = useTranslation(['cat'], { useSuspense: true });
     
     return (
         <Styled.Container>
@@ -14,14 +14,14 @@ function CAT() {
             </Styled.Deco>
             <Styled.TextContainer>
                 <Styled.Title>
-                    <h1>{t('CAT.title')}</h1>
+                    <h1>{t('cat:cat.title')}</h1>
                 </Styled.Title>
                 <Styled.Text>
                     <p>
-                    {t('CAT.description1')}
+                    {t('cat:cat.description1')}
                     </p>
                     <p>
-                    {t('CAT.description2')}
+                    {t('cat:cat.description2')}
                     </p>
                 </Styled.Text>
                 <Styled.Social>

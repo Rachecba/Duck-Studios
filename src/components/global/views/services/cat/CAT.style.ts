@@ -36,7 +36,7 @@ export const TextContainer = styled.div`
   }
 
   ${(props) => props.theme.breakpoints.down('sm')} {
-    width: 100%;
+   width: 70%;
     margin-left: 0;
   }
 `
@@ -58,13 +58,16 @@ export const Social = styled.div`
   align-items:center;
   font-size: 20px;
   width:90%;
-
+  ${(props) => props.theme.breakpoints.down('sm')} {
+    flex-direction:column;
+    justify-content: start;
+    align-items:start;
+  }
   img {
     width: 2rem;
     margin-right: 1rem;
     ${(props) => props.theme.breakpoints.down('sm')} {
       width: 1.2rem;
-      margin-right: 2px;
     }
   }
 
