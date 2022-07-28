@@ -4,7 +4,6 @@ import { Props } from "./portfolio.props";
 import * as Styled from './portfolio.style';
 import ProjectCard from "./project-card";
 import ReactGA from 'react-ga';
-import { useEffect } from "react";
 
 function PortfolioList({ portfolio }: Props) {
     
