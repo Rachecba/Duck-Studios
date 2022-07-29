@@ -3,8 +3,32 @@
       "title1":"GRAPICH",
       "title2":"DESIGN",
       "projects":{
-          "deerAnalytics":{
-             "title":"Deer Analytics",
+          "muebleriaCostaRica":{
+             "title":"Muebleria Costa Rica",
+             "category":"Catalog",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This website was build for a law firm that specializes in crypto currencies and tech companies.",
+                       "2":"The idea was to mix the elegance and seriousness of a law firm with the tech side of the crypto currencies."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"The website allows their clients to get in touch with them in the easiest way by just clicking on a WhatsApp bubble that's in the page.",
+                      "2":"Also, to reach more audience on browsers we added a blogs page and add to the page basic principles of SEO as well as the Google Search Console's set up."
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"This website is 100% responsive. You can open it in any device and it will look great!",
+                      "2":"Go to www.lawgorithmic.io to visit the web."
+                  }                    
+              }
+            }
+          },
+          "itExperts":{
+             "title":"It Experts",
              "category":"Website",
              "descriptions":{    
                 "1":{
@@ -23,6 +47,78 @@
                   "paragraphs":{
                       "1":"This website is 100% responsive. You can open it in any device and it will look great!",
                       "2":"Go to www.lawgorithmic.io to visit the web."
+                  }                    
+              }
+            }
+          },
+          "shoesApp":{
+             "title":"Shoes App",
+             "category":"App Mobil",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This website was build for a law firm that specializes in crypto currencies and tech companies.",
+                       "2":"The idea was to mix the elegance and seriousness of a law firm with the tech side of the crypto currencies."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"For that, we focused most of all on their colors: beige, blue and white. For the logo we combine two things: the name and an elephant",
+                      "2":"We managed to design the logo out of the silhouette of an elephant. The G represents the back of the elephant and the back legs. ."
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":" The P represents the ears and the elephant’s trunk.",
+                      "2":"We think this is a dynamic logo that suites all their different business. What do you think?"
+                  }                    
+              }
+            }
+          },
+          "toursys":{
+             "title":"Toursys",
+             "category":"Website",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This website was build for a law firm that specializes in crypto currencies and tech companies.",
+                       "2":"The idea was to mix the elegance and seriousness of a law firm with the tech side of the crypto currencies."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"The website allows their clients to get in touch with them in the easiest way by just clicking on a WhatsApp bubble that's in the page.",
+                      "2":"Also, to reach more audience on browsers we added a blogs page and add to the page basic principles of SEO as well as the Google Search Console's set up."
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"This website is 100% responsive. You can open it in any device and it will look great!",
+                      "2":"Go to www.lawgorithmic.io to visit the web."
+                  }                    
+              }
+            }
+          },
+          "grupoPaquidermo":{
+             "title":"Grupo Paquidermo",
+             "category":"Sitio Web",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This client required of a simple branding design. They wanted to keep it simple and clean",
+                       "2":"Since this company works with a variety of business like hospitality, real estate, foods and drinks and finance, we needed to create a brand identity that could work with all their different areas."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"For that, we focused most of all on their colors: beige, blue and white",
+                      "2":" For the logo we combine two things: the name and an elephant"
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"We managed to design the logo out of the silhouette of an elephant.",
+                      "2":"The G represents the back of the elephant and the back legs. The P represents the ears and the elephant’s trunk. We think this is a dynamic logo that suites all their different business. What do you think?"
                   }                    
               }
             }

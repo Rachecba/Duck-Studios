@@ -295,6 +295,7 @@ export const softwarePortfolio = {
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
              "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+
         ],
         descriptions:[
             {
@@ -324,103 +325,524 @@ export const softwarePortfolio = {
         ],
         otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
         video:{
-            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
-            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+            url:"",
+            poster:""
         }
     },
 {
-        urlName: "deer-analytics",
-        translateRoot:"deerAnalytics",
-        title:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.title",
-        category:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.category",
+        urlName: "lawgorithmic",
+        translateRoot:"lawgorithmic",
+        title:"softwarePortfolio:softwarePortfolio.projects.lawgorithmic.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.lawgorithmic.category",
         images:[
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mac.png?alt=media&token=ca247150-4260-423d-9141-1fedd8f3a795",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mock%202.png?alt=media&token=6fb58ed9-b0a7-48cb-8ac1-311051db6aca",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20phone%20PORTADA.png?alt=media&token=2f9359ee-a5e0-463f-9059-7f2c2ce529a2",
+
         ],
         descriptions:[
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mac.png?alt=media&token=ca247150-4260-423d-9141-1fedd8f3a795",
                 paragraphs:[
-                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.1.paragraphs.1",
-                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.1.paragraphs.2"
+                    "softwarePortfolio:softwarePortfolio.projects.lawgorithmic.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.lawgorithmic.descriptions.1.paragraphs.2"
                 ]
             },
             {
                 textDirection:"right",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mock%202.png?alt=media&token=6fb58ed9-b0a7-48cb-8ac1-311051db6aca",
                 paragraphs:[
-                   "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.2.paragraphs.1",
-                   "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.2.paragraphs.2"
+                   "softwarePortfolio:softwarePortfolio.projects.lawgorithmic.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.lawgorithmic.descriptions.2.paragraphs.2"
                 ]
             },
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20phone%20PORTADA.png?alt=media&token=2f9359ee-a5e0-463f-9059-7f2c2ce529a2",
                 paragraphs:[
-                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.3.paragraphs.1",
-                    "softwarePortfolio:softwarePortfolio.projects.deerAnalytics.descriptions.3.paragraphs.2"
+                    "softwarePortfolio:softwarePortfolio.projects.lawgorithmic.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.lawgorithmic.descriptions.3.paragraphs.2"
                  ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
+        otherImages:[ "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mac.png?alt=media&token=ca247150-4260-423d-9141-1fedd8f3a795",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mock%202.png?alt=media&token=6fb58ed9-b0a7-48cb-8ac1-311051db6aca",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20phone%20PORTADA.png?alt=media&token=2f9359ee-a5e0-463f-9059-7f2c2ce529a2",],
         video:{
-            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
-            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+            url:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2FLawGorithmic%20final%2021%20de%20junio.mp4?alt=media&token=97bbcf00-1750-42e1-92aa-dbd2f782704c",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20phone%20PORTADA.png?alt=media&token=2f9359ee-a5e0-463f-9059-7f2c2ce529a2"
         }
-    }]
+    },
+{
+        urlName: "umifem",
+        translateRoot:"umifem",
+        title:"softwarePortfolio:softwarePortfolio.projects.umifem.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.umifem.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2FUMIFEM%20mock%20PORTADA.png?alt=media&token=88f16b6f-2faf-4bb6-9798-8cb843aebc27",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fclay-ipad-pro-12-9-in-mockup-landscape-front-view%20copy.png?alt=media&token=355cafae-8f8b-45d3-b710-ca86501da254",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fmobile%20mockup%20umifem.png?alt=media&token=7c6df361-33f4-4f60-bc9d-2aaae465dbbb",
+
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2FUMIFEM%20mock%20PORTADA.png?alt=media&token=88f16b6f-2faf-4bb6-9798-8cb843aebc27",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.umifem.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.umifem.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fclay-ipad-pro-12-9-in-mockup-landscape-front-view%20copy.png?alt=media&token=355cafae-8f8b-45d3-b710-ca86501da254",
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.umifem.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.umifem.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fmobile%20mockup%20umifem.png?alt=media&token=7c6df361-33f4-4f60-bc9d-2aaae465dbbb",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.umifem.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.umifem.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2FUMIFEM%20mock%20PORTADA.png?alt=media&token=88f16b6f-2faf-4bb6-9798-8cb843aebc27",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fclay-ipad-pro-12-9-in-mockup-landscape-front-view%20copy.png?alt=media&token=355cafae-8f8b-45d3-b710-ca86501da254",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fmobile%20mockup%20umifem.png?alt=media&token=7c6df361-33f4-4f60-bc9d-2aaae465dbbb"],
+        video:{
+            url:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2F24%20de%20junio%20UMIFEM.mp4?alt=media&token=169277c5-551e-4a79-a855-6b94d0293dd5",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2FUMIFEM%20mock%20PORTADA.png?alt=media&token=88f16b6f-2faf-4bb6-9798-8cb843aebc27"
+        }
+    },
+{
+        urlName: "edgardo-GV",
+        translateRoot:"edgardoGV",
+        title:"softwarePortfolio:softwarePortfolio.projects.edgardoGV.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.edgardoGV.category",
+        images:[
+           "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fedgardogv%2F1.png?alt=media&token=375ec6f6-2b4b-4bb9-bf26-33871516a18e",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fedgardogv%2FFlying%20iPhone%20X%20Mockups.png?alt=media&token=f25e9377-a2c4-4cdf-a946-aed0aa55c778",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fedgardogv%2FFree%20Responsive%20Screen%20Devices.png?alt=media&token=eecabb2b-dafa-4fe0-a919-2e0b12d7f496",
+
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fedgardogv%2F1.png?alt=media&token=375ec6f6-2b4b-4bb9-bf26-33871516a18e",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.edgardoGV.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.edgardoGV.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fedgardogv%2FFlying%20iPhone%20X%20Mockups.png?alt=media&token=f25e9377-a2c4-4cdf-a946-aed0aa55c778",
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.edgardoGV.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.edgardoGV.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fedgardogv%2FFree%20Responsive%20Screen%20Devices.png?alt=media&token=eecabb2b-dafa-4fe0-a919-2e0b12d7f496",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.edgardoGV.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.edgardoGV.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+    },
+{
+        urlName: "iOteck",
+        translateRoot:"ioteck",
+        title:"softwarePortfolio:softwarePortfolio.projects.ioteck.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.ioteck.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2F1.png?alt=media&token=8cdca1d2-a5ee-4487-a20d-aad857c129a7",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2F2.png?alt=media&token=aa35e10e-f637-4d23-a96c-27209231f76b",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2F3.png?alt=media&token=1d530671-0163-44e4-b76c-4a6b51caffb4",
+
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2F1.png?alt=media&token=8cdca1d2-a5ee-4487-a20d-aad857c129a7",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.ioteck.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.ioteck.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2F2.png?alt=media&token=aa35e10e-f637-4d23-a96c-27209231f76b",
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.ioteck.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.ioteck.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2F3.png?alt=media&token=1d530671-0163-44e4-b76c-4a6b51caffb4",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.ioteck.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.ioteck.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2FFinal%20final%20iotek.mp4?alt=media&token=32df2184-29bb-42b3-88a2-2d0ec33e0c81",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fiotek%2F2.png?alt=media&token=aa35e10e-f637-4d23-a96c-27209231f76b"
+        }
+    },
+
+{
+        urlName: "lucrecia-aguilar",
+        translateRoot:"lucrecia",
+        title:"softwarePortfolio:softwarePortfolio.projects.lucrecia.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.lucrecia.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flucrecia%2FANA%20LUCRECIA%202.png?alt=media&token=ffded3cf-5d38-46ef-9db8-e1a29a8e2fec",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flucrecia%2FANA%20LUCRECIA%203.png?alt=media&token=05de79dd-41d6-42bd-abce-3c2520199be7",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flucrecia%2FANA%20LUCRECIA.png?alt=media&token=4aeff569-8068-4d65-8ad3-39d16113f0b5",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flucrecia%2FANA%20LUCRECIA%202.png?alt=media&token=ffded3cf-5d38-46ef-9db8-e1a29a8e2fec",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.lucrecia.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.lucrecia.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flucrecia%2FANA%20LUCRECIA%203.png?alt=media&token=05de79dd-41d6-42bd-abce-3c2520199be7",
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.lucrecia.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.lucrecia.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flucrecia%2FANA%20LUCRECIA.png?alt=media&token=4aeff569-8068-4d65-8ad3-39d16113f0b5",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.lucrecia.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.lucrecia.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+    },
+{
+        urlName: "nc-pharmacy",
+        translateRoot:"ncPharmacy",
+        title:"softwarePortfolio:softwarePortfolio.projects.ncPharmacy.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.ncPharmacy.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fncpharmacy%2F1.png?alt=media&token=c596d367-14bb-41ff-ab0d-9dec3cae3a15",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fncpharmacy%2F189%20-%20Smartphone.png?alt=media&token=2a3bf9f4-a575-4019-a25d-39b5b8edac74",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fncpharmacy%2FPIWBEY1.png?alt=media&token=3eecf6e1-084a-4acc-a919-c3e992661639",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fncpharmacy%2F1.png?alt=media&token=c596d367-14bb-41ff-ab0d-9dec3cae3a15",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.ncPharmacy.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.ncPharmacy.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fncpharmacy%2F189%20-%20Smartphone.png?alt=media&token=2a3bf9f4-a575-4019-a25d-39b5b8edac74",
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.ncPharmacy.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.ncPharmacy.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fncpharmacy%2FPIWBEY1.png?alt=media&token=3eecf6e1-084a-4acc-a919-c3e992661639",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.ncPharmacy.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.ncPharmacy.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fncpharmacy%2FPhone%2013%20Pro%20Max%20Mockup.png?alt=media&token=dfd204b6-fe20-4e06-9c25-af6b647f967e"],
+        video:{
+            url:"",
+            poster:""
+        }
+    },
+
+    {
+        urlName: "comercial-PF",
+        translateRoot:"comercialPF",
+        title:"softwarePortfolio:softwarePortfolio.projects.comercialPF.title",
+        category:"softwarePortfolio:softwarePortfolio.projects.comercialPF.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fpf%2Fpf%20desktop.png?alt=media&token=537b7995-a982-4c59-90ad-2b0afa9e7917",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fpf%2Fpf%20mobile%202.png?alt=media&token=08700e47-7c84-452c-8c28-bac211befa56",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fpf%2Fpf%20mobile.png?alt=media&token=525406b4-6db1-4834-98ed-2d48524c4deb",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fpf%2Fpf%20desktop.png?alt=media&token=537b7995-a982-4c59-90ad-2b0afa9e7917",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.comercialPF.descriptions.1.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.comercialPF.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fpf%2Fpf%20mobile%202.png?alt=media&token=08700e47-7c84-452c-8c28-bac211befa56",
+                paragraphs:[
+                   "softwarePortfolio:softwarePortfolio.projects.comercialPF.descriptions.2.paragraphs.1",
+                   "softwarePortfolio:softwarePortfolio.projects.comercialPF.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fpf%2Fpf%20mobile.png?alt=media&token=525406b4-6db1-4834-98ed-2d48524c4deb",
+                paragraphs:[
+                    "softwarePortfolio:softwarePortfolio.projects.comercialPF.descriptions.3.paragraphs.1",
+                    "softwarePortfolio:softwarePortfolio.projects.comercialPF.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+    },
+
+
+]
 }
 
-// MARKETING PORTFOLIO
+// Grapich Design PORTFOLIO
 
 export const grapichDesignPortfolio = {
     title1: "graphicDesignPortfolio:graphicDesignPortfolio.title1",
     title2:"graphicDesignPortfolio:graphicDesignPortfolio.title2",
-    service:"marketing",
-    translateRoot:"softwarePortfolio",
+    service:"grapichDesign",
+    translateRoot:"graphicDesignPortfolio",
     projects:[{
-        urlName: "deer-analytics",
-        translateRoot:"deerAnalytics",
-        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.title",
-        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.category",
+        urlName: "muebleria-CostaRica",
+        translateRoot:"muebleriaCostaRica",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.category",
         images:[
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_1.png?alt=media&token=e9d9afab-4771-4814-8d06-88fa09e20966",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_3.png?alt=media&token=c73a06a6-7819-4fde-a492-842088c16ac4",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_32.png?alt=media&token=39db3c29-3f9b-4dbf-9c4f-3b35f4b8e95c",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_1.png?alt=media&token=e9d9afab-4771-4814-8d06-88fa09e20966",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_3.png?alt=media&token=c73a06a6-7819-4fde-a492-842088c16ac4",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_32.png?alt=media&token=39db3c29-3f9b-4dbf-9c4f-3b35f4b8e95c",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.muebleriaCostaRica.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_6.png?alt=media&token=789d85b4-f893-4926-bfc3-648cd69f8044","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_7.png?alt=media&token=5a25cb45-1d90-4c65-a96d-de18269579b5","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_8.png?alt=media&token=60314fa2-6a4b-4ccd-b7af-9fa463c77f66"],
+        video:{
+            url:"",
+            poster:""
+        }
+    },
+
+{
+        urlName: "it-Experts",
+        translateRoot:"itExperts",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema-Facturaci%E0%B8%82n---Mockup2.png?alt=media&token=ae496b72-8273-403a-89f8-e239f7c2cf5c",
+            
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema-Facturaci%E0%B8%82n---Mockup2.png?alt=media&token=ae496b72-8273-403a-89f8-e239f7c2cf5c",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.2"
+                ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema%20Facturaci%E0%B8%82n%20-%20Mockup.m4v?alt=media&token=f8c4387c-74be-4241-884d-bb35aa21688e",
+            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema-Facturaci%E0%B8%82n---Mockup2.png?alt=media&token=ae496b72-8273-403a-89f8-e239f7c2cf5c"
+        }
+    },
+
+{
+        urlName: "shoes-App",
+        translateRoot:"shoesApp",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+    },
+{
+        urlName: "toursys",
+        translateRoot:"toursys",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20copy.png?alt=media&token=b1fdc40c-70d9-412f-90d3-692bd56d69ab",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20y%20Website.png?alt=media&token=9411a8f2-b209-4247-a981-56eb20b8fd6a",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema.png?alt=media&token=6d7afcbf-265f-4d22-8d71-2ca62ae8626d",
         ],
         descriptions:[
             {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
                 paragraphs:[
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.1",
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.2"
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.1.paragraphs.2"
                 ]
             },
             {
                 textDirection:"right",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
                 paragraphs:[
-                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.1",
-                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.2"
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.2.paragraphs.2"
                 ]
             },
             {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
                 paragraphs:[
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.1",
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.2"
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.3.paragraphs.2"
                  ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
+        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FPost%20Toursys-02.png?alt=media&token=b58458c1-bd8d-4973-af8d-0fb196d5e4d6","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FPost%20Toursys-01.png?alt=media&token=2191cffc-751c-41b5-a56b-c38657dbe5f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Website.png?alt=media&token=026b06ed-cf38-4c12-b15f-93fda1ed6936,"],
         video:{
-            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
-            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+            url:"",
+            poster:""
         }
-    }]
+    },
+{
+        urlName: "grupo-paquidermo",
+        translateRoot:"grupoPaquidermo",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+    }
+
+
+ ]
 }
 
 
@@ -429,49 +851,76 @@ export const grapichDesignPortfolio = {
 export const marketingPortfolio = {
     title1: "marketingPortfolio:marketingPortfolio.title1",
     title2:"marketingPortfolio:marketingPortfolio.title2",
-    service:"grapichDesign",
-    translateRoot:"softwarePortfolio",
+    service:"marketing",
+    translateRoot:"marketingPortfolio",
     projects:[{
-        urlName: "deer-analytics",
-        translateRoot:"deerAnalytics",
-        title:"marketingPortfolio:marketingPortfolio.projects.deerAnalytics.title",
-        category:"marketingPortfolio:marketingPortfolio.projects.deerAnalytics.category",
+        urlName: "mundo-expediciones",
+        translateRoot:"mundoExpediciones",
+        title:"marketingPortfolio:marketingPortfolio.projects.mundoExpediciones.title",
+        category:"marketingPortfolio:marketingPortfolio.projects.mundoExpediciones.category",
         images:[
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9"
+            
         ],
         descriptions:[
             {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
                 paragraphs:[
-                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.1",
-                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.1.paragraphs.2"
+                    "marketingPortfolio:marketingPortfolio.projects.mundoExpediciones.descriptions.1.paragraphs.1",
+                    "marketingPortfolio:marketingPortfolio.projects.mundoExpediciones.descriptions.1.paragraphs.2"
+                ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+    },
+{
+        urlName: "umifem",
+        translateRoot:"umifem",
+        title:"marketingPortfolio:marketingPortfolio.projects.umifem.title",
+        category:"marketingPortfolio:marketingPortfolio.projects.umifem.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2FUMIFEM%20post%202.png?alt=media&token=22af392b-8b55-40ac-9cda-177b2602930e",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2Femail%20marketing.png?alt=media&token=c1d51cc7-42bb-4662-b88f-35dd2a624040",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2Fumifem%20insta%201%20PORTADA.png?alt=media&token=969648bc-196c-445f-abbf-71653f99e78d",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2FUMIFEM%20post%202.png?alt=media&token=22af392b-8b55-40ac-9cda-177b2602930e",
+                paragraphs:[
+                    "marketingPortfolio:marketingPortfolio.projects.umifem.descriptions.1.paragraphs.1",
+                    "marketingPortfolio:marketingPortfolio.projects.umifem.descriptions.1.paragraphs.2"
                 ]
             },
             {
                 textDirection:"right",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2Femail%20marketing.png?alt=media&token=c1d51cc7-42bb-4662-b88f-35dd2a624040",
                 paragraphs:[
-                   "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.1",
-                   "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.2.paragraphs.2"
+                   "marketingPortfolio:marketingPortfolio.projects.umifem.descriptions.2.paragraphs.1",
+                   "marketingPortfolio:marketingPortfolio.projects.umifem.descriptions.2.paragraphs.2"
                 ]
             },
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2Fumifem%20insta%201%20PORTADA.png?alt=media&token=969648bc-196c-445f-abbf-71653f99e78d",
                 paragraphs:[
-                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.1",
-                    "marketingPortfolio:marketingPortfolio.projects.deerAnalytics.descriptions.3.paragraphs.2"
+                    "marketingPortfolio:marketingPortfolio.projects.umifem.descriptions.3.paragraphs.1",
+                    "marketingPortfolio:marketingPortfolio.projects.umifem.descriptions.3.paragraphs.2"
                  ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"],
+        otherImages:[""],
         video:{
-            url:"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
-            poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7"
+            url:"",
+            poster:""
         }
-    }]
+    }
+
+]
 }
 
