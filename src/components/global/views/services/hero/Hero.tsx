@@ -29,6 +29,22 @@ function Hero({ title, span, subtitle, image }: Props) {
         });
     }
 
+    const scrollToServices = () => {
+        ReactGA.event({
+          category: `Service${window.location.pathname}: Services in page Button`,
+          action: `Click on banner services button`,
+        });
+       document.querySelector( '#services' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+     }
+   
+     const scrollToPortfolio = () => {
+        ReactGA.event({
+          category: `Services ${window.location.pathname}: Portfolio in page Button`,
+          action: `Click on banner portfolio button`,
+        });
+       document.querySelector( '#portfolio' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+     }
+
     return (
         <Styled.Container>
             <Styled.TextContainer className="animate__animated animate__fadeIn">
@@ -37,8 +53,8 @@ function Hero({ title, span, subtitle, image }: Props) {
                 </Styled.Features>
                 <h4 className='subtitle'>{t(subtitle)}</h4>
                 <Styled.Buttons>
-                    <Button className="services-button" onClick={servicesEvent}>{t('global:global.services')}</Button>
-                    <Button className="portfolio-button animate__animated animate__swing" onClick={portfolioEvent}>{t('global:global.portfolio')}</Button>
+                    <Button onClick={scrollToServices} className="services-button">{t('global:global.services')}</Button>
+                    <Button onClick={scrollToPortfolio} className="portfolio-button animate__animated animate__swing">{t('global:global.portfolio')}</Button>
                 </Styled.Buttons>
             </Styled.TextContainer>
             <Styled.ImageContainer className="animate__animated animate__slideInRight">

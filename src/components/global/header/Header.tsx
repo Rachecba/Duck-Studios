@@ -19,7 +19,6 @@ import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/co
 import { useScreenSize } from "../../../utils/hooks/screenSize";
 import { useTranslation } from 'react-i18next';
 
-
 function Header({ position }: { position?: boolean }) {
   
   const { t, i18n, ready } = useTranslation('header', { useSuspense: true });
@@ -32,14 +31,20 @@ function Header({ position }: { position?: boolean }) {
   const toggle = () => { setIsOpen(!isOpen) };
 
   const disableScrollBody = () =>{
-    document.body.style.height = "100vh";
-    document.body.style.overflowY = "hidden";
+    const root = document.querySelector("#root") as HTMLElement | null;;
+    if (root != null) {
+    root.style.height = "100vh";
+    root.style.overflowY = "hidden";
+    }
   }
 
 
   const enableScrollBody = () =>{
-    document.body.style.height = "unset";
-    document.body.style.overflowY = "unset";
+    const root = document.querySelector("#root") as HTMLElement | null;;
+    if (root != null) {
+    root.style.height = "unset";
+    root.style.overflowY = "unset";
+    }
   }
 
   const getLangIcon = (lng: any) => {
@@ -119,7 +124,11 @@ function Header({ position }: { position?: boolean }) {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem className='contact-dropdown'>
-              <NavHashLink to="/#contact" onClick={() => { setIsOpen(false) }} smooth className='portfolio-button'><span>{t('header.contact')}</span></NavHashLink>
+              <NavHashLink to="/" onClick={() => { setIsOpen(false);
+                                                   window.location.href = 'https://wa.me/50687547781'; 
+                                                    return null;
+                                                  }
+                                          } smooth className='portfolio-button'><span>{t('header.contact')}</span></NavHashLink>
             </NavItem>
             <UncontrolledDropdown inNavbar className="languageSelector">
               <DropdownToggle caret nav>

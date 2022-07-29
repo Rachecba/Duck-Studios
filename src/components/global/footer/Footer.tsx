@@ -44,12 +44,27 @@ function Footer() {
         });
     }
 
+    const emailEvent = () => { 
+        ReactGA.event({
+            category: 'Homepage: Footer',
+            action: `Contact email (footer)`,
+        });
+    }
+
+    const phoneNumberEvent = () => { 
+        ReactGA.event({
+            category: 'Homepage: Footer',
+            action: `Contact phone (footer)`,
+        });
+    }
+
     const designServicesEvent = () => { 
         ReactGA.event({
             category: 'Homepage: Design Services',
             action: `See Design Services (footer)`,
         });
     }
+    
 
 
     return (
@@ -62,16 +77,16 @@ function Footer() {
                 <Styled.Services>
                     <h1>{t('footer.services')}</h1>
                         <ul>
-                            <li onClick={ marketingServicesEvent }><Link to={'/'}>{t('global:global.marketing')}</Link></li>
-                            <li onClick={ designServicesEvent }><Link to={'/'}>{t('global:global.grapichDesign')}</Link></li>
-                            <li onClick={ softwareServicesEvent }><Link to={'/'}>{t('global:global.software')}</Link></li>
+                            <li onClick={ marketingServicesEvent }><Link to={'/marketing'}>{t('global:global.marketing')}</Link></li>
+                            <li onClick={ designServicesEvent }><Link to={'/graphic-design'}>{t('global:global.grapichDesign')}</Link></li>
+                            <li onClick={ softwareServicesEvent }><Link to={'/software'}>{t('global:global.software')}</Link></li>
                         </ul>
                 </Styled.Services>
                 <Styled.Contact>
                     <h1>{t('footer.cat')}</h1>
                     <ul>
-                        <li><span><MailIcon/></span> info@duckstudios.net</li>
-                        <li><span><LocalPhoneIcon/></span> +506 8754-7781</li>
+                        <li><span><MailIcon/></span> <a onClick={ emailEvent } href="mailto:info@duckstudios.net">info@duckstudios.net</a></li>
+                        <li><span><LocalPhoneIcon/></span> <a onClick={phoneNumberEvent} href="tel:+50687547781">+506 8754-7781</a></li>
                     </ul>
                 </Styled.Contact>
                 <Styled.SM>

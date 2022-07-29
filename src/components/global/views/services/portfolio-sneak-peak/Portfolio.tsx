@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { Props } from "./Portfolio.props"
 import * as Styled from './Portfolio.style'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -6,10 +6,10 @@ import '@splidejs/react-splide/css';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Button, Link } from "@mui/material";
-import { isTemplateSpan } from "typescript";
+import { Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ReactGA from 'react-ga4';
+import { Link } from "react-router-dom";
 
 function Portfolio({ projects }: Props) {
 
@@ -37,6 +37,8 @@ function Portfolio({ projects }: Props) {
         });
     }
 
+    const portfolioUrl = useState(`/portfolio${window.location.pathname}`);
+
     const renderSocialMedia = (socialMedia: any) => {
         switch (socialMedia.type) {
             case 'fb':
@@ -54,8 +56,16 @@ function Portfolio({ projects }: Props) {
         }
     }
 
+    const portfolioDetail = () => {
+        ReactGA.event({
+          category: `Service${window.location.pathname}: View all portfolio Button`,
+          action: `Click on view full portfolio services button`,
+        });
+       document.querySelector( '#services' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+     }
+
     return (
-        <Styled.Container>
+        <Styled.Container id="portfolio">
             <Styled.TitleContainer>
                 <Styled.SectionTitle>
                     <h1>{t('global:global.portfolio')}</h1>
@@ -110,7 +120,7 @@ function Portfolio({ projects }: Props) {
                 })}
             </Styled.ProjectsContainer>
             <h1 className="margin-center">
-                <Button className="see-more-btn" onClick={portfolioEvent}>{t('global:global.btnSeeMore')}</Button>
+               <Link to={`/portfolio${window.location.pathname}`}><Button className="see-more-btn" onClick={portfolioDetail}>{t('global:global.btnSeeMore')}</Button></Link>
             </h1>
         </Styled.Container>
     )

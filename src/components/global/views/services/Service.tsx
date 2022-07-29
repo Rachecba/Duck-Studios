@@ -14,6 +14,8 @@ function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, 
     
     const path = window.location.pathname
 
+
+
     useEffect(() => {
         ReactGA.send(path);
         document.title = pageTitle(path)
@@ -31,8 +33,8 @@ function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, 
     return (
         <Styled.Container>
             <Hero title={ heroTitle } span={ heroSpan } subtitle={ heroSubtitle } image={ heroImage } />
-            <OurServices title={servicesTitle} services={ designServices } />
-            <Portfolio projects={designProjects}/>
+            <OurServices  title={servicesTitle} services={ designServices } />
+            <Portfolio  projects={designProjects}/>
             <Testimonials testimonials={ designTestimonials } />
             <CAT />
         </Styled.Container>
