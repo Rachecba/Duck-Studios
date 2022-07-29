@@ -48,13 +48,13 @@ function Banner(serviceRef:any) {
 
     return (
       <Styled.Container >
-        <Styled.TextContainer className='animate__animated animate__slideInLeft'>
-          <Styled.Features>
+        <Styled.TextContainer >
+          <Styled.Features className='animate__animated animate__fadeInLeft'>
             <h1>{t('banner.features.creative')}</h1>
             <h1>{t('banner.features.awesome')}</h1>
             <h1>{t('banner.features.functional')}</h1>
           </Styled.Features>
-          <Styled.SliderContainer>
+          <Styled.SliderContainer className='animate__animated animate__fadeInUp'>
             <div className='mask'>
               <span data-show>{t('banner.slider.software')}</span>
               <span>{t('banner.slider.marketing')}</span>
