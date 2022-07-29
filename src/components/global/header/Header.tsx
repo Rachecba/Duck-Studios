@@ -33,16 +33,18 @@ function Header({ position }: { position?: boolean }) {
   const disableScrollBody = () =>{
     const root = document.querySelector("#root") as HTMLElement | null;;
     if (root != null) {
-      root.style.height = "100vh";
+    root.style.height = "100vh";
     root.style.overflowY = "hidden";
     }
   }
 
 
   const enableScrollBody = () =>{
-    document.body.style.height = "unset";
-    document.body.style.overflowY = "unset";
-    document.body.style.position = "unset";
+    const root = document.querySelector("#root") as HTMLElement | null;;
+    if (root != null) {
+    root.style.height = "unset";
+    root.style.overflowY = "unset";
+    }
   }
 
   const getLangIcon = (lng: any) => {
