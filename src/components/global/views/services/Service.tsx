@@ -8,12 +8,20 @@ import { Props } from "./Service.props"
 import * as Styled from './Service.style'
 import Testimonials from "./testimonials/Testimonials"
 import ReactGA from 'react-ga4';
+import { pageTitle } from "../../../../utils/constants/constants"
 
-function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, designServices, designProjects,designTestimonials } : Props) {
+function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, designServices, designProjects, designTestimonials }: Props) {
+    
+    const path = window.location.pathname
 
     useEffect(() => {
-        const path = window.location.pathname
         ReactGA.send(path);
+        document.title = pageTitle(path)
+    }, [path]);
+
+     useEffect(() => {
+        ReactGA.send(path);
+        document.title = pageTitle(path)
     }, []);
     
     useEffect(() => {
