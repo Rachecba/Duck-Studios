@@ -924,3 +924,29 @@ export const marketingPortfolio = {
 ]
 }
 
+export const pageTitle = (path: string) => { 
+    console.log(path)
+
+    switch (path) {
+        case '/software':
+            return 'Duck Studios | Software';
+        
+        case '/graphic-design':
+            return 'Duck Studios | Graphic Design';
+        
+        case '/marketing':
+            return 'Duck Studios | Marketing';
+        
+        case '/portfolio/software':
+            return 'Duck Studios | Portfolio - Software';
+        
+        case '/portfolio/marketing':
+            return 'Duck Studios | Portfolio - Marketing';
+        
+        case '/portfolio/graphic-design':
+            return 'Duck Studios | Portfolio - Graphic Design';
+    
+        default:
+            return 'Duck Studios | Digital Agency';
+    }
+}

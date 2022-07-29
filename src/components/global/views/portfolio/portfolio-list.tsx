@@ -4,12 +4,20 @@ import { Props } from "./portfolio.props";
 import * as Styled from './portfolio.style';
 import ProjectCard from "./project-card";
 import ReactGA from 'react-ga4';
+import { pageTitle } from "../../../../utils/constants/constants";
 
 function PortfolioList({ portfolio }: Props) {
     
+    const path = window.location.pathname
+
     useEffect(() => {
-        const path = window.location.pathname
         ReactGA.send(path);
+        document.title = pageTitle(path)
+    }, [path]);
+
+     useEffect(() => {
+        ReactGA.send(path);
+        document.title = pageTitle(path)
     }, []);
   
     const { t } = useTranslation(['softwarePortfolio','marketingPortfolio','graphicDesignPortfolio'], { useSuspense: true });

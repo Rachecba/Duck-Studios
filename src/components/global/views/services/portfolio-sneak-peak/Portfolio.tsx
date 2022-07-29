@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { Props } from "./Portfolio.props"
 import * as Styled from './Portfolio.style'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -6,32 +6,66 @@ import '@splidejs/react-splide/css';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Button, Link } from "@mui/material";
-import { isTemplateSpan } from "typescript";
+import { Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import ReactGA from 'react-ga4';
+import { Link } from "react-router-dom";
 
 function Portfolio({ projects }: Props) {
 
-    const { t, i18n, ready } = useTranslation(['portfolio','global','grapichDesign','software','marketing'], { useSuspense: true });
+    const { t, i18n, ready } = useTranslation(['portfolio', 'global', 'grapichDesign', 'software', 'marketing'], { useSuspense: true });
+    const path = window.location.pathname;
+
+    const portfolioEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Portfolio`,
+            action: `Click on see more ${path}`,
+        });
+    }
+
+    const projectSocialMediaEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Portfolio`,
+            action: `Click on social media ${path}`,
+        });
+    }
+
+    const projectWebEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Portfolio`,
+            action: `Click on see more ${path}`,
+        });
+    }
+
+    const portfolioUrl = useState(`/portfolio${window.location.pathname}`);
 
     const renderSocialMedia = (socialMedia: any) => {
         switch (socialMedia.type) {
             case 'fb':
-                return <a href={socialMedia.url} target="_blank" className="social-icon">
+                return <a href={socialMedia.url} target="_blank" className="social-icon" rel="noreferrer" onClick={projectSocialMediaEvent}>
                     <FacebookRoundedIcon fontSize="large" />
                 </a>
             case 'insta':
-                return <a href={socialMedia.url} target="_blank" className="social-icon">
+                return <a href={socialMedia.url} target="_blank" className="social-icon" rel="noreferrer" onClick={projectSocialMediaEvent}>
                     <InstagramIcon fontSize="large" />
                 </a>
             case 'linked':
-                return <a href={socialMedia.url} target="_blank" className="social-icon">
+                return <a href={socialMedia.url} target="_blank" className="social-icon" rel="noreferrer" onClick={projectSocialMediaEvent}>
                     <LinkedInIcon fontSize="large" />
                 </a>
         }
     }
+
+    const portfolioDetail = () => {
+        ReactGA.event({
+          category: `Service${window.location.pathname}: View all portfolio Button`,
+          action: `Click on view full portfolio services button`,
+        });
+       document.querySelector( '#services' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+     }
+
     return (
-        <Styled.Container>
+        <Styled.Container id="portfolio">
             <Styled.TitleContainer>
                 <Styled.SectionTitle>
                     <h1>{t('global:global.portfolio')}</h1>
@@ -63,14 +97,14 @@ function Portfolio({ projects }: Props) {
                                 {item.projectLink && (
                                     <Styled.Description>
                                         <Styled.ProjectLink><h3>{t('portfolio:portfolio.appSpan')} {item.projectLink.type}</h3></Styled.ProjectLink>
-                                        <Styled.ProjectLink><a href={item.projectLink.url}>{item.projectLink.name}</a></Styled.ProjectLink>
+                                        <Styled.ProjectLink><a href={item.projectLink.url} onClick={projectWebEvent}>{item.projectLink.name}</a></Styled.ProjectLink>
                                     </Styled.Description>
                                 )}
                                 {item.socialMedia && (
                                     <Styled.Description>
                                         <Styled.ProjectLink><h3> {t('portfolio:portfolio.socialMediaSpan')} </h3></Styled.ProjectLink>
                                         <Styled.SocialMediaLinks>
-                                            {item.socialMedia.map((item) => {
+                                            {item.socialMedia.map((sm) => {
                                                 return (
                                                     <div>
                                                         {renderSocialMedia(item)}
@@ -86,7 +120,7 @@ function Portfolio({ projects }: Props) {
                 })}
             </Styled.ProjectsContainer>
             <h1 className="margin-center">
-                <Button className="see-more-btn">{t('global:global.btnSeeMore')}</Button>
+               <Link to={`/portfolio${window.location.pathname}`}><Button className="see-more-btn" onClick={portfolioDetail}>{t('global:global.btnSeeMore')}</Button></Link>
             </h1>
         </Styled.Container>
     )

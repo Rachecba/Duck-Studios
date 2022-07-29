@@ -55,7 +55,7 @@ function Portfolio() {
                    <img alt="design" src={ designBackground }/>
                     <div className="container">
                         <h1>{t('global:global.grapichDesign')}</h1>
-                        <Link to={"/portfolio/grapichDesign"}>
+                        <Link to={"/portfolio/graphic-design"}>
                         <Button className="button" onClick={marketingPortfolioEvent}>{t('global:global.btnSeeMore')}</Button>
                         </Link>
                     </div>
