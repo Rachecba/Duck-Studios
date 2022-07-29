@@ -8,11 +8,26 @@ import ReactGA from 'react-ga4';
 
 function Hero({ title, span, subtitle, image }: Props) {
 
-    const { t, i18n, ready } = useTranslation(['global','grapichDesign','software','marketing'], { useSuspense: true });
+    const { t, i18n, ready } = useTranslation(['global', 'grapichDesign', 'software', 'marketing'], { useSuspense: true });
+    const path = window.location.pathname;
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
+    
+    const servicesEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Services Button`,
+            action: `Click on services button ${path}`,
+        });
+    }
+
+    const portfolioEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Services Button`,
+            action: `Click on services button ${path}`,
+        });
+    }
 
     const scrollToServices = () => {
         ReactGA.event({

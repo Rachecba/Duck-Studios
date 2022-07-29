@@ -13,22 +13,44 @@ import { Link } from "react-router-dom";
 
 function Portfolio({ projects }: Props) {
 
-    const { t, i18n, ready } = useTranslation(['portfolio','global','grapichDesign','software','marketing'], { useSuspense: true });
+    const { t, i18n, ready } = useTranslation(['portfolio', 'global', 'grapichDesign', 'software', 'marketing'], { useSuspense: true });
+    const path = window.location.pathname;
+
+    const portfolioEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Portfolio`,
+            action: `Click on see more ${path}`,
+        });
+    }
+
+    const projectSocialMediaEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Portfolio`,
+            action: `Click on social media ${path}`,
+        });
+    }
+
+    const projectWebEvent = () => { 
+        ReactGA.event({
+            category: `${path}: Portfolio`,
+            action: `Click on see more ${path}`,
+        });
+    }
 
     const portfolioUrl = useState(`/portfolio${window.location.pathname}`);
 
     const renderSocialMedia = (socialMedia: any) => {
         switch (socialMedia.type) {
             case 'fb':
-                return <a href={socialMedia.url} target="_blank" className="social-icon">
+                return <a href={socialMedia.url} target="_blank" className="social-icon" rel="noreferrer" onClick={projectSocialMediaEvent}>
                     <FacebookRoundedIcon fontSize="large" />
                 </a>
             case 'insta':
-                return <a href={socialMedia.url} target="_blank" className="social-icon">
+                return <a href={socialMedia.url} target="_blank" className="social-icon" rel="noreferrer" onClick={projectSocialMediaEvent}>
                     <InstagramIcon fontSize="large" />
                 </a>
             case 'linked':
-                return <a href={socialMedia.url} target="_blank" className="social-icon">
+                return <a href={socialMedia.url} target="_blank" className="social-icon" rel="noreferrer" onClick={projectSocialMediaEvent}>
                     <LinkedInIcon fontSize="large" />
                 </a>
         }
@@ -75,14 +97,14 @@ function Portfolio({ projects }: Props) {
                                 {item.projectLink && (
                                     <Styled.Description>
                                         <Styled.ProjectLink><h3>{t('portfolio:portfolio.appSpan')} {item.projectLink.type}</h3></Styled.ProjectLink>
-                                        <Styled.ProjectLink><a href={item.projectLink.url}>{item.projectLink.name}</a></Styled.ProjectLink>
+                                        <Styled.ProjectLink><a href={item.projectLink.url} onClick={projectWebEvent}>{item.projectLink.name}</a></Styled.ProjectLink>
                                     </Styled.Description>
                                 )}
                                 {item.socialMedia && (
                                     <Styled.Description>
                                         <Styled.ProjectLink><h3> {t('portfolio:portfolio.socialMediaSpan')} </h3></Styled.ProjectLink>
                                         <Styled.SocialMediaLinks>
-                                            {item.socialMedia.map((item) => {
+                                            {item.socialMedia.map((sm) => {
                                                 return (
                                                     <div>
                                                         {renderSocialMedia(item)}

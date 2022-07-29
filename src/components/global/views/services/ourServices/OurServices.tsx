@@ -3,10 +3,12 @@ import React from "react"
 import { useTranslation } from "react-i18next";
 import { Props } from "./OurServices.props"
 import * as Styled from './OurServices.style'
+import ReactGA from 'react-ga4';
 
 function OurServices({ title, services }: Props) {
     
-  const { t, i18n, ready } = useTranslation(['ourServices','global','grapichDesign','software','marketing'], { useSuspense: true });
+    const { t, i18n, ready } = useTranslation(['ourServices','global','grapichDesign','software','marketing'], { useSuspense: true });
+    const path = window.location.pathname;
     
     const cardPosition = (index: number, arrayLenght: number) => { 
         if (index === 0) {
@@ -18,6 +20,13 @@ function OurServices({ title, services }: Props) {
                 return 'middle-card'
             }
         }
+    }
+
+    const servicesEvent = (service: string) => { 
+        ReactGA.event({
+            category: `${path}: Services`,
+            action: `Click on ${service} button ${path}`,
+        });
     }
 
     return (
@@ -40,7 +49,7 @@ function OurServices({ title, services }: Props) {
                                     </div>
                                     <h1>{ t(item.title) }</h1>
                                     <p>{ t(item.description) }</p>
-                                    <Button className="button">{t('global:global.btnSeeMore')}</Button>
+                                    <Button className="button" onClick={() => servicesEvent(item.title)}>{t('global:global.btnSeeMore')}</Button>
                                 </Styled.Card>
                             </>
                         )

@@ -4,10 +4,19 @@ import { Link } from "react-router-dom";
 import { designProjects, designTestimonials, testimonials } from "../../../../utils/constants/constants";
 import { Props } from "./project-card.props";
 import * as Styled from './project-card.style';
+import ReactGA from 'react-ga4';
 
 function ProjectCard({ project, service, key , translateRoot}: Props) {
   
     const { t } = useTranslation(['softwarePortfolio','marketingPortfolio','graphicDesignPortfolio'], { useSuspense: true });
+    const path = window.location.pathname;
+
+    const cardEvent = () => { 
+        ReactGA.event({
+            category: `Portfolio ${path}: Project Card`,
+            action: `Click on portfolio`,
+        });
+    }
 
     const randomIntFromInterval = (min:number, max:number) => { // min and max included 
         return Math.floor(Math.random() * (max - min + 1) + min)
@@ -16,7 +25,7 @@ function ProjectCard({ project, service, key , translateRoot}: Props) {
     const splideOptions = {  type:'fade',rewind: true,arrows:false,interval:randomIntFromInterval(3000,5000),pagination:false,autoplay:true, drag:false};
 
     return (
-    <Styled.Container className="animate__animated animate__slideInUp">
+    <Styled.Container className="animate__animated animate__slideInUp" onClick={cardEvent}>
         <Link to={`/portfolio/${service}/${project.urlName}`}>
         <Splide aria-label="Project images" options={splideOptions} className="background-container">
             {project.images.map((image:string) => {
