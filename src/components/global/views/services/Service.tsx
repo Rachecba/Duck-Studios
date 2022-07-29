@@ -11,6 +11,8 @@ import ReactGA from 'react-ga4';
 
 function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, designServices, designProjects,designTestimonials } : Props) {
 
+
+
     useEffect(() => {
         const path = window.location.pathname
         ReactGA.send(path);
@@ -23,8 +25,8 @@ function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, 
     return (
         <Styled.Container>
             <Hero title={ heroTitle } span={ heroSpan } subtitle={ heroSubtitle } image={ heroImage } />
-            <OurServices title={servicesTitle} services={ designServices } />
-            <Portfolio projects={designProjects}/>
+            <OurServices  title={servicesTitle} services={ designServices } />
+            <Portfolio  projects={designProjects}/>
             <Testimonials testimonials={ designTestimonials } />
             <CAT />
         </Styled.Container>

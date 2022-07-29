@@ -34,12 +34,14 @@ function Header({ position }: { position?: boolean }) {
   const disableScrollBody = () =>{
     document.body.style.height = "100vh";
     document.body.style.overflowY = "hidden";
+    document.body.style.position = "absolute";
   }
 
 
   const enableScrollBody = () =>{
     document.body.style.height = "unset";
     document.body.style.overflowY = "unset";
+    document.body.style.position = "unset";
   }
 
   const getLangIcon = (lng: any) => {
@@ -119,7 +121,11 @@ function Header({ position }: { position?: boolean }) {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem className='contact-dropdown'>
-              <NavHashLink to="/#contact" onClick={() => { setIsOpen(false) }} smooth className='portfolio-button'><span>{t('header.contact')}</span></NavHashLink>
+              <NavHashLink to="/" onClick={() => { setIsOpen(false);
+                                                   window.location.href = 'https://wa.me/50687547781'; 
+                                                    return null;
+                                                  }
+                                          } smooth className='portfolio-button'><span>{t('header.contact')}</span></NavHashLink>
             </NavItem>
             <UncontrolledDropdown inNavbar className="languageSelector">
               <DropdownToggle caret nav>

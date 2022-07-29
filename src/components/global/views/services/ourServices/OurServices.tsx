@@ -21,7 +21,7 @@ function OurServices({ title, services }: Props) {
     }
 
     return (
-        <Styled.Container>
+        <Styled.Container id="services">
             <Styled.SectionTitle>
                 <h1>{t('global:global.ourServices')}</h1>
             </Styled.SectionTitle>

@@ -31,7 +31,7 @@ function Services() {
     }
 
     return (
-        <Styled.Container id="services">
+        <Styled.Container id="services" className='animate__animated animate__slideInUp'>
             <Styled.SectionTitle>
                 <h1>{t('home.ourServices.title')}</h1>
             </Styled.SectionTitle>

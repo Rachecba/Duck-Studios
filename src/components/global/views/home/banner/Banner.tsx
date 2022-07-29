@@ -47,8 +47,8 @@ function Banner(serviceRef:any) {
 }, []);
 
     return (
-      <Styled.Container>
-        <Styled.TextContainer>
+      <Styled.Container >
+        <Styled.TextContainer className='animate__animated animate__slideInLeft'>
           <Styled.Features>
             <h1>{t('banner.features.creative')}</h1>
             <h1>{t('banner.features.awesome')}</h1>
@@ -64,10 +64,10 @@ function Banner(serviceRef:any) {
           <h4 className='subtitle'>{t('banner.slider.subtitle.we')} <span>{t('banner.slider.subtitle.really')}</span> {t('banner.slider.subtitle.text')}</h4>
           <Styled.Buttons>
             <Button onClick={scrollToServices} className='services-button'>{t('banner.btnServices')}</Button>
-            <Button onClick={scrollToPortfolio} className='portfolio-button'>{t('banner.btnPortfolio')}</Button>
+            <Button onClick={scrollToPortfolio} className='portfolio-button animate__animated animate__swing'>{t('banner.btnPortfolio')}</Button>
           </Styled.Buttons>
         </Styled.TextContainer>
-        <Styled.ImageContainer>
+        <Styled.ImageContainer className='animate__animated animate__slideInRight'>
           <img alt="mockup" src={ bannerMockup }/>
         </Styled.ImageContainer>
       </Styled.Container>
