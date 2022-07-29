@@ -8,15 +8,25 @@ import Portfolio from "./portfolio/Portfolio"
 import Services from "./services/Services"
 import Testimonials from "./testimonials/Testimonials"
 import ReactGA from 'react-ga4';
+import { pageTitle } from "../../../../utils/constants/constants"
 
 function Home() {
+
+  const path = window.location.pathname
+
     useEffect(() => {
       window.scrollTo(0, 0)
     }, [])
   
-  useEffect(() => {
-    ReactGA.send('/homepage');
-  }, []);
+    useEffect(() => {
+      ReactGA.send('/homepage');
+      document.title = pageTitle(path)
+    }, []);
+
+    useEffect(() => {
+      ReactGA.send(path);
+      document.title = pageTitle(path)
+    }, [path]);
 
     return (
       <Styled.ContainerWrap>
