@@ -5,7 +5,7 @@
         "projects":{
            "deerAnalytics":{
                "title":"Deer Analytics",
-               "category":"Sitio Web",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -28,8 +28,8 @@
               }
             },
             "lawgorithmic":{
-               "title":"Lawgorithmic",
-               "category":"Sitio Web",
+               "title":"LawGorithmic",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -52,8 +52,8 @@
               }
             },
             "umifem":{
-               "title":"Umifem",
-               "category":"Sitio Web",
+               "title":"UMIFEM",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -77,7 +77,7 @@
             },
             "edgardoGV":{
                "title":"Edgardo GV",
-               "category":"Sitio Web",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -99,9 +99,9 @@
                 }
               }
             },
-            "ioteck":{
-               "title":"iOteck",
-               "category":"Sitio Web",
+            "iotek":{
+               "title":"iOtek",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -125,7 +125,7 @@
             },
             "lucrecia":{
                "title":"Lucrecia Aguilar",
-               "category":"Sitio Web",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -149,7 +149,7 @@
             },
             "ncPharmacy":{
                "title":"NC Pharmacy",
-               "category":"Sitio Web",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -173,7 +173,7 @@
             },
            "comercialPF":{
                "title":"Comercial PF",
-               "category":"Sitio Web",
+               "category":"Website",
                "descriptions":{    
                   "1":{
                     "paragraphs":{

@@ -5,7 +5,7 @@
         "projects":{
             "mundoExpediciones":{
                "title":"Mundo Expediciones",
-               "category":"Website",
+               "category":"Social Media",
                "descriptions":{    
                   "1":{
                     "paragraphs":{
@@ -28,8 +28,8 @@
               }
             },
             "umifem":{
-               "title":"Umifem",
-               "category":"Website",
+               "title":"UMIFEM",
+               "category":"Email Marketing",
                "descriptions":{    
                   "1":{
                     "paragraphs":{

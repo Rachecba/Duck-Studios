@@ -463,8 +463,8 @@ export const softwarePortfolio = {
         }
     },
 {
-        urlName: "iOteck",
-        translateRoot:"ioteck",
+        urlName: "iOtek",
+        translateRoot:"iotek",
         title:"softwarePortfolio:softwarePortfolio.projects.ioteck.title",
         category:"softwarePortfolio:softwarePortfolio.projects.ioteck.category",
         images:[
@@ -713,8 +713,7 @@ export const grapichDesignPortfolio = {
             poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema-Facturaci%E0%B8%82n---Mockup2.png?alt=media&token=ae496b72-8273-403a-89f8-e239f7c2cf5c"
         }
     },
-
-{
+    {
         urlName: "shoes-App",
         translateRoot:"shoesApp",
         title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.title",
@@ -756,7 +755,7 @@ export const grapichDesignPortfolio = {
             poster:""
         }
     },
-{
+    {
         urlName: "toursys",
         translateRoot:"toursys",
         title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.title",
@@ -798,7 +797,7 @@ export const grapichDesignPortfolio = {
             poster:""
         }
     },
-{
+    {
         urlName: "grupo-paquidermo",
         translateRoot:"grupoPaquidermo",
         title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.title",
@@ -839,9 +838,175 @@ export const grapichDesignPortfolio = {
             url:"",
             poster:""
         }
-    }
-
-
+        },
+    {
+        urlName: "premium-garage",
+        translateRoot:"premiumGarage",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+        },
+    {
+        urlName: "lawgorithmic",
+        translateRoot:"lawgorithmic",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+        },
+    {
+        urlName: "handmade-cigars",
+        translateRoot:"handmadeCigars",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.handmadeCigars.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.handmadeCigars.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+        },
+    {
+        urlName: "danny-cigars",
+        translateRoot:"dannyCigars",
+        title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.dannyCigars.title",
+        category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.dannyCigars.category",
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+        ],
+        descriptions:[
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+                paragraphs:[
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.2.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.shoesApp.descriptions.3.paragraphs.2"
+                 ]
+            }
+        ],
+        otherImages:[""],
+        video:{
+            url:"",
+            poster:""
+        }
+        },
  ]
 }
 
