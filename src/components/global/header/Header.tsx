@@ -19,7 +19,6 @@ import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/co
 import { useScreenSize } from "../../../utils/hooks/screenSize";
 import { useTranslation } from 'react-i18next';
 
-
 function Header({ position }: { position?: boolean }) {
   
   const { t, i18n, ready } = useTranslation('header', { useSuspense: true });
@@ -34,7 +33,7 @@ function Header({ position }: { position?: boolean }) {
   const disableScrollBody = () =>{
     document.body.style.height = "100vh";
     document.body.style.overflowY = "hidden";
-    document.body.style.position = "absolute";
+    document.body.style.position = "sticky";
   }
 
 
