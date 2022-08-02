@@ -51,7 +51,7 @@ function ProjectDetail(props: any) {
         case "software":
             projectDetail = softwarePortfolio.projects.find(project => project.urlName === urlProject);
             break;
-        case "grapichDesign":
+        case "graphic-design":
             projectDetail = grapichDesignPortfolio.projects.find(project => project.urlName === urlProject);
         break;
         case "marketing":

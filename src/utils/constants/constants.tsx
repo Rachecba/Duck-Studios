@@ -649,7 +649,7 @@ export const softwarePortfolio = {
 export const grapichDesignPortfolio = {
     title1: "graphicDesignPortfolio:graphicDesignPortfolio.title1",
     title2:"graphicDesignPortfolio:graphicDesignPortfolio.title2",
-    service:"grapichDesign",
+    service:"graphic-design",
     translateRoot:"graphicDesignPortfolio",
     projects:[{
         urlName: "muebleria-CostaRica",
