@@ -21,7 +21,7 @@ function FAQ() {
     const goToQuestion = (id:string) => {
         setTimeout(() => {
         document.querySelector(id)?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
-        }, 500);
+        }, 1000);
     }
 
     const { t, i18n, ready } = useTranslation('faq', { useSuspense: true });

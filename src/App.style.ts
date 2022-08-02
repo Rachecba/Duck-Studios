@@ -30,6 +30,19 @@ export const ContainerWrap = styled.div`
       height:100%;
     }
   }
+  /* Ripple effect */
+  .ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: #ffdb8a radial-gradient(circle, transparent 1%, #ffdb8a 1%) center/15000%;
+  }
+  .ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
 `
 
 

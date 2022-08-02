@@ -47,7 +47,7 @@ function App() {
           <Main />
           <Footer/>
           {showGoTop=="goTop"&&
-          <div onClick={handleScrollUp} className="btn-go-top">
+          <div onClick={handleScrollUp} className="btn-go-top ripple">
             <div className='arrow'>
             <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
             </div>

@@ -37,6 +37,7 @@ export const Container = styled.div`
   .accordion-item{
     background-color: transparent;
     border-radius: .4rem;
+    border: none!important;
   }
   
   .accordion-item hr{
