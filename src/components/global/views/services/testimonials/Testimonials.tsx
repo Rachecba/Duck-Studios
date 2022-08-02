@@ -27,9 +27,9 @@ function Testimonials({ testimonials }: Props) {
                     touchEnabled={ true }
                     bullets={ true }
                 >
-                    {testimonials.map((item) => {
+                    {testimonials.map((item,index) => {
                         return (
-                            <div data-src={ item.image } />
+                            <div key={index} data-src={ item.image } />
                         )
                     }) }
                 </AutoplaySlider>

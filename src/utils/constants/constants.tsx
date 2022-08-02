@@ -128,6 +128,7 @@ export const designProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
         projectTitle: "grapichDesign:grapichDesign.projects.lawGorithmic.title",
+        projectUrl:"lawgorithmic",
         projectDescription: "grapichDesign:grapichDesign.projects.lawGorithmic.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }
@@ -135,6 +136,7 @@ export const designProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
         projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.title",
+        projectUrl:"lawgorithmic",
         projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }
@@ -142,6 +144,7 @@ export const designProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fdanny%20cigars%20-%20mockup.png?alt=media&token=dabb20c3-33d2-413c-a295-1a868390d7c6"],
         projectTitle: "grapichDesign:grapichDesign.projects.dannyCigars.title",
+        projectUrl:"lawgorithmic",
         projectDescription: "grapichDesign:grapichDesign.projects.dannyCigars.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }
@@ -183,6 +186,7 @@ export const softwareProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
         projectTitle: "software:software.projects.lawGorithmic.title",
+        projectUrl:"lawgorithmic",
         projectDescription: "software:software.projects.lawGorithmic.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }
@@ -190,6 +194,7 @@ export const softwareProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20phone.png?alt=media&token=ca3c6e8d-ca62-48fa-8fa4-73b4cbcd522e"],
         projectTitle: "software:software.projects.deerAnalitycs.title",
+        projectUrl:"lawgorithmic",
         projectDescription: "software:software.projects.deerAnalitycs.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }
@@ -197,6 +202,7 @@ export const softwareProjects = [
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fclay-ipad-pro-12-9-in-mockup-landscape-front-view%20copy.png?alt=media&token=f915385b-2a43-4e65-addf-7025d51f5317"],
         projectTitle: "software:software.projects.unifem.title",
+        projectUrl:"lawgorithmic",
         projectDescription: "software:software.projects.unifem.description",
         socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
         projectLink: { url: "example.com", name: "The name", type: "app" }

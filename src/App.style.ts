@@ -10,7 +10,29 @@ export const ContainerWrap = styled.div`
     color: unset;
     text-decoration: unset;
   }
+
+  .btn-go-top{
+    color:black;
+    background:#ffb610;
+    border-radius:100px;
+    position: fixed !important;
+    border:0.5px solid black;
+    left:20px;
+    bottom:20px;
+    height:50px;
+    width:50px;
+    z-index:999;
+    cursor:pointer;
+    .arrow{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100%;
+    }
+  }
 `
+
+
 
 export const PageHeader = styled.div`
   position: relative;

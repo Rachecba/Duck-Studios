@@ -14,6 +14,113 @@ export const Container = styled.div`
     text-align: center;
     margin-bottom: 2rem;
   }
+
+  h3{
+    font-weight:600;
+    color:white;
+  }
+
+  /*Section used for centering process*/
+  section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .accordion-item{
+    background-color: transparent;
+    border-radius: .4rem;
+  }
+  
+  .accordion-item hr{
+    border: 0.5px solid white;
+  }
+  
+  .accordion-link{
+    font-size: 1.6rem;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .accordion-link h3{
+    font-weight:600;
+    font-size: 1.1rem;
+    color:white;
+  }
+  
+  .accordion-link i{
+    color: #e7d5ff;
+    padding: .5rem;
+    
+  }
+  
+  .accordion-link ul{
+    display:flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-left: 25px;
+  }
+  
+  .accordion-link li{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    padding: 0 0 1px 5px;
+  }
+  
+  .accordion-link div{
+    display: flex;
+  }
+  
+  .accordion-link .ion-md-arrow-down{
+    display: none;
+  }
+  
+  .answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: transparent;
+    transition: max-height 650ms;
+  }
+  
+  
+  .answer p{
+    color: #fff;
+    font-size: 15px;
+    padding: 2rem;
+    
+  }
+  
+  .accordion-item:target .answer{
+    max-height: 20rem;
+  }
+  
+  .accordion-item:target .accordion-link .ion-md-arrow-forward{
+    display: none
+  }
+
+  .accordion-item:target .accordion-link .flex h3{
+    color: #FFB610!important;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .accordion-item:target .accordion-link .ion-md-arrow-down{
+    display: block;
+  }
+  
 `
 
 export const QuestionsContainer = styled.div`

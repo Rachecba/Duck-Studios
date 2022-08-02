@@ -3,7 +3,11 @@ import styled from 'styled-components'
 export const Container = styled.div`
   margin-top: 8rem;
   font-family: 'Montserrat';
-
+  
+   .pointer{
+     cursor:pointer;
+   }
+   
    .margin-center{
     text-align:center;
     margin-top:-1rem;
