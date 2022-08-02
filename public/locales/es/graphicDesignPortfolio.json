@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "graphicDesignPortfolio":{
       "title1":"GRAPICH",
       "title2":"DESIGN",
@@ -130,6 +131,15 @@
           "muebleriaCostaRica":{
              "title":"Muebleria Costa Rica",
              "category":"Catalog",
+=======
+    "graphicDesignPortfolio":{
+        "title1":"DISEÑO",
+        "title2":"GRÁFICO",
+        "projects":{
+            "muebleriaCostaRica":{
+             "title":"Mueblería Costa Rica",
+             "category":"Catálogo",
+>>>>>>> eff6a95a767ad00be2d41da95e87100cd02405f5
              "descriptions":{    
                 "1":{
                   "paragraphs":{
@@ -152,8 +162,13 @@
             }
           },
           "itExperts":{
+<<<<<<< HEAD
              "title":"It Experts",
              "category":" UI/UX",
+=======
+             "title":"IT Experts",
+             "category":"UI/UX",
+>>>>>>> eff6a95a767ad00be2d41da95e87100cd02405f5
              "descriptions":{    
                 "1":{
                   "paragraphs":{
@@ -177,7 +192,11 @@
           },
           "shoesApp":{
              "title":"Shoes App",
+<<<<<<< HEAD
              "category":" UI/UX",
+=======
+             "category":"UI/UX",
+>>>>>>> eff6a95a767ad00be2d41da95e87100cd02405f5
              "descriptions":{    
                 "1":{
                   "paragraphs":{
@@ -201,7 +220,10 @@
           },
           "toursys":{
              "title":"Toursys",
+<<<<<<< HEAD
              "category":" UI/UX, Stand",
+=======
+             "category":"UI/UX, Stand",
              "descriptions":{    
                 "1":{
                   "paragraphs":{
@@ -222,8 +244,132 @@
                   }                    
               }
             }
+          },
+          "grupoPaquidermo":{
+             "title":"Grupo Paquidermo",
+             "category":"Branding",
+>>>>>>> eff6a95a767ad00be2d41da95e87100cd02405f5
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This client required of a simple branding design. They wanted to keep it simple and clean",
+                       "2":"Since this company works with a variety of business like hospitality, real estate, foods and drinks and finance, we needed to create a brand identity that could work with all their different areas."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"For that, we focused most of all on their colors: beige, blue and white",
+                      "2":" For the logo we combine two things: the name and an elephant"
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"We managed to design the logo out of the silhouette of an elephant.",
+                      "2":"The G represents the back of the elephant and the back legs. The P represents the ears and the elephant’s trunk. We think this is a dynamic logo that suites all their different business. What do you think?"
+                  }                    
+              }
+            }
+          },
+          "premiumGarage":{
+             "title":"Premium Garage",
+             "category":"Branding, UI/UX",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This client required of a simple branding design. They wanted to keep it simple and clean",
+                       "2":"Since this company works with a variety of business like hospitality, real estate, foods and drinks and finance, we needed to create a brand identity that could work with all their different areas."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"For that, we focused most of all on their colors: beige, blue and white",
+                      "2":" For the logo we combine two things: the name and an elephant"
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"We managed to design the logo out of the silhouette of an elephant.",
+                      "2":"The G represents the back of the elephant and the back legs. The P represents the ears and the elephant’s trunk. We think this is a dynamic logo that suites all their different business. What do you think?"
+                  }                    
+              }
+            }
+          },
+          "lawgorithmic":{
+             "title":"LawGorithmic",
+             "category":"Branding, UI/UX",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This client required of a simple branding design. They wanted to keep it simple and clean",
+                       "2":"Since this company works with a variety of business like hospitality, real estate, foods and drinks and finance, we needed to create a brand identity that could work with all their different areas."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"For that, we focused most of all on their colors: beige, blue and white",
+                      "2":" For the logo we combine two things: the name and an elephant"
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"We managed to design the logo out of the silhouette of an elephant.",
+                      "2":"The G represents the back of the elephant and the back legs. The P represents the ears and the elephant’s trunk. We think this is a dynamic logo that suites all their different business. What do you think?"
+                  }                    
+              }
+            }
+          },
+          "handmadeCigars":{
+             "title":"Handmade Cigars",
+             "category":"Branding",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This client required of a simple branding design. They wanted to keep it simple and clean",
+                       "2":"Since this company works with a variety of business like hospitality, real estate, foods and drinks and finance, we needed to create a brand identity that could work with all their different areas."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"For that, we focused most of all on their colors: beige, blue and white",
+                      "2":" For the logo we combine two things: the name and an elephant"
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"We managed to design the logo out of the silhouette of an elephant.",
+                      "2":"The G represents the back of the elephant and the back legs. The P represents the ears and the elephant’s trunk. We think this is a dynamic logo that suites all their different business. What do you think?"
+                  }                    
+              }
+            }
+          },
+          "dannyCigars":{
+             "title":"Danny Cigars",
+             "category":"Branding",
+             "descriptions":{    
+                "1":{
+                  "paragraphs":{
+                       "1":"This client required of a simple branding design. They wanted to keep it simple and clean",
+                       "2":"Since this company works with a variety of business like hospitality, real estate, foods and drinks and finance, we needed to create a brand identity that could work with all their different areas."
+                     } 
+                   },
+                  "2":{
+                  "paragraphs":{
+                      "1":"For that, we focused most of all on their colors: beige, blue and white",
+                      "2":" For the logo we combine two things: the name and an elephant"
+                    }
+                   },                   
+                  "3":{
+                  "paragraphs":{
+                      "1":"We managed to design the logo out of the silhouette of an elephant.",
+                      "2":"The G represents the back of the elephant and the back legs. The P represents the ears and the elephant’s trunk. We think this is a dynamic logo that suites all their different business. What do you think?"
+                  }                    
+              }
+            }
           }
+<<<<<<< HEAD
           
+=======
+>>>>>>> eff6a95a767ad00be2d41da95e87100cd02405f5
       }
   }
 }

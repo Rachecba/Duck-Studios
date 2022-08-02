@@ -4,11 +4,14 @@ import { useTranslation } from "react-i18next";
 import { Props } from "./OurServices.props"
 import * as Styled from './OurServices.style'
 import ReactGA from 'react-ga4';
+import { useNavigate } from "react-router-dom";
 
 function OurServices({ title, services }: Props) {
     
     const { t, i18n, ready } = useTranslation(['ourServices','global','grapichDesign','software','marketing'], { useSuspense: true });
     const path = window.location.pathname;
+    const navigate = useNavigate();
+
     
     const cardPosition = (index: number, arrayLenght: number) => { 
         if (index === 0) {
@@ -27,6 +30,7 @@ function OurServices({ title, services }: Props) {
             category: `${path}: Services`,
             action: `Click on ${service} button ${path}`,
         });
+        navigate(`/portfolio${window.location.pathname}`);
     }
 
     return (

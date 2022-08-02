@@ -52,8 +52,8 @@ function CAT() {
                 <Styled.Social>
                     <div className="contact">
                         <ul>
-                            <li><a href="mailto:info@duckstudios.net" onClick={mailEvent}><span><MailIcon/></span>info@duckstudios.net</a></li>
-                            <li><a href="tel:+506 87547781" onClick={phoneEvent}><span><LocalPhoneIcon/></span>+506 8754-7781</a></li>
+                            <li><a href="mailto:info@duckstudios.net" onClick={mailEvent}><span><MailIcon/></span><span>info@duckstudios.net</span></a></li>
+                            <li><a href="tel:+506 87547781" onClick={phoneEvent}><span><LocalPhoneIcon/></span><span>+506 8754-7781</span></a></li>
                         </ul>
                     </div>
                     <div className="social-media">

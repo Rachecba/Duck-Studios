@@ -128,7 +128,7 @@
           },
 
           "muebleriaCostaRica":{
-             "title":"Muebleria Costa Rica",
+             "title":"Mueblería Costa Rica",
              "category":"Catalog",
              "descriptions":{    
                 "1":{
@@ -152,8 +152,8 @@
             }
           },
           "itExperts":{
-             "title":"It Experts",
-             "category":" UI/UX",
+             "title":"IT Experts",
+             "category":"UI/UX",
              "descriptions":{    
                 "1":{
                   "paragraphs":{
@@ -177,7 +177,7 @@
           },
           "shoesApp":{
              "title":"Shoes App",
-             "category":" UI/UX",
+             "category":"UI/UX",
              "descriptions":{    
                 "1":{
                   "paragraphs":{
@@ -201,7 +201,7 @@
           },
           "toursys":{
              "title":"Toursys",
-             "category":" UI/UX, Stand",
+             "category":"UI/UX, Stand",
              "descriptions":{    
                 "1":{
                   "paragraphs":{

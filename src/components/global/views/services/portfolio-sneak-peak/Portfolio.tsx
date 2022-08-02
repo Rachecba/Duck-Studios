@@ -9,12 +9,14 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ReactGA from 'react-ga4';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Portfolio({ projects }: Props) {
 
     const { t, i18n, ready } = useTranslation(['portfolio', 'global', 'grapichDesign', 'software', 'marketing'], { useSuspense: true });
     const path = window.location.pathname;
+    
+    const navigate = useNavigate();
 
     const portfolioEvent = () => { 
         ReactGA.event({
@@ -64,6 +66,10 @@ function Portfolio({ projects }: Props) {
        document.querySelector( '#services' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
      }
 
+     const projectDetail = (item:any) =>{
+        navigate(`/portfolio${window.location.pathname}/${item.projectUrl}`);
+     }
+
     return (
         <Styled.Container id="portfolio">
             <Styled.TitleContainer>
@@ -80,11 +86,11 @@ function Portfolio({ projects }: Props) {
                         <>
                             <Styled.Project>
                                 <Styled.Slider>
-                                    <Splide aria-label="Project images" options={{ rewind: true,arrows:item.images.length>1 }}>
+                                    <Splide className="pointer" onClick={() => projectDetail(item)} aria-label="Project images" options={{ rewind: true,arrows:item.images.length>1 }}>
                                         {item.images.map((image) => {
                                             return (
                                                 <SplideSlide>
-                                                    <img src={image} alt={item.projectTitle} className="img-project"/>
+                                                    <img  src={image} alt={item.projectTitle} className="img-project"/>
                                                 </SplideSlide>
                                             )
                                         })}

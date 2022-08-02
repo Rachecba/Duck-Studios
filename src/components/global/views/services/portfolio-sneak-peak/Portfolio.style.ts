@@ -3,7 +3,11 @@ import styled from 'styled-components'
 export const Container = styled.div`
   margin-top: 8rem;
   font-family: 'Montserrat';
-
+  
+   .pointer{
+     cursor:pointer;
+   }
+   
    .margin-center{
     text-align:center;
     margin-top:-1rem;
@@ -94,13 +98,16 @@ export const Project = styled.div`
     width:100%;
     height:15rem;
     object-fit:cover;
-  }
-  ${(props) => props.theme.breakpoints.down('lg')} {
-    height:24rem;
-  }
-  ${(props) => props.theme.breakpoints.down('sm')} {
-    width: 90%;
-    margin-bottom:20rem;
+    ${(props) => props.theme.breakpoints.down('xxl')} {
+      height:20rem;
+    }
+    ${(props) => props.theme.breakpoints.down('lg')} {
+      height:20rem;
+    }
+    ${(props) => props.theme.breakpoints.down('sm')} {
+      width: 90%;
+      margin-bottom:20rem;
+    }
   }
 `
 

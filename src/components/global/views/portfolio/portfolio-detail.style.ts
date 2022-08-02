@@ -6,6 +6,29 @@ export const Container = styled.div`
   padding:4rem;
   flex-direction:column;
 
+
+.text-center{
+  text-align:center;
+}
+
+  .button {
+    background: #ce8f00;
+    border-radius: 8px;
+    padding: 0.3rem 1.5rem;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+
+    ${(props) => props.theme.breakpoints.down('lg')} {
+      font-size: 13px;
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 16px #815901;
+      background: #ce8f00;
+    }
+  }
+
   ${(props) => props.theme.breakpoints.down('lg')} {
     padding:1rem;
   }

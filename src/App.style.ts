@@ -10,7 +10,42 @@ export const ContainerWrap = styled.div`
     color: unset;
     text-decoration: unset;
   }
+
+  .btn-go-top{
+    color:black;
+    background:#ffb610;
+    border-radius:100px;
+    position: fixed !important;
+    border:0.5px solid black;
+    left:20px;
+    bottom:20px;
+    height:50px;
+    width:50px;
+    z-index:999;
+    cursor:pointer;
+    .arrow{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100%;
+    }
+  }
+  /* Ripple effect */
+  .ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: #ffdb8a radial-gradient(circle, transparent 1%, #ffdb8a 1%) center/15000%;
+  }
+  .ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
 `
+
+
 
 export const PageHeader = styled.div`
   position: relative;
