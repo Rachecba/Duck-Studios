@@ -150,7 +150,7 @@ export const designProjects = [
 
 // SOFTWARE
 
-export const softwareMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20mockup%20PORTADA.png?alt=media&token=4c6ff528-6c7a-4602-bde7-ec8be02606eb"
+export const softwareMockup = "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2FGroup%2093%402x.png?alt=media&token=9cc5a1c4-4363-4e10-8633-08c488e6fca6"
 
 export const softwareServices = [
     {
@@ -172,10 +172,19 @@ export const softwareServices = [
 
 export const softwareTestimonials = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FNC%20Pharmacy%20-%20Testimonial.png?alt=media&token=303c9d2b-0b11-45cf-95f6-0bbd74a04f12"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FiOTEK%20-%20Testimonial.png?alt=media&token=93aa6a40-6d53-4b2b-a84c-b70d683badf6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGorithmic%20-%20Testimonial.png?alt=media&token=6248512c-bc96-4285-80c4-e3a3c8f40763"
     },
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FToursys%20-%20Testimonial.png?alt=media&token=26684a4b-481e-4b90-95b2-c096ea855d2a"
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FUMIFEM%20-%20Testimonial.png?alt=media&token=81952f30-0653-49a8-988b-00c2e0210840"
+    },
+     {
+        image: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLucrecia%20-%20Testimonial.png?alt=media&token=dd3742ee-9bc4-4cc2-9591-1c3b475b0bce"
     },
 ]
 
@@ -184,22 +193,19 @@ export const softwareProjects = [
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
         projectTitle: "software:software.projects.lawGorithmic.title",
         projectDescription: "software:software.projects.lawGorithmic.description",
-        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
-        projectLink: { url: "example.com", name: "The name", type: "app" }
+        projectLink: { url: "https://www.lawgorithmic.io/", name: "lawgorithmic", type: "Pagina Web" }
     },
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20phone.png?alt=media&token=ca3c6e8d-ca62-48fa-8fa4-73b4cbcd522e"],
         projectTitle: "software:software.projects.deerAnalitycs.title",
         projectDescription: "software:software.projects.deerAnalitycs.description",
-        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
-        projectLink: { url: "example.com", name: "The name", type: "app" }
+        projectLink: { url: "https://deeranalytics.com/", name: "DeerAnalytics", type: "Pagina Web" }
     },
     {
         images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fclay-ipad-pro-12-9-in-mockup-landscape-front-view%20copy.png?alt=media&token=f915385b-2a43-4e65-addf-7025d51f5317"],
         projectTitle: "software:software.projects.unifem.title",
         projectDescription: "software:software.projects.unifem.description",
-        socialMedia: [{ type: "fb", url: "fb.com" }, { type: "insta", url: "fb.com" }, { type: "linked", url: "fb.com" }],
-        projectLink: { url: "example.com", name: "The name", type: "app" }
+        projectLink: { url: "https://umifem.com/", name: "Umifem", type: "Pagina Web" }
     },
 ]
 
