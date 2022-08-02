@@ -43,6 +43,7 @@ export const TextContainer = styled.div`
 
 export const Title = styled.div`
   margin-bottom: 1rem;
+  width:100%;
 `
 
 export const Text = styled.div`

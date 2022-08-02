@@ -43,8 +43,8 @@ export const Background = styled.div`
   top: 0;
   left: 0;
   background-image: url('https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fservices-background.png?alt=media&token=d6354987-b435-4d38-a641-26403b72ea44');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: round;
   display: flex;
 
 `
