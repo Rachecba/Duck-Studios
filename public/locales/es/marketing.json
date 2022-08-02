@@ -2,7 +2,7 @@
     "marketing":{
         "heroTitle":"No somos creadores de contenidos",
         "heroSpan":"nos tomamos el marketing en serio",
-        "heroSubtitle":"Sólo tienes que ir a tomar un café, relajarte, y ver cómo crece tu negocio con nosotros",
+        "heroSubtitle":"Sólo tienes que ir a tomar un café, relajarte, y ver cómo crece tu negocio con nosotros!",
         "services":{
             "title":"Que quieres que diseñemos",
             "emailMarketing":{
@@ -11,23 +11,23 @@
             },
             "digitalAdvertising":{
                 "title":"Pauta Digital",
-                "description":"¿Necesitas ser reconocido en tu país? ¿En el mundo? ¿Solo entre personas jóvenes? ¿O tal vez solo entre personas que les gusta el color rosado? Nosotros lo logramos. Realizamos campañas de pauta digital que te hacen llegar hasta tu público meta y claro, lograr más ventas!"
+                "description":"¿Necesitas ser reconocido en tu país? ¿En todo el mundo? ¿Sólo entre los jóvenes?  Nosotros lo hacemos posible. Construimos campañas de publicidad digital que te hacen llegar a tu público objetivo y, por supuesto, ¡conseguir más ventas!"
             },
             "blogWriting":{
                 "title":"Redacción de Blogs",
-                "description":"Los blogs en tu página web es uno de los trucos para lograr posicionar tu página web entre los primeros resultados de búsquedas. Permítenos realizar blogs informativos, entretenidos e interesantes que llamen la atención de tu público para tener más visitas en tu página.  "
+                "description":"¿Quieres llegar a los primeros resultados de búsqueda? Añade blogs a tu página web. Permítenos escribir para ti blogs informativos, entretenidos e interesantes que atraigan la atención de tu público para tener más visitas a tu página."
             },
             "contentPlanning":{
                 "title":"Planificación de contenido",
-                "description":"Nos encargamos que tus redes sociales llamen la atención y como decimos los millenials “que se vea aesthetic”. Diseñamos el contenido según la identidad visual de tu marca y realizamos contenido audiovisual que te va a dejar impresionado (y a tus clientes también 😉 ). Que se note el profesionalismo de tu marca!."
+                "description":"Nos encargamos de que tus redes sociales capten la atención de tus clientes. Diseñamos contenidos según la identidad visual de tu marca y creamos contenidos audiovisuales que te dejarán boquiabierto (y a tus clientes también 😉 ). ¡Deja que se note la profesionalidad de tu marca!"
             },
             "copywriting":{
                 "title":"Copywriting",
-                "description":"Has escuchado el dicho “las palabras se las lleva el viento”? Pues nuestras palabras tienen peso y se quedan en la mente de quienes las leen. Implementamos copywriting en todo el contenido para lograr cerrar ventas, atraer leads y nuevos clientes. Muy importante usar las palabras adecuadas!."
+                "description":"El primer paso para vender es elegir las palabras adecuadas. Implementamos el copywriting en todos los contenidos para cerrar ventas, atraer clientes potenciales y nuevos clientes."
             },
             "socialManagement":{
                 "title":"Gestión de redes sociales",
-                "description":"Nos encargamos de manejar por completo tus redes sociales. No solamente creamos contenido y realizamos campañas, también interactuamos con los clientes, damos seguimiento, agendamos reuniones. Nos preocupamos porque desde las redes sociales tus clientes noten la calidad de servicio que brindas!."
+                "description":"Nos encargamos de gestionar tus redes sociales por completo. No sólo creamos contenidos y hacemos campañas, sino que también interactuamos con los clientes, les hacemos un seguimiento, programamos nuevas reuniones. ¡Nos preocupamos de que tus clientes noten la calidad del servicio que ofreces!"
             }
         },
         "projects":{
@@ -36,7 +36,7 @@
                 "description":"Esta empresa de turismo decidió refrescar su imagen y actualizarse con las redes sociales. Nos encargamos de lograr mayores clientes a través de sus redes y brindarles mayor confianza."
             },
             "unifem":{
-                "title":"Unifem",
+                "title":"UMIFEM",
                 "description":"Al desarrollar la página web de esta clínica, incluimos un espacio para las subscripciones al newsletter, de esta manera pudimos trabajar con email marketing logrando obtener mas clientes que se benficiaran de los servicios de la clínica y conocieran sobre sus servicios y promociones"
             }
         }

@@ -46,8 +46,8 @@ function CAT() {
             </Styled.Deco>
             <Styled.TextContainer>
                 <Styled.Title>
-                    <h1>{t('cat:cat.contactCat')}</h1>
-                    <h1>{t('cat:cat.regretCat')}</h1>
+                    <h1>{t('cat:CAT.contactCat')}</h1>
+                    <h1>{t('cat:CAT.regretCat')}</h1>
                 </Styled.Title>
                 <Styled.Social>
                     <div className="contact">

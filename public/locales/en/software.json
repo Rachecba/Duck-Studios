@@ -2,20 +2,20 @@
     "software":{
         "heroTitle":"We are nerds that know how",
         "heroSpan":" to bring your ideas to live",
-        "heroSubtitle":"Leave the hard work to us,and just enjoy the benefits of the final project.But we do ask for ALOT of coffe, please.",
+        "heroSubtitle":"Leave the hard work to us,and just enjoy the benefits of the final project. But we do ask for ALOT of coffe, please.",
         "services":{
             "title":"What do you want us to design?",
             "web":{
                 "title":"Website",
-                "description":"Yes, we already know that someone will let you get it cheaper. But with us you have the backing of software engineers and a design team focused entirely on delivering a website that will generate more sales, give you security and attract more customers. Whether it's an information page, e-commerce or something more elaborate. We don’t play around with your website."
+                "description":"With us you have the backing of software engineers and a design team focused entirely on delivering a website that will generate more sales, give you security and attract more customers. "
             },
             "apps":{
                 "title":"Apps",
-                "description":"Do you have an amazing idea for the next app that everyone will want to use? Let our team guide and advise you in the best way possible, we want that idea to be a success as much as you do, and we are committed to developing it for you. (Plus, we don't have hidden fees on servers or third party services, nor do we magically disappear with your money)."
+                "description":"Do you have an amazing idea for a new app? Let our team guide and advise you in the best way possible, we want that idea to be a success as much as you do, and we are committed to developing it for you."
             },
             "systems":{
                 "title":"Systems",
-                "description":"Do you need a new system to manage your business sales, track your customers, or just have a new business idea for which you need to develop a web system? Our engineers do magic, contact us and let us make your life easier!"
+                "description":"Do you need a new system to manage your business sales, track your customers, or just have a new business idea and need a web system? Our engineers do magic, contact us and let us make your life easier!"
             }
         },
         "projects":{
@@ -28,9 +28,11 @@
                 "description":"This website was designed and developed for a company that provides training services and courses focused on the area of data analysis. We made templates so that the client can modify the course information to their liking."
             },
             "unifem":{
-                "title":"Unifem",
+                "title":"UMIFEM",
                 "description":"UMIFEM is a clinic specialising in women. We focused the design of the website on the floral and feminine identity that surrounds the brand. With the development of the website we were able to provide their patients with information about their services, products, promotions and even schedule appointments online."
             }
+
         }
+       
     }
 }

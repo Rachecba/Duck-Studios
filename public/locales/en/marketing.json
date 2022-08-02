@@ -2,7 +2,7 @@
     "marketing":{
         "heroTitle":"We are not content creators",
         "heroSpan":"we take marketing seriously",
-        "heroSubtitle":"Just go for a coffe, relax,and see your business grow with us",
+        "heroSubtitle":"Just go for a coffe, relax,and see your business grow with us!",
         "services":{
             "title":"What do you want us to design?",
             "emailMarketing":{
@@ -11,32 +11,32 @@
             },
             "digitalAdvertising":{
                 "title":"Digital Advertising",
-                "description":"Do you need to be recognize in your country? In the whole world? Only among young people? Or maybe just between people that likes pink color? We make it happen. We build digital advertising campaigns that make you reach your target audience and of course, achieve more sells!."
+                "description":"Do you need to be recognize in your country? In the whole world? Only among young people?  We make it happen. We build digital advertising campaigns that make you reach your target audience and of course, achieve more sells!"
             },
             "blogWriting":{
                 "title":"Blog Writing",
-                "description":"Want to make it to the top search results? Add blogs to your website. That’s rule #3 of SEO. Allow us to write for you informative, entertaining and intersting blogs that draw the attention of your audience to have more visits to your page."
+                "description":"Want to make it to the top search results? Add blogs to your website. Allow us to write for you informative, entertaining and intersting blogs that draw the attention of your audience to have more visits to your page."
             },
             "contentPlanning":{
                 "title":"Content planning",
-                "description":"We take care that your social media gets the attention of your clients, and as we millennials say “make it look aesthetic”. We design content according to your brand’s visual identity and create audiovisual content that will blow your mind (and your clients too 😉 ). Let the professionalism of your brand be noticed!"
+                "description":"We take care that your social media gets the attention of your clients. We design content according to your brand’s visual identity and create audiovisual content that will blow your mind (and your clients too 😉 ). Let the professionalism of your brand be noticed!"
             },
             "copywriting":{
                 "title":"Copywriting",
-                "description":"Have you Heard the saying “Words are gone with the wind”? Well, our words have weight and remain in the minds of those who read them. We implement copywriting in all content to close sells, attract leads and new customers. It is very important to use the right words!."
+                "description":"The first step to sell is to choose the right words. We implement copywriting in all content to close sells, attract leads and new customers."
             },
             "socialManagement":{
                 "title":"Social Media Management",
-                "description":"We take care of managing your social media completely. We not only create content and make campaigns, we also interact with clients, follow up with them, schedule new meetings. We care that from social media your clients notice the quality of service you provide!."
+                "description":"We take care of managing your social media completely. We not only create content and make campaigns, we also interact with clients, follow up with them, schedule new meetings. We care that your clients notice the quality of service you provide!"
             }
         },
         "projects":{
             "expeditionsWorld":{
-                "title":"Expedition World",
+                "title":"Mundo Expediciones",
                 "description":"This tourism company decided to refresh its image and update its social networks. We take care of getting more customers through their networks and give them more confidence."
             },
             "unifem":{
-                "title":"Unifem",
+                "title":"UMIFEM",
                 "description":"When developing the website of this clinic, we included a space for newsletter subscriptions, this way we were able to work with email marketing to get more clients to benefit from the clinic's services and learn about its services and promotions."
             }
         }

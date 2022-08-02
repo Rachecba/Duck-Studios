@@ -29,14 +29,14 @@ function CAT() {
             </Styled.Deco>
             <Styled.TextContainer>
                 <Styled.Title>
-                    <h1>{t('cat:cat.title')}</h1>
+                    <h1>{t('cat:CAT.title')}</h1>
                 </Styled.Title>
                 <Styled.Text>
                     <p>
-                    {t('cat:cat.description1')}
+                    {t('cat:CAT.description1')}
                     </p>
                     <p>
-                    {t('cat:cat.description2')}
+                    {t('cat:CAT.description2')}
                     </p>
                 </Styled.Text>
                 <Styled.Social>

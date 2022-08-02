@@ -2,20 +2,20 @@
     "software":{
         "heroTitle":"Somos nerds que saben cómo",
         "heroSpan":"dar vida a tus ideas",
-        "heroSubtitle":"Deja el trabajo duro a nosotros y disfruta de los beneficios del proyecto final, pero te pedimos mucho café, por favor.",
+        "heroSubtitle":"Deja el trabajo duro a nosotros y disfruta de los beneficios del proyecto final. Pero te pedimos MUCHO café, por favor.",
         "services":{
             "title":"Que quieres que diseñemos?",
             "web":{
                 "title":"Páginas Web",
-                "description":"Si, ya sabemos que alguien te la deja mas barata. Pero con nosotros tienes el respaldo de Ingenieros en Software y un equipo de diseño enfocados completamente en entregarte la página que te generará mas ventas, te dará seguridad y atraerá más clientes. Ya sea una página informativa, ecommerce o algo mas elaborado, nosotros no te ponemos peros"
+                "description":"Con nosotros cuenta con el respaldo de ingenieros de software y un equipo de diseño centrado por completo en ofrecer un sitio web que generará más ventas, te dará seguridad y atraerá a más clientes. "
             },
             "apps":{
                 "title":"Aplicaciones",
-                "description":"Tienes una increíble idea para la próxima aplicación que todos querrán usar? Permite que nuestro equipo te guie y asesore de la mejor manera, queremos tanto como tu que esa idea sea todo un éxito, y estamos comprometidos en desarrollarla por ti. (Además, no tenemos tarifas escondidas en servidores ni servicios de terceros, ni nos desaparecemos mágicamente con tu dinero)"
+                "description":"¿Tienes una idea increíble para una nueva aplicación? Deja que nuestro equipo te guíe y asesore de la mejor manera posible, queremos que esa idea sea un éxito tanto como tú, y nos comprometemos a desarrollarla para ti."
             },
             "systems":{
                 "title":"Sistemas",
-                "description":"Necesitas un sistema nuevo para manejar las ventas de tu negocio, darle seguimiento a tus clientes, o sólo tienes una nueva idea de negocio para el cual necesitas desarrollar un sistema web? Nuestros ingenieros hacen magia, contáctanos y déjanos solucionarte la vida!."
+                "description":"¿Necesita un nuevo sistema para gestionar las ventas de su negocio, hacer un seguimiento de sus clientes, o simplemente tiene una nueva idea de negocio y necesita un sistema web? Nuestros ingenieros hacen magia, ¡contacte con nosotros y déjenos hacerle la vida más fácil!"
             }
         },
         "projects":{
@@ -28,9 +28,10 @@
                 "description":"Esta página web fue diseñada y desarrollada para una compañía que brinda servicios de capacitaciones y cursos enfocados en el área de análisis de datos. Realizamos plantillas para que el cliente pueda modificar la información de cursos a su gusto."
             },
             "unifem":{
-                "title":"Unifem",
+                "title":"UMIFEM",
                 "description":"UMIFEM es una clínica especializada en la mujer. Enfocamos el diseño de la pagina en la identidad floral y femenina que envuelve a la marca. Con el desarrollo del sitio web logramos brindar a sus pacientes informacion sobre sus servicios, productos, promociones e incluso que agenden citas en línea."
             }
         }
+       
     }
 }
