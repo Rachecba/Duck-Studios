@@ -1,12 +1,13 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useTranslation } from "react-i18next";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { grapichDesignPortfolio, marketingPortfolio, pageTitle, softwarePortfolio } from "../../../../utils/constants/constants";
 import * as Styled from './portfolio-detail.style';
 import { Player } from 'video-react';
 import "./video-react.css";
 import { useEffect } from "react";
 import ReactGA from 'react-ga4';
+import { Button } from "reactstrap";
 
 function ProjectDetail(props: any) {
 
@@ -22,7 +23,7 @@ function ProjectDetail(props: any) {
         document.title = pageTitle(path)
     }, []);
   
-    const { t, i18n, ready } = useTranslation(['portfolio','softwarePortfolio','marketingPortfolio','grapichDesignPortfolio'], { useSuspense: true });
+    const { t, i18n, ready } = useTranslation(['portfolio','softwarePortfolio','marketingPortfolio','grapichDesignPortfolio','global'], { useSuspense: true });
 
     const splideOptions = { gap: '3rem',arrows:true,pagination:false, rewind : true, perPage: 3,  autoWidth: true,
     breakpoints: {
@@ -112,6 +113,11 @@ function ProjectDetail(props: any) {
        </Styled.VideoContainer>
       )
      } 
+     <h1 className="text-center">
+     <Link to={`/portfolio/${urlService}`}>
+        <Button className="button">{t('global:global.btnSeeMoreProjects')}</Button>
+     </Link>
+     </h1>
     </Styled.Container>);
 }
 
