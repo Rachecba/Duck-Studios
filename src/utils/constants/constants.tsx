@@ -856,7 +856,7 @@ export const grapichDesignPortfolio = {
         images:[
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2F1.png?alt=media&token=c2aa5914-26ee-4fa8-8cdd-921aa52dbe03",
              "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2F2.png?alt=media&token=f73ff0d8-ca1d-4d19-9126-dff8ce8b2409",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema.png?alt=media&token=6d7afcbf-265f-4d22-8d71-2ca62ae8626d",
+           "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2FOR7V6B1.png?alt=media&token=a882e8d8-bc8d-4ab9-ab24-fc3dd5b3968d",
         ],
         descriptions:[
             {
@@ -877,15 +877,15 @@ export const grapichDesignPortfolio = {
             },
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2FOR7V6B1.png?alt=media&token=a882e8d8-bc8d-4ab9-ab24-fc3dd5b3968d",
                 paragraphs:[
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.3.paragraphs.1",
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.3.paragraphs.2"
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.handmadeCigars.descriptions.3.paragraphs.2"
                  ]
             }
         ],
         otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2F1.png?alt=media&token=c2aa5914-26ee-4fa8-8cdd-921aa52dbe03",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2F2.png?alt=media&token=f73ff0d8-ca1d-4d19-9126-dff8ce8b2409","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Website.png?alt=media&token=026b06ed-cf38-4c12-b15f-93fda1ed6936,"],
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2F2.png?alt=media&token=f73ff0d8-ca1d-4d19-9126-dff8ce8b2409","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2FOR7V6B1.png?alt=media&token=a882e8d8-bc8d-4ab9-ab24-fc3dd5b3968d","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2F292.png?alt=media&token=d108996d-9a1c-4c49-ad3b-6386c1b16afe"],
         video:{
             url:"",
             poster:""
