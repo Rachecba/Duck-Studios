@@ -1,6 +1,6 @@
 {
   "graphicDesignPortfolio":{
-      "title1":"GRAPICH",
+      "title1":"GRAPHIC",
       "title2":"DESIGN",
       "projects":{
         "grupoPaquidermo":{
@@ -102,7 +102,7 @@
             }
           },
 
-          "handameCigars":{
+          "handmadeCigars":{
              "title":"Handmade Cigars",
              "category":"Branding",
              "descriptions":{    
