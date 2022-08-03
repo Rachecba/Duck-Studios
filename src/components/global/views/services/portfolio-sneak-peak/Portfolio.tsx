@@ -103,7 +103,7 @@ function Portfolio({ projects }: Props) {
                                 {item.projectLink && (
                                     <Styled.Description>
                                         <Styled.ProjectLink><h3>{t('portfolio:portfolio.appSpan')} {item.projectLink.type}</h3></Styled.ProjectLink>
-                                        <Styled.ProjectLink><a href={item.projectLink.url} onClick={projectWebEvent}>{item.projectLink.name}</a></Styled.ProjectLink>
+                                        <Styled.ProjectLink><a href={item.projectLink.url} onClick={projectWebEvent} target="_blank" rel="noreferrer">{item.projectLink.name}</a></Styled.ProjectLink>
                                     </Styled.Description>
                                 )}
                                 {item.socialMedia && (
