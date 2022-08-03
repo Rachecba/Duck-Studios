@@ -277,7 +277,6 @@ export const marketingProjects = [
         projectTitle: "marketing:marketing.projects.unifem.title",
         projectDescription: "marketing:marketing.projects.unifem.description",
         socialMedia: [ { type: "insta", url: "https://www.instagram.com/umifemcrlaser/" }]
-
     },
 
 ]
