@@ -110,7 +110,7 @@ function Portfolio({ projects }: Props) {
                                     <Styled.Description>
                                         <Styled.ProjectLink><h3> {t('portfolio:portfolio.socialMediaSpan')} </h3></Styled.ProjectLink>
                                         <Styled.SocialMediaLinks>
-                                            {item.socialMedia.map((sm) => {
+                                            {item.socialMedia.map((item) => {
                                                 return (
                                                     <div>
                                                         {renderSocialMedia(item)}

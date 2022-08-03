@@ -279,7 +279,6 @@ export const marketingProjects = [
         projectUrl: "umifem",
         projectDescription: "marketing:marketing.projects.unifem.description",
         socialMedia: [ { type: "insta", url: "https://www.instagram.com/umifemcrlaser/" }]
-
     },
 
 ]
