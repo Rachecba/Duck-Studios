@@ -64,60 +64,65 @@ function ProjectDetail(props: any) {
     
     return (
     <Styled.Container>
-     <h1 className="animate__animated animate__fadeInLeft">{t(projectDetail.title)}</h1>
-      <Styled.ParagraphsContainer className="animate__animated animate__fadeInUp">
-        {
-            projectDetail.descriptions.map((description:any, index:number) =>{
-                return (
-                    <Styled.Paragraph  key={index} className={description.textDirection==='right'?'row-reverse':''}>
-                        <img src={description.image} alt="project-image" className="img-paragraph" />
-                        <div className="p-container">
-                        { 
-                        description.paragraphs.map((p:any,index:number)=>{
-                          return <p key={index}>{t(p)}</p>
-                        })
-                        }
-                        </div>
-                    </Styled.Paragraph>
-                )
-            })
-        }
-      </Styled.ParagraphsContainer>
+        <h1 className="text-start">
+            <Link to={`/portfolio/${urlService}`}>
+                    <Button className="button">{`❮❮ `}{t('global:global.btnSeeMoreProjects')}</Button>
+            </Link>
+        </h1>   
+        <h1 className="animate__animated animate__fadeInLeft">{t(projectDetail.title)}</h1>
+        <Styled.ParagraphsContainer className="animate__animated animate__fadeInUp">
+            {
+                projectDetail.descriptions.map((description:any, index:number) =>{
+                    return (
+                        <Styled.Paragraph  key={index} className={description.textDirection==='right'?'row-reverse':''}>
+                            <img src={description.image} alt="project-image" className="img-paragraph" />
+                            <div className="p-container">
+                            { 
+                            description.paragraphs.map((p:any,index:number)=>{
+                            return <p key={index}>{t(p)}</p>
+                            })
+                            }
+                            </div>
+                        </Styled.Paragraph>
+                    )
+                })
+            }
+        </Styled.ParagraphsContainer>
 
-{
-    projectDetail.otherImages.length>0 && (
-        <Styled.OtherImagesContainer>
-            <h1>{t('portfolio:portfolio.moreOfThisProject')}</h1>
-            <Splide aria-label="Project images" options={splideOptions} className="background-container">
-            {projectDetail.otherImages.map((image:string) => {
-                return (
-                    <SplideSlide key={image}>
-                        <img src={image} alt="project-image" className="img-other-images"/>
-                    </SplideSlide>
-                )
-            })}
-        </Splide>
-        </Styled.OtherImagesContainer>
-    )
-}
+    {
+        projectDetail.otherImages.length>0 && (
+            <Styled.OtherImagesContainer>
+                <h1>{t('portfolio:portfolio.moreOfThisProject')}</h1>
+                <Splide aria-label="Project images" options={splideOptions} className="background-container">
+                {projectDetail.otherImages.map((image:string) => {
+                    return (
+                        <SplideSlide key={image}>
+                            <img src={image} alt="project-image" className="img-other-images"/>
+                        </SplideSlide>
+                    )
+                })}
+            </Splide>
+            </Styled.OtherImagesContainer>
+        )
+    }
 
-      { projectDetail.video.url && (
-      <Styled.VideoContainer className="animate__animated animate__fadeInUp">
-       <div className="video-size">
-        <Player
-            playsInline
-            poster={projectDetail.video.poster}
-            src={projectDetail.video.url}
-        />
-        </div>
-       </Styled.VideoContainer>
-      )
-     } 
-     <h1 className="text-center">
-     <Link to={`/portfolio/${urlService}`}>
-        <Button className="button">{t('global:global.btnSeeMoreProjects')}</Button>
-     </Link>
-     </h1>
+        { projectDetail.video.url && (
+            <Styled.VideoContainer className="animate__animated animate__fadeInUp">
+            <div className="video-size">
+                <Player
+                    playsInline
+                    poster={projectDetail.video.poster}
+                    src={projectDetail.video.url}
+                />
+                </div>
+            </Styled.VideoContainer>
+        )
+        } 
+        <h1 className="text-start">
+            <Link to={`/portfolio/${urlService}`}>
+                <Button className="button">{`❮❮ `}{t('global:global.btnSeeMoreProjects')}</Button>
+            </Link>
+        </h1>   
     </Styled.Container>);
 }
 
