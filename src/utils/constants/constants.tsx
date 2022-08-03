@@ -126,14 +126,14 @@ export const designTestimonials = [
 
 export const designProjects = [
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2Flg%20phone%20PORTADA.png?alt=media&token=bed8735d-5f86-4da7-8d3e-687e7650574d"],
         projectTitle: "grapichDesign:grapichDesign.projects.lawGorithmic.title",
         projectUrl:"lawgorithmic",
         projectDescription: "grapichDesign:grapichDesign.projects.lawGorithmic.description",
         // socialMedia: [ { type: "insta", url: "https://www.instagram.com/lawgorithmic/" }],
     },
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FPG-Mockup.png?alt=media&token=fe3c9796-0eba-4af1-9d91-7097337e0bb4", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2F2.png?alt=media&token=ec04ee5c-7fac-43e1-8d4a-0c2a4071d808", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FiMac_2.png?alt=media&token=0487a8e8-7930-432b-80ac-58cdd3510c84"],
         projectTitle: "grapichDesign:grapichDesign.projects.premiumGarage.title",
         projectUrl:"lawgorithmic",
         projectDescription: "grapichDesign:grapichDesign.projects.premiumGarage.description",
@@ -190,25 +190,25 @@ export const softwareTestimonials = [
 
 export const softwareProjects = [
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FLawGotihmic-mockup.png?alt=media&token=01bb2a85-00dd-4b7c-b4a7-e16293233443"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Flg%20mock%202.png?alt=media&token=21c47313-a67c-4063-953a-f766569fe3fa", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20phone%20PORTADA.png?alt=media&token=2f9359ee-a5e0-463f-9059-7f2c2ce529a2", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mac.png?alt=media&token=ca247150-4260-423d-9141-1fedd8f3a795"],
         projectTitle: "software:software.projects.lawGorithmic.title",
         projectUrl:"lawgorithmic",
         projectDescription: "software:software.projects.lawGorithmic.description",
-        projectLink: { url: "https://www.lawgorithmic.io/", name: "LawGorithmic", type: "Web Site" }
+        projectLink: { url: "https://www.lawgorithmic.io/", name: "LawGorithmic", type: "Website" }
     },
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20phone.png?alt=media&token=ca3c6e8d-ca62-48fa-8fa4-73b4cbcd522e"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20phone.png?alt=media&token=ca3c6e8d-ca62-48fa-8fa4-73b4cbcd522e", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fda%20mockup%20PORTADA.png?alt=media&token=4c6ff528-6c7a-4602-bde7-ec8be02606eb", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2FdeerAnalytics%2Ftablet%20da.png?alt=media&token=2beb9552-7298-4056-a2b5-d395ad3fbd74"],
         projectTitle: "software:software.projects.deerAnalitycs.title",
-        projectUrl:"lawgorithmic",
+        projectUrl:"deer-analytics",
         projectDescription: "software:software.projects.deerAnalitycs.description",
-        projectLink: { url: "https://deeranalytics.com/", name: "Deer-Analytics", type: "Web Site" }
+        projectLink: { url: "https://deeranalytics.com/", name: "Deer-Analytics", type: "Website" }
     },
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fmobile%20mockup%20umifem.png?alt=media&token=7c6df361-33f4-4f60-bc9d-2aaae465dbbb"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2F3188.png?alt=media&token=e3e55135-6144-4f18-b98d-5bf22148d159", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2FUMIFEM%20mock%20PORTADA.png?alt=media&token=88f16b6f-2faf-4bb6-9798-8cb843aebc27", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Fumifem%2Fmobile%20mockup%20umifem.png?alt=media&token=7c6df361-33f4-4f60-bc9d-2aaae465dbbb"],
         projectTitle: "software:software.projects.unifem.title",
-        projectUrl:"lawgorithmic",
+        projectUrl:"umifem",
         projectDescription: "software:software.projects.unifem.description",
-        projectLink: { url: "https://umifem.com/", name: "UMIFEM", type: "Web Site" }
+        projectLink: { url: "https://umifem.com/", name: "UMIFEM", type: "Website" }
     },
 ]
 
@@ -266,15 +266,17 @@ export const marketingTestimonials = [
 
 export const marketingProjects = [
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fme%20insta.png?alt=media&token=58590f62-3b1f-403b-a6f1-b611342d4082"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Fme%20insta.png?alt=media&token=58590f62-3b1f-403b-a6f1-b611342d4082", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fmundoexpediciones%2Fme%20ISNTA%203.png?alt=media&token=f1e877aa-654f-451a-83f1-6e255157c236", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fmundoexpediciones%2Fme%20insta%202.png?alt=media&token=e37e69ae-3632-4915-b4d2-f10bb1f152c6"],
         projectTitle: "marketing:marketing.projects.expeditionsWorld.title",
+        projectUrl: "mundo-expediciones",
         projectDescription: "marketing:marketing.projects.expeditionsWorld.description",
         socialMedia: [{ type: "insta", url: "https://www.instagram.com/mundo_expediciones_/" }],
         
     },
     {
-        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Femail%20marketing.png?alt=media&token=7513d7f0-8bbf-420d-a5f7-4989d176afda"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fmarketing%2Femail%20marketing.png?alt=media&token=7513d7f0-8bbf-420d-a5f7-4989d176afda", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2Fumifem%20insta%201%20PORTADA.png?alt=media&token=969648bc-196c-445f-abbf-71653f99e78d", "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2FUMIFEM%20post%202.png?alt=media&token=22af392b-8b55-40ac-9cda-177b2602930e"],
         projectTitle: "marketing:marketing.projects.unifem.title",
+        projectUrl: "umifem",
         projectDescription: "marketing:marketing.projects.unifem.description",
         socialMedia: [ { type: "insta", url: "https://www.instagram.com/umifemcrlaser/" }]
 
@@ -1243,7 +1245,7 @@ export const grapichDesignPortfolio = {
         title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.title",
         category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.category",
         images:[
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Flg%20mock%202.png?alt=media&token=21c47313-a67c-4063-953a-f766569fe3fa",
              "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
         ],

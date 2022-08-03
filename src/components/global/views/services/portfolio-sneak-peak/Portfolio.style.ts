@@ -3,21 +3,21 @@ import styled from 'styled-components'
 export const Container = styled.div`
   margin-top: 8rem;
   font-family: 'Montserrat';
-  
-   .pointer{
-     cursor:pointer;
-   }
-   
-   .margin-center{
-    text-align:center;
-    margin-top:-1rem;
-   }
 
-   .social-icon{
-    color:white;
-    font-size:20px;
-    margin-right:30px;
-   }
+  .pointer {
+    cursor: pointer;
+  }
+
+  .margin-center {
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  .social-icon {
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+  }
 
   .see-more-btn {
     background: #ce8f00;
@@ -70,6 +70,14 @@ export const TitleContainer = styled.div`
 
 export const Slider = styled.div`
   width: 100%;
+
+  .splide__arrow {
+    background: unset;
+  }
+
+  .splide__arrow:hover:not(:disabled) {
+    background: #00000042;
+  }
 `
 
 export const ProjectsContainer = styled.div`
@@ -78,9 +86,8 @@ export const ProjectsContainer = styled.div`
   justify-content: space-around;
   margin-top: 4rem;
 
-
   ${(props) => props.theme.breakpoints.down('sm')} {
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -94,19 +101,19 @@ export const ProjectsContainer = styled.div`
 export const Project = styled.div`
   width: 25%;
 
-  .img-project{
-    width:100%;
-    height:15rem;
-    object-fit:cover;
+  .img-project {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
     ${(props) => props.theme.breakpoints.down('xxl')} {
-      height:20rem;
+      height: 20rem;
     }
     ${(props) => props.theme.breakpoints.down('lg')} {
-      height:20rem;
+      height: 20rem;
     }
     ${(props) => props.theme.breakpoints.down('sm')} {
       width: 90%;
-      margin-bottom:20rem;
+      margin-bottom: 20rem;
     }
   }
 `
@@ -130,18 +137,18 @@ export const ProjectLink = styled.div`
 
   h3 {
     font-size: 1.1rem;
-    margin-bottom:0;
+    margin-bottom: 0;
   }
-  a{
-    color:#0087DE;
+  a {
+    color: #0087de;
     font-size: 1.1rem;
-    text-decoration:none;
+    text-decoration: none;
   }
 `
 export const SocialMediaLinks = styled.div`
-  display:flex;
-  flex-directon:row;
-  margin-top:20px;
+  display: flex;
+  flex-directon: row;
+  margin-top: 20px;
 `
 
 export const ProjectDescription = styled.div``

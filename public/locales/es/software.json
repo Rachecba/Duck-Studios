@@ -4,10 +4,10 @@
         "heroSpan":"dar vida a tus ideas",
         "heroSubtitle":"Deja el trabajo duro a nosotros y disfruta de los beneficios del proyecto final. Pero te pedimos MUCHO café, por favor.",
         "services":{
-            "title":"Que quieres que diseñemos?",
+            "title":"¿Qué deseas desarrollar?",
             "web":{
                 "title":"Páginas Web",
-                "description":"Con nosotros cuenta con el respaldo de ingenieros de software y un equipo de diseño centrado por completo en ofrecer un sitio web que generará más ventas, te dará seguridad y atraerá a más clientes. "
+                "description":"Con nosotros cuentas con el respaldo de ingenieros de software y un equipo de diseño centrado por completo en ofrecerte un sitio web que generará más ventas, te dará seguridad y atraerá a más clientes. "
             },
             "apps":{
                 "title":"Aplicaciones",
@@ -15,13 +15,13 @@
             },
             "systems":{
                 "title":"Sistemas",
-                "description":"¿Necesita un nuevo sistema para gestionar las ventas de su negocio, hacer un seguimiento de sus clientes, o simplemente tiene una nueva idea de negocio y necesita un sistema web? Nuestros ingenieros hacen magia, ¡contacte con nosotros y déjenos hacerle la vida más fácil!"
+                "description":"¿Necesitas un nuevo sistema para gestionar las ventas de tu negocio, darle seguimiento a tus clientes, o simplemente tienes una nueva idea de negocio y necesitas un sistema web? Nuestros ingenieros hacen magia, ¡contáctanos y déjanos hacerte la vida más fácil!"
             }
         },
         "projects":{
             "lawGorithmic":{
                 "title":"LawGorithmic",
-                "description":"Diseñamos la interfaz y desarrollamos la pagina web de este bufete de abogados especializados en tecnología y criptomonedas. Realizamos una pagina informativa cuyo objetivo es que sus clientes logren ponerse en contacto y conocer sus servicios de manera rápida y sencilla."
+                "description":"Diseñamos la interfaz y desarrollamos la pagina web de este bufete de abogados especializados en tecnología y criptomonedas. Realizamos una página informativa cuyo objetivo es que sus clientes logren ponerse en contacto y conocer sus servicios de manera rápida y sencilla."
             },
             "deerAnalitycs":{
                 "title":"Deer Analytics",
@@ -29,7 +29,7 @@
             },
             "unifem":{
                 "title":"UMIFEM",
-                "description":"UMIFEM es una clínica especializada en la mujer. Enfocamos el diseño de la pagina en la identidad floral y femenina que envuelve a la marca. Con el desarrollo del sitio web logramos brindar a sus pacientes informacion sobre sus servicios, productos, promociones e incluso que agenden citas en línea."
+                "description":"UMIFEM es una clínica especializada en la mujer. Enfocamos el diseño de la página en la identidad floral y femenina que envuelve a la marca. Con el desarrollo del sitio web logramos brindar a sus pacientes información sobre sus servicios, productos, promociones e incluso que agenden citas en línea."
             }
         }
        
