@@ -89,6 +89,8 @@ export const ProjectsContainer = styled.div`
   ${(props) => props.theme.breakpoints.down('sm')} {
     flex-direction: column;
     align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   img {
@@ -101,19 +103,21 @@ export const ProjectsContainer = styled.div`
 export const Project = styled.div`
   width: 25%;
 
+  ${(props) => props.theme.breakpoints.down('sm')} {
+    width: 100% !important;
+    margin-bottom: 3.5rem;
+  }
+
   .img-project {
     width: 100%;
     height: 15rem;
     object-fit: cover;
+
     ${(props) => props.theme.breakpoints.down('xxl')} {
       height: 20rem;
     }
     ${(props) => props.theme.breakpoints.down('lg')} {
       height: 20rem;
-    }
-    ${(props) => props.theme.breakpoints.down('sm')} {
-      width: 90%;
-      margin-bottom: 20rem;
     }
   }
 `
