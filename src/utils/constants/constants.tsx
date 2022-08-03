@@ -699,7 +699,12 @@ export const grapichDesignPortfolio = {
                  ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20rotulacion.png?alt=media&token=df65967d-ccff-4153-b5aa-678c6a09d93b","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%202.png?alt=media&token=f96e9898-f974-4a5a-b92b-2ec3b48b1362"],
+            otherImages: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20rotulacion.png?alt=media&token=df65967d-ccff-4153-b5aa-678c6a09d93b",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%202.png?alt=media&token=f96e9898-f974-4a5a-b92b-2ec3b48b1362",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20papeler%C3%ADa.png?alt=media&token=11c97dd4-71d3-4aca-b338-95b64867a82c",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2Fgrupo%20paquidermo%20-%20mockup.png?alt=media&token=9d97daee-5685-40cb-87b2-09d82ef75a64",
+               "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20iPad.png?alt=media&token=95c2c004-491c-4a75-a67a-49fb6f3ee739" 
+            ],
         video:{
             url:"",
             poster:""
