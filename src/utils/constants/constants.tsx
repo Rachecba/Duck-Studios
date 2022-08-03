@@ -712,13 +712,15 @@ export const grapichDesignPortfolio = {
         category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.category",
         images:[
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2Fgrupo%20paquidermo%20-%20mockup.png?alt=media&token=9d97daee-5685-40cb-87b2-09d82ef75a64",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20iPad.png?alt=media&token=95c2c004-491c-4a75-a67a-49fb6f3ee739",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2F2.png?alt=media&token=ec04ee5c-7fac-43e1-8d4a-0c2a4071d808",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FPerspective%20Web%20Mockup.png?alt=media&token=aa43de7c-d9e8-4ef7-ba78-8b383a9d7dbe",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FiMac_2.png?alt=media&token=0487a8e8-7930-432b-80ac-58cdd3510c84",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FiMac.png?alt=media&token=a6f53c2d-7005-4204-a92d-f0b962175858"
         ],
         descriptions:[
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20papeler%C3%ADa.png?alt=media&token=11c97dd4-71d3-4aca-b338-95b64867a82c",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
                 paragraphs:[
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.1.paragraphs.1",
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.1.paragraphs.2"
@@ -726,7 +728,7 @@ export const grapichDesignPortfolio = {
             },
             {
                 textDirection:"right",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2Fgrupo%20paquidermo%20-%20mockup.png?alt=media&token=9d97daee-5685-40cb-87b2-09d82ef75a64",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FiMac_2.png?alt=media&token=0487a8e8-7930-432b-80ac-58cdd3510c84",
                 paragraphs:[
                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.2.paragraphs.1",
                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.2.paragraphs.2"
@@ -734,14 +736,20 @@ export const grapichDesignPortfolio = {
             },
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20iPad.png?alt=media&token=95c2c004-491c-4a75-a67a-49fb6f3ee739",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2F2.png?alt=media&token=ec04ee5c-7fac-43e1-8d4a-0c2a4071d808",
                 paragraphs:[
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.3.paragraphs.1",
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.3.paragraphs.2"
                  ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%20rotulacion.png?alt=media&token=df65967d-ccff-4153-b5aa-678c6a09d93b","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FgrupoPaquidermo%2FMockup%202.png?alt=media&token=f96e9898-f974-4a5a-b92b-2ec3b48b1362"],
+        otherImages: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMockup.png?alt=media&token=37f50a82-374d-4e0d-b6b1-dfc1a889dcf8",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FPerspective%20Web%20Mockup.png?alt=media&token=aa43de7c-d9e8-4ef7-ba78-8b383a9d7dbe",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FiMac.png?alt=media&token=a6f53c2d-7005-4204-a92d-f0b962175858",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2F3.png?alt=media&token=eb26f8b8-e9a9-4a2f-a8fc-1dd2c46ad1c9",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FiMac_2.png?alt=media&token=0487a8e8-7930-432b-80ac-58cdd3510c84",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2FMacbook.png?alt=media&token=13caa695-755c-4c47-8a93-3061a505d015",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FpremiumGarage%2F2.png?alt=media&token=ec04ee5c-7fac-43e1-8d4a-0c2a4071d808"],
         video:{
             url:"",
             poster:""
@@ -927,9 +935,10 @@ export const grapichDesignPortfolio = {
         title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.title",
         category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.category",
         images:[
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Flg%20mock%202.png?alt=media&token=21c47313-a67c-4063-953a-f766569fe3fa",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema-Facturaci%E0%B8%82n---Mockup2.png?alt=media&token=ae496b72-8273-403a-89f8-e239f7c2cf5c",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F211.png?alt=media&token=47aad7d4-e729-40a5-bdf0-ae2c98d1e738",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F182.png?alt=media&token=f30db657-bbdf-4daf-99ab-41447436ae8f",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F205.png?alt=media&token=01736216-457f-4501-868b-c852cf5f804a"
         ],
         descriptions:[
             {
@@ -939,9 +948,28 @@ export const grapichDesignPortfolio = {
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.1",
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.2"
                 ]
+            },
+            {
+                textDirection:"right",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F211.png?alt=media&token=47aad7d4-e729-40a5-bdf0-ae2c98d1e738",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.2"
+                ]
+            },
+            {
+                textDirection:"left",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F182.png?alt=media&token=f30db657-bbdf-4daf-99ab-41447436ae8f",
+                paragraphs:[
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.2"
+                ]
             }
         ],
-        otherImages:[""],
+        otherImages: ["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema-Facturaci%E0%B8%82n---Mockup2.png?alt=media&token=ae496b72-8273-403a-89f8-e239f7c2cf5c",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F211.png?alt=media&token=47aad7d4-e729-40a5-bdf0-ae2c98d1e738",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F182.png?alt=media&token=f30db657-bbdf-4daf-99ab-41447436ae8f",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F205.png?alt=media&token=01736216-457f-4501-868b-c852cf5f804a"],
         video:{
             url:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema%20Facturaci%E0%B8%82n%20-%20Mockup.m4v?alt=media&token=f8c4387c-74be-4241-884d-bb35aa21688e",
             poster:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2FSistema-Facturaci%E0%B8%82n---Mockup2.png?alt=media&token=ae496b72-8273-403a-89f8-e239f7c2cf5c"
