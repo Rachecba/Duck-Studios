@@ -1085,7 +1085,8 @@ export const marketingPortfolio = {
         ],
         otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fmundoexpediciones%2Fme%20insta.png?alt=media&token=5bc2588f-9a35-4cda-8105-821e34010957",
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fmundoexpediciones%2Fme%20insta%202.png?alt=media&token=e37e69ae-3632-4915-b4d2-f10bb1f152c6",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fmundoexpediciones%2Fme%20ISNTA%203.png?alt=media&token=f1e877aa-654f-451a-83f1-6e255157c236"],
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fmundoexpediciones%2Fme%20ISNTA%203.png?alt=media&token=f1e877aa-654f-451a-83f1-6e255157c236",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FmarketingPortfolio%2Fumifem%2FUMIFEM%204.png?alt=media&token=8787f2b6-3669-4b9d-94c3-f1fd829d357a"],
         video:{
             url:"",
             poster:""
