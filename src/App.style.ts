@@ -6,6 +6,16 @@ export const ContainerWrap = styled.div`
   overflow: hidden;
   margin: 0;
 
+  .evMtho{
+    display: none !important;
+  }
+
+  ${(props) => props.theme.breakpoints.down('lg')} {
+    .evMtho{
+      display: none !important;
+    }
+  }
+
   a {
     color: unset;
     text-decoration: unset;
