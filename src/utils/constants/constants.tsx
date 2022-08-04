@@ -797,8 +797,10 @@ export const grapichDesignPortfolio = {
             }
         ],
         otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2FLawGotihmic.png?alt=media&token=53ac2b09-f4bc-4af6-a6ba-ce069f9332f8",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2Flg%20mock%202.png?alt=media&token=4157cb83-cbb2-4424-86fc-a261909571fa",
-            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2Flg%20mac.png?alt=media&token=5fd44404-896e-4091-b74f-cd2d45881c33"],
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2Flg%20mock%202.png?alt=media&token=4157cb83-cbb2-4424-86fc-a261909571fa",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2Flg%20mac.png?alt=media&token=5fd44404-896e-4091-b74f-cd2d45881c33",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2Flg%20phone%20PORTADA.png?alt=media&token=bed8735d-5f86-4da7-8d3e-687e7650574d",
+        ],
         video:{
             url:"",
             poster:""
@@ -897,15 +899,16 @@ export const grapichDesignPortfolio = {
         translateRoot:"toursys",
         title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.title",
         category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.category",
-        images:[
+         images: [
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Website.png?alt=media&token=026b06ed-cf38-4c12-b15f-93fda1ed6936",
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20copy.png?alt=media&token=b1fdc40c-70d9-412f-90d3-692bd56d69ab",
-             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20y%20Website.png?alt=media&token=9411a8f2-b209-4247-a981-56eb20b8fd6a",
+            "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20y%20Website.png?alt=media&token=9411a8f2-b209-4247-a981-56eb20b8fd6a",
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema.png?alt=media&token=6d7afcbf-265f-4d22-8d71-2ca62ae8626d",
         ],
         descriptions:[
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20mockup%20PORTADA.png?alt=media&token=e9eb5541-5285-44ac-b133-293be2ec24c9",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20copy.png?alt=media&token=b1fdc40c-70d9-412f-90d3-692bd56d69ab",
                 paragraphs:[
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.1.paragraphs.1",
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.1.paragraphs.2"
@@ -913,7 +916,7 @@ export const grapichDesignPortfolio = {
             },
             {
                 textDirection:"right",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Fda%20phone.png?alt=media&token=35aae289-dbf6-4248-9007-428b4f32641f",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema.png?alt=media&token=6d7afcbf-265f-4d22-8d71-2ca62ae8626d",
                 paragraphs:[
                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.2.paragraphs.1",
                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.2.paragraphs.2"
@@ -921,14 +924,21 @@ export const grapichDesignPortfolio = {
             },
             {
                 textDirection:"left",
-                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fsoftware%2Fportfolios%2Fsoftware%2FDeerAnalytics%2Ftablet%20da.png?alt=media&token=36783caa-a59f-47b7-88e4-e49d95f256f7",
+                image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Website.png?alt=media&token=026b06ed-cf38-4c12-b15f-93fda1ed6936",
                 paragraphs:[
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.3.paragraphs.1",
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.3.paragraphs.2"
                  ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FPost%20Toursys-02.png?alt=media&token=b58458c1-bd8d-4973-af8d-0fb196d5e4d6","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FPost%20Toursys-01.png?alt=media&token=2191cffc-751c-41b5-a56b-c38657dbe5f7","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Website.png?alt=media&token=026b06ed-cf38-4c12-b15f-93fda1ed6936,"],
+         otherImages: [
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FPost%20Toursys-02.png?alt=media&token=b58458c1-bd8d-4973-af8d-0fb196d5e4d6",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FPost%20Toursys-01.png?alt=media&token=2191cffc-751c-41b5-a56b-c38657dbe5f7",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20copy.png?alt=media&token=b1fdc40c-70d9-412f-90d3-692bd56d69ab",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema%20y%20Website.png?alt=media&token=9411a8f2-b209-4247-a981-56eb20b8fd6a",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Sistema.png?alt=media&token=6d7afcbf-265f-4d22-8d71-2ca62ae8626d",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Ftoursys%2FToursys%20-%20Website.png?alt=media&token=026b06ed-cf38-4c12-b15f-93fda1ed6936",
+         ],
         video:{
             url:"",
             poster:""
@@ -1016,7 +1026,11 @@ export const grapichDesignPortfolio = {
                  ]
             }
         ],
-        otherImages:[""],
+         otherImages: [
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%202.png?alt=media&token=aa31a33c-4435-45c2-814e-d405c58b223b",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoesapp.png?alt=media&token=fe69e7bb-14e8-47ac-be6c-d731cc740e38",
+             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FshoesApp%2Fshoes%20app%203.png?alt=media&token=15de7daf-2bfe-4990-8551-a8660abf3f8c",
+         ],
         video:{
             url:"",
             poster:""
@@ -1059,7 +1073,14 @@ export const grapichDesignPortfolio = {
                  ]
             }
         ],
-        otherImages:["https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_6.png?alt=media&token=789d85b4-f893-4926-bfc3-648cd69f8044","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_7.png?alt=media&token=5a25cb45-1d90-4c65-a96d-de18269579b5","https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_8.png?alt=media&token=60314fa2-6a4b-4ccd-b7af-9fa463c77f66"],
+            otherImages: [
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_6.png?alt=media&token=789d85b4-f893-4926-bfc3-648cd69f8044",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_7.png?alt=media&token=5a25cb45-1d90-4c65-a96d-de18269579b5",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_8.png?alt=media&token=60314fa2-6a4b-4ccd-b7af-9fa463c77f66",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_1.png?alt=media&token=e9d9afab-4771-4814-8d06-88fa09e20966",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_3.png?alt=media&token=c73a06a6-7819-4fde-a492-842088c16ac4",
+                "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FcatalogoMuebleria%2FFree_A4_Brochure_Mockup_32.png?alt=media&token=39db3c29-3f9b-4dbf-9c4f-3b35f4b8e95c",
+            ],
         video:{
             url:"",
             poster:""
