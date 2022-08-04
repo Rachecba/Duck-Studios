@@ -775,7 +775,7 @@ export const grapichDesignPortfolio = {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2FLawGotihmic.png?alt=media&token=53ac2b09-f4bc-4af6-a6ba-ce069f9332f8",
                 paragraphs:[
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.1.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.descriptions.1.paragraphs.1",
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.descriptions.1.paragraphs.2"
                 ]
             },
@@ -783,7 +783,7 @@ export const grapichDesignPortfolio = {
                 textDirection:"right",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2Flawgorithmic%2Flg%20mock%202.png?alt=media&token=4157cb83-cbb2-4424-86fc-a261909571fa",
                 paragraphs:[
-                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.premiumGarage.descriptions.2.paragraphs.1",
+                   "graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.descriptions.2.paragraphs.1",
                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.lawgorithmic.descriptions.2.paragraphs.2"
                 ]
             },
@@ -879,7 +879,7 @@ export const grapichDesignPortfolio = {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FhandmadeCigars%2FOR7V6B1.png?alt=media&token=a882e8d8-bc8d-4ab9-ab24-fc3dd5b3968d",
                 paragraphs:[
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.toursys.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.handmadeCigars.descriptions.3.paragraphs.1",
                     "graphicDesignPortfolio:graphicDesignPortfolio.projects.handmadeCigars.descriptions.3.paragraphs.2"
                  ]
             }
@@ -958,16 +958,16 @@ export const grapichDesignPortfolio = {
                 textDirection:"right",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F211.png?alt=media&token=47aad7d4-e729-40a5-bdf0-ae2c98d1e738",
                 paragraphs:[
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.1",
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.2"
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.2.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.2.paragraphs.2"
                 ]
             },
             {
                 textDirection:"left",
                 image:"https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FdisenoPortfolio%2FitExperts%2F182.png?alt=media&token=f30db657-bbdf-4daf-99ab-41447436ae8f",
                 paragraphs:[
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.1",
-                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.1.paragraphs.2"
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.3.paragraphs.1",
+                    "graphicDesignPortfolio:graphicDesignPortfolio.projects.itExperts.descriptions.3.paragraphs.2"
                 ]
             }
         ],
