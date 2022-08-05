@@ -6,10 +6,8 @@ import Main from './Main';
 import Header from './components/global/header/Header';
 import Footer from './components/global/footer/Footer';
 import ReactGA from 'react-ga4';
-import cron from "node-cron";
 import { useEffect, useRef, useState } from 'react';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import generateSitemap from './sitemap';
 
 function App() {
 
@@ -40,17 +38,6 @@ function App() {
     window.addEventListener("scroll", handleVisibleButton);
   });
 
-  cron.schedule(
-    "30 22 * * *",
-    () => {
-        generateSitemap();
-    },
-    {
-        scheduled: true,
-        timezone: "Central America/Costa Rica",
-    },
-);
-  
   return (
     <ThemeProvider theme={theme}>
     <div ref={refScrollUp}> </div>
