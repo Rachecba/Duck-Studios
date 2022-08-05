@@ -1220,3 +1220,33 @@ export const pageTitle = (path: string) => {
             return 'Duck Studios | Digital Agency';
     }
 }
+
+//SITEMAP URLS
+
+export const designProjectsLinks = [
+    'grupo-paquidermo',
+    'premium-garage',
+    'law-gorithmic',
+    'danny-cigars',
+    'handmade-cigars',
+    'toursys',
+    'it-Experts',
+    'shoes-App',
+    'muebleria-CostaRica',
+]
+
+export const softwareProjectsLinks = [
+    'deer-analytics',
+    'lawgorithmic',
+    'umifem',
+    'edgardo-GV',
+    'iOtek',
+    'lucrecia-aguilar',
+    'nc-pharmacy',
+    'comercial-PF',
+]
+
+export const marketingProjectsLinks = [
+    'mundo-expediciones',
+    'umifem'
+]

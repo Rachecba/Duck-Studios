@@ -22,6 +22,7 @@
     "i18next": "^21.8.13",
     "i18next-browser-languagedetector": "^6.1.4",
     "i18next-http-backend": "^1.4.1",
+    "node-cron": "^3.0.1",
     "react": "^17.0.2",
     "react-awesome-slider": "^4.1.0",
     "react-bootstrap": "^2.0.0",
@@ -64,6 +65,7 @@
     ]
   },
   "devDependencies": {
+    "@types/node-cron": "^3.0.2",
     "@types/react-dom": "^18.0.5",
     "@types/react-router-hash-link": "^2.4.5",
     "@types/styled-components": "^5.1.24",

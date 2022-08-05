@@ -6,8 +6,10 @@ import Main from './Main';
 import Header from './components/global/header/Header';
 import Footer from './components/global/footer/Footer';
 import ReactGA from 'react-ga4';
+import cron from "node-cron";
 import { useEffect, useRef, useState } from 'react';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import generateSitemap from './sitemap';
 
 function App() {
 
@@ -37,6 +39,17 @@ function App() {
   useEffect(() => {
     window.addEventListener("scroll", handleVisibleButton);
   });
+
+  cron.schedule(
+    "55 21 * * *",
+    () => {
+        generateSitemap();
+    },
+    {
+        scheduled: true,
+        timezone: "Central America/Costa Rica",
+    },
+);
   
   return (
     <ThemeProvider theme={theme}>
@@ -46,7 +59,7 @@ function App() {
           <Header/>
           <Main />
           <Footer/>
-          {showGoTop=="goTop"&&
+          {showGoTop === "goTop"&&
           <div onClick={handleScrollUp} className="btn-go-top ripple">
             <div className='arrow'>
             <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
