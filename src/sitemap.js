@@ -58,7 +58,7 @@ const generateSitemap = async () => {
   </urlset>
     `;
 
-    writeFileSync("./frontend/public/sitemap.xml", sitemap);
+    writeFileSync("./public/sitemap.xml", sitemap);
     console.log("genarated Sitemap successfully");
     return;
 };
