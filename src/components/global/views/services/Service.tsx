@@ -10,7 +10,7 @@ import Testimonials from "./testimonials/Testimonials"
 import ReactGA from 'react-ga4';
 import { pageTitle } from "../../../../utils/constants/constants"
 
-function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, designServices, designProjects, designTestimonials }: Props) {
+function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, designServices, designProjects, designTestimonials, keyword }: Props) {
     
     const path = window.location.pathname
 
@@ -34,7 +34,7 @@ function Service({ heroTitle, heroSpan, heroSubtitle, heroImage, servicesTitle, 
         <Styled.Container>
             <Hero title={ heroTitle } span={ heroSpan } subtitle={ heroSubtitle } image={ heroImage } />
             <OurServices  title={servicesTitle} services={ designServices } />
-            <Portfolio  projects={designProjects}/>
+            <Portfolio projects={ designProjects } keyword={ keyword } />
             <Testimonials testimonials={ designTestimonials } />
             <CAT />
         </Styled.Container>

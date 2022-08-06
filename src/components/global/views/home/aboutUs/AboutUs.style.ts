@@ -19,6 +19,10 @@ export const TextContainer = styled.div`
     width: 100%;
     text-align: justify;
   }
+
+  .keyword {
+    color: transparent;
+  }
 `
 
 export const SectionTitle = styled.div`
@@ -48,7 +52,7 @@ export const Text = styled.div`
 
   p {
     font-weight: 300;
-    text-align:justify;
+    text-align: justify;
     ${(props) => props.theme.breakpoints.down('lg')} {
       padding-right: 3rem;
     }

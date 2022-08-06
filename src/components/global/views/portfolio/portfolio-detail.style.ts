@@ -9,6 +9,10 @@ export const Container = styled.div`
     text-align: start;
   }
 
+  .keyword {
+    color: transparent;
+  }
+
   .button {
     background: transparent;
     border-radius: 8px;

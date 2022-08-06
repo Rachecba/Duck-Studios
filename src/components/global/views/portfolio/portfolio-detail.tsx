@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import ReactGA from 'react-ga4';
 import { Button } from "reactstrap";
 
-function ProjectDetail(props: any) {
+function ProjectDetail() {
 
     const path = window.location.pathname
 
@@ -23,7 +23,7 @@ function ProjectDetail(props: any) {
         document.title = pageTitle(path)
     }, []);
   
-    const { t, i18n, ready } = useTranslation(['portfolio','softwarePortfolio','marketingPortfolio','grapichDesignPortfolio','global'], { useSuspense: true });
+    const { t } = useTranslation(['portfolio','softwarePortfolio','marketingPortfolio','grapichDesignPortfolio','global'], { useSuspense: true });
 
     const splideOptions = { gap: '3rem',arrows:true,pagination:false, rewind : true, perPage: 3,  autoWidth: true,
     breakpoints: {
@@ -123,6 +123,11 @@ function ProjectDetail(props: any) {
                 <Button className="button">{`❮❮ `}{t('global:global.btnSeeMoreProjects')}</Button>
             </Link>
         </h1>   
+        { projectDetail.keyword && 
+            (
+                <h1 className="keyword">{ projectDetail.keyword }</h1>    
+            )
+        }
     </Styled.Container>);
 }
 

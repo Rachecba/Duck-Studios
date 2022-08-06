@@ -4,6 +4,10 @@ export const Container = styled.div`
   margin-top: 8rem;
   font-family: 'Montserrat';
 
+  .keyword {
+    color: transparent;
+  }
+
   .pointer {
     cursor: pointer;
   }

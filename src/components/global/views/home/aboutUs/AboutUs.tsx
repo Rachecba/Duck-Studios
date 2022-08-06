@@ -23,6 +23,7 @@ function AboutUs() {
                     {t('home.aboutUs.description')}
                     </p>
                 </Styled.Text>
+                <h1 className="keyword">AGENCIA DE PUBLICIDAD EN COSTA RICA</h1>
             </Styled.TextContainer>
             <Styled.ImageContainer>
                 <img alt="tablet mockup" src={ aboutUsMockup}/>

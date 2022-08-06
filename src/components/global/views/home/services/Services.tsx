@@ -7,7 +7,7 @@ import * as Styled from './Services.style'
 import ReactGA from 'react-ga4';
 
 function Services() {
-    const { t, i18n, ready } = useTranslation(['home', 'global'], { useSuspense: true });
+    const { t } = useTranslation(['home', 'global'], { useSuspense: true });
     
     const softwareServicesEvent = () => { 
         ReactGA.event({

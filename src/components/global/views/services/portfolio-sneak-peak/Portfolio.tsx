@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 import ReactGA from 'react-ga4';
 import { Link, useNavigate } from "react-router-dom";
 
-function Portfolio({ projects }: Props) {
+function Portfolio({ projects, keyword }: Props) {
 
     const { t, i18n, ready } = useTranslation(['portfolio', 'global', 'grapichDesign', 'software', 'marketing'], { useSuspense: true });
     const path = window.location.pathname;
@@ -128,6 +128,7 @@ function Portfolio({ projects }: Props) {
             <h1 className="margin-center">
                <Link to={`/portfolio${window.location.pathname}`}><Button className="see-more-btn" onClick={portfolioDetail}>{t('global:global.btnSeeMore')}</Button></Link>
             </h1>
+            <h1 className="keyword">{ keyword }</h1>
         </Styled.Container>
     )
 }

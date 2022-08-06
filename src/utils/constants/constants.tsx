@@ -293,9 +293,11 @@ export const softwarePortfolio = {
     title2:"softwarePortfolio:softwarePortfolio.title2",
     service:"software",
     translateRoot:"softwarePortfolio",
-    projects:[{
+    projects: [
+        {
         urlName: "deer-analytics",
-        translateRoot:"deerAnalytics",
+        translateRoot: "deerAnalytics",
+        keyword: 'DESARROLLO DE SOFTWARE DE APLICACIÓN',
         title:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.title",
         category:"softwarePortfolio:softwarePortfolio.projects.deerAnalytics.category",
         images:[
@@ -336,10 +338,10 @@ export const softwarePortfolio = {
             poster:""
         }
     },
-{
+    {
         urlName: "lawgorithmic",
         translateRoot:"lawgorithmic",
-        title:"softwarePortfolio:softwarePortfolio.projects.lawgorithmic.title",
+        title: "softwarePortfolio:softwarePortfolio.projects.lawgorithmic.title",
         category:"softwarePortfolio:softwarePortfolio.projects.lawgorithmic.category",
         images:[
             "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2FsoftwarePortfolio%2Flawgorithmic%2Flg%20mac.png?alt=media&token=ca247150-4260-423d-9141-1fedd8f3a795",
@@ -665,7 +667,8 @@ export const grapichDesignPortfolio = {
     projects:[
         {
         urlName: "grupo-paquidermo",
-        translateRoot:"grupoPaquidermo",
+        translateRoot: "grupoPaquidermo",
+        keyword: 'SOFTWARE',
         title:"graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.title",
         category:"graphicDesignPortfolio:graphicDesignPortfolio.projects.grupoPaquidermo.category",
         images:[

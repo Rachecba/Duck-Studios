@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react"
+import React, { useEffect } from "react"
 import AboutUs from "./aboutUs/AboutUs"
 import Banner from "./banner/Banner"
 import CAT from "./cat/CAT"

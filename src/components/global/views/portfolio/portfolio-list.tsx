@@ -6,7 +6,7 @@ import ProjectCard from "./project-card";
 import ReactGA from 'react-ga4';
 import { pageTitle } from "../../../../utils/constants/constants";
 
-function PortfolioList({ portfolio }: Props) {
+function PortfolioList({ portfolio, keyword }: Props) {
     
     const path = window.location.pathname
 
@@ -50,7 +50,8 @@ function PortfolioList({ portfolio }: Props) {
                    return <ProjectCard project={project} service={portfolio.service} key={index} translateRoot={portfolio.translateRoot} ></ProjectCard>
                 })
             }
-        </Styled.ProjectsContainer>
+            </Styled.ProjectsContainer>
+            <h1 className="keyword">{ keyword }</h1>
     </Styled.Container>);
 }
 
