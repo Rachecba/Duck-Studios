@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
 
   ${(props) => props.theme.breakpoints.down('sm')} {
-    margin-top: 27rem;
+    margin-top: 37rem;
     padding-left: 2rem;
   }
 `
