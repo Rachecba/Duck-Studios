@@ -28,7 +28,7 @@ function Team() {
                             <h3>{ member.name}</h3>
                             <h4>{ member.career}</h4>
                             <p>{ member.position}</p>
-                            </Styled.Description>
+                        </Styled.Description>
                         <div className="contact">
                             <ul className="sci">
                             <li>

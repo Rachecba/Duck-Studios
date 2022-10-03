@@ -11,7 +11,6 @@ export const Container = styled.div`
     no-repeat padding-box;
 
   ${(props) => props.theme.breakpoints.down('sm')} {
-    margin-top: 37rem;
     padding-left: 2rem;
   }
 `
@@ -74,6 +73,12 @@ export const TeamMember = styled.div`
 
   .contact {
     text-align: center;
+
+    ${(props) => props.theme.breakpoints.down('lg')} {
+      width: 100%;
+      justify-content: center;
+      padding: 0;
+    }
 
     img {
       width: 2.2rem;
@@ -145,6 +150,14 @@ export const Description = styled.div`
   p {
     font: normal normal normal 18px/24px Montserrat;
     color: #aeaeae;
+    transition: margin-bottom 1s;
+  }
+
+  ${(props) => props.theme.breakpoints.down('lg')} {
+    p {
+      transition: margin-bottom 1s;
+      margin-bottom: 1.5rem;
+    }
   }
 
   ${(props) => props.theme.breakpoints.down('sm')} {
