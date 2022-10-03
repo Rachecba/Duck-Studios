@@ -1224,6 +1224,74 @@ export const pageTitle = (path: string) => {
     }
 }
 
+//TEAM
+
+export const team = [
+    {
+        name: "Rachel Basulto",
+        career: "Software Engineer",
+        position: "Founder & Software Developer",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC03264%402x.png?alt=media&token=2b61e26d-f91d-40e0-9525-1cfad58eb880",
+        instagram: "https://www.instagram.com/p/CgvLjvfNfqm/",
+    },
+    {
+        instagram: "https://www.instagram.com/p/Ci_d2REOONx/",
+        name: "Yaiza Agüero",
+        career: "Social Media Manager",
+        position: "Marketing Manager",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC04018%402x.png?alt=media&token=fdb9b7d5-46d3-4153-83bd-72d0fa598f1a"
+    },
+    {
+        instagram: "https://www.instagram.com/duck_studios_/",
+        name: "Valeria López",
+        career: "Communicator & Journalist",
+        position: "Marketing",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC03795-editada%402x.png?alt=media&token=9d8904b3-3002-41c8-be71-8ca27ecbc65e"
+    },
+    {
+        instagram: "https://www.instagram.com/p/Ch3UpfXLHur/",
+        name: "Gabriela Isturiz",
+        career: "Community Manager",
+        position: "Marketing",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC03976-editada%402x.png?alt=media&token=0f7ad767-a96b-4aa6-9eeb-2e56b335ebfc"
+    },
+    {
+        instagram: "https://www.instagram.com/p/ChTLH15O4pm/",
+        name: "Natalia Miranda",
+        career: "Graphic Designer",
+        position: "Designer",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC03762-editada%402x.png?alt=media&token=f40d6f52-df81-4cbf-a07c-6d2e944f4609"
+    },
+    {
+        instagram: "https://www.instagram.com/duck_studios_/",
+        name: "Sergio Castro",
+        career: "Software Engineer",
+        position: "Software Developer",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC04127%402x.png?alt=media&token=0a5fce68-4ef9-4115-ab4f-7b3b30f5a94f"
+    },
+    {
+        instagram: "https://www.instagram.com/duck_studios_/",
+        name: "Ramson Gu Wu",
+        career: "Software Engineer",
+        position: "Software Developer",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC04190%402x.png?alt=media&token=37defce5-ec34-4f14-b0b7-cbacbba058c6"
+    },
+    {
+        instagram: "https://www.instagram.com/p/CibQoPMurFN/",
+        name: "Diana Miranda",
+        career: "Software Engineer",
+        position: "Software Developer",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC03748-editada%402x.png?alt=media&token=4b8bcb6b-c779-4c62-9ef4-c02877d7544e"
+    },
+    {
+        instagram: "https://www.instagram.com/duck_studios_/",
+        name: "Kiara",
+        career: "Human Support Agent",
+        position: "Stress Controller",
+        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC03934%20-%20EDITADA%402x.png?alt=media&token=daf6bf00-db06-4ffe-b3c0-17ff7e07ceba"
+    },
+]
+
 //SITEMAP URLS
 
 export const designProjectsLinks = [

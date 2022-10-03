@@ -9,6 +9,7 @@ import Services from "./services/Services"
 import Testimonials from "./testimonials/Testimonials"
 import ReactGA from 'react-ga4';
 import { pageTitle } from "../../../../utils/constants/constants"
+import Team from "./team/Team"
 
 function Home() {
 
@@ -33,6 +34,7 @@ function Home() {
         <Banner/>
         <Services />
         <AboutUs />
+        <Team />
         <Portfolio />
         <CAT />
         <Testimonials />

@@ -26,6 +26,11 @@
             "title":"PORTFOLIO",
             "subtitle1":"Our clients success,",
             "subtitle2":"is our success"
+        },
+        "team": {
+            "title": "Our Team",
+            "thePeople": "The people",
+            "behind": "behind your projects"
         }
     }
 }
