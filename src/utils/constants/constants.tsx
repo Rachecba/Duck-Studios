@@ -1269,13 +1269,13 @@ export const team = [
         position: "Software Developer",
         img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC04127%402x.png?alt=media&token=0a5fce68-4ef9-4115-ab4f-7b3b30f5a94f"
     },
-    {
-        instagram: "https://www.instagram.com/duck_studios_/",
-        name: "Ramson Gu Wu",
-        career: "Software Engineer",
-        position: "Software Developer",
-        img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC04190%402x.png?alt=media&token=37defce5-ec34-4f14-b0b7-cbacbba058c6"
-    },
+    // {
+    //     instagram: "https://www.instagram.com/duck_studios_/",
+    //     name: "Ramson Gu Wu",
+    //     career: "Software Engineer",
+    //     position: "Software Developer",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/duck-studios-web.appspot.com/o/assets%2Fteam%2FDSC04190%402x.png?alt=media&token=37defce5-ec34-4f14-b0b7-cbacbba058c6"
+    // },
     {
         instagram: "https://www.instagram.com/p/CibQoPMurFN/",
         name: "Diana Miranda",
