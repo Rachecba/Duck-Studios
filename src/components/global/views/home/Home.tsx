@@ -10,6 +10,7 @@ import Testimonials from "./testimonials/Testimonials"
 import ReactGA from 'react-ga4';
 import { pageTitle } from "../../../../utils/constants/constants"
 import Team from "./team/Team"
+import Blogs from "./blogs/blogs"
 
 function Home() {
 
@@ -38,6 +39,7 @@ function Home() {
         <Portfolio />
         <CAT />
         <Testimonials />
+        <Blogs />
         <FAQ />
       </Styled.ContainerWrap>
     )

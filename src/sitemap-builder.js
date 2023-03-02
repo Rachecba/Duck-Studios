@@ -1,6 +1,6 @@
-require('babel-register');
+require('@babel/register');
  
-const router = require('./Main').default;
+const router = require('./Main.jsx').default;
 const Sitemap = require('react-router-sitemap').default;
  
 (

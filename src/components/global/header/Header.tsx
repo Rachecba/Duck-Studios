@@ -15,7 +15,7 @@ import { NavHashLink } from 'react-router-hash-link';
 import * as Styled from './Header.style'
 import { Link } from "react-router-dom";
 import { logotipo, languageIcons } from "../../../utils/constants/constants";
-import { calculateResolutionSize, resolutionSizesNames } from "../../../utils/constants/resolution";
+import { calculateResolutionSize } from "../../../utils/constants/resolution";
 import { useScreenSize } from "../../../utils/hooks/screenSize";
 import { useTranslation } from 'react-i18next';
 
@@ -123,6 +123,9 @@ function Header({ position }: { position?: boolean }) {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+              <Link to="/blogs" onClick={() => { setIsOpen(false) }} className='nav-link'>Blogs</Link>
+            </NavItem>
             <NavItem className='contact-dropdown'>
               <NavHashLink to="/" onClick={() => { setIsOpen(false);
                                                    window.location.href = 'https://wa.me/50687547781'; 
